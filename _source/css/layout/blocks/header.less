@@ -1,3 +1,67 @@
 /* ==================================================================
 HEADER
 ================================================================== */
+#header
+{
+    background-color: #f0f0f0;
+    min-height: 100vh;
+
+    display: -ms-flexbox;
+    display: -webkit-flex;
+    display: flex;
+
+    .navbar-wrapper + .container
+    {
+        display: -ms-flexbox;
+        display: -webkit-flex;
+        display: flex;
+
+
+        -ms-flex-align: flex-end;
+        -webkit-align-items: flex-end;
+        -webkit-box-align: flex-end;
+        align-items: flex-end;
+
+        justify-content: center;
+
+        .item
+        {
+            .inner
+            {
+                position: relative;
+                background-color: @white;
+                padding: 2em 4em 2em 0;
+
+                img
+                {
+                    margin-top: -2em;
+                    margin-bottom: -2em;
+                    margin-right: 2em;
+                }
+
+                h2
+                {
+
+                }
+
+                h3
+                {
+
+                }
+
+                p
+                {
+                    font-size: 1em;
+                    line-height: 1.5em;
+                }
+
+                .btn
+                {
+                    position: absolute;
+                    bottom: 0;
+                    right: 0;
+                }
+            }
+        }
+    }
+}

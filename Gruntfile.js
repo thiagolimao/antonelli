@@ -118,14 +118,10 @@ module.exports = function(grunt) {
           vendor: {
             src: [
               // Vendor Plugins
-              '<%= vendor_build %>/jquery/dist/jquery.js', // jQuery
-              // '<%= vendor_build %>/slick-carousel/slick/slick.js', // slick
-              // '<%= vendor_build %>/vide/dist/jquery.vide.js',
-              // '<%= vendor_build %>/jquery-tubular/dist/js/jquery-tubular.min.js',
-              // '<%= vendor_build %>/modernizr/modernizr.js',
-              // '<%= vendor_build %>/fastclick/lib/fastclick.js',
-              // '<%= vendor_build %>/jquery.countdown/dist/jquery.countdown.js',
-              // '<%= vendor_build %>/featherlight/release/featherlight.min.js',
+              '<%= vendor_src %>/bower_components/jquery/dist/jquery.js', // jQuery
+              '<%= vendor_src %>/bower_components/jquery-validation/dist/jquery.validate.js', // jQuery
+              '<%= vendor_src %>/bower_components/bootstrap/dist/js/bootstrap.min.js', // Bootstrap
+              // '<%= vendor_src %>/bower_components/slick-carousel/slick/slick.js', // slick
             ],
             dest: '<%= js_build %>/vendor.js',
           },
