@@ -1,7 +1,111 @@
+/* ==================================================================
+Page: HOME
+================================================================== */
+.main
+{
+    section
+    {
+        background-color: @white;
+
+        &.sec_featutes
+        {
+            padding-top: 105px;
+            padding-bottom: 105px;
+
+            .row
+            {
+                background-color: #f8f7f3;
+
+                .item
+                {
+                    padding: 3em;
+
+                    border-right: solid 1px @white;
+
+                    &:last-child
+                    {
+                        border: none;
+                    }
+                }
+            }
+        }
+
+        &.sec_profile
+        {
+            overflow: hidden;
+
+            .cont_profile
+            {
+                position: relative;
+                min-height: 675px;
+
+                &:after,
+                &:before
+                {
+                    position: absolute;
+                    top: 0;
+                    content: "";
+
+                    width: 9999px;
+                    height: 100%;
+
+                    background-size: auto 100%;
+                    background-repeat: no-repeat;
+                }
+
+                &:after
+                {
+                    left: -9999px;
+
+                    background-image: url(../img/img_left_profile.jpg);
+                    background-position: right top;
+                }
+                &:before
+                {
+                    right: -9999px;
+
+                    background-image: url(../img/img_right_profile.jpg);
+                    background-position: left top;
+                }
+
+                .inner
+                {
+                    padding: 3em;
+
+                    h1
+                    {
+                        font-size: ceil((@font-size-base * 5.0));
+                        margin-bottom: .5em;
+                        .fw-thin;
+                    }
+
+                    p
+                    {
+                        font-size: ceil((@font-size-base * 2.0));
+                        .fw-thin;
+                    }
+
+                    .btn
+                    {
+                        position: absolute;
+                        bottom: 0;
+                        right: 0;
+
+                        font-size: ceil((@font-size-base * 3.0));
+                    }
+                }
+
+            }
+        }
+    }
+}
 
 /* MARKETING CONTENT
 -------------------------------------------------- */
-
+.marketing 
+{
+    display: none;
+}
 /* Center align the text within the three columns below the carousel */
 .marketing .col-lg-4 {
   margin-bottom: 20px;

@@ -8,11 +8,11 @@
 //
 //## Gray and brand colors for use across Bootstrap.
 
-@gray-darker:            lighten(#000, 13.5%); // #222
-@gray-dark:              lighten(#000, 20%);   // #333
-@gray:                   lighten(#000, 60%);   // #999
-@gray-light:             lighten(#000, 46.7%); // #777
-@gray-lighter:           lighten(#000, 86%); // #eee
+@gray-darker:            lighten(#000, 15%);   // #262626
+@gray-dark:              lighten(#000, 25%);   // #404040
+@gray:                   lighten(#000, 53.2%); // #888888
+@gray-light:             lighten(#000, 75%);   // #BFBFBF
+@gray-lighter:           lighten(#000, 88%);   // #E0E0E0
 
 
 @brand-primary:         #da551b;
@@ -45,6 +45,8 @@
 //
 //## Font, line-height, and color for body text, headings, and more.
 @font-family-sans-serif:  'Open Sans', Helvetica, Arial, sans-serif;
+@font-family-secundary:   'Lato', Helvetica, Arial,  sans-serif;
+
 @font-family-serif:       Georgia, "Times New Roman", Times, serif;
 
 //** Default monospace fonts for `<code>`, `<kbd>`, and `<pre>`.
@@ -52,6 +54,8 @@
 @font-family-base:        @font-family-sans-serif;
 
 @font-size-base:          10px;
+@font-size-title:         ceil((@font-size-base * 3.0)); // ~30px
+@font-size-nav:           ceil((@font-size-base * 1.8)); // ~18px
 @font-size-large:         ceil((@font-size-base * 2.0)); // ~20px
 @font-size-small:         ceil((@font-size-base * 1.4)); // ~14px
 

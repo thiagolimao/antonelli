@@ -35,6 +35,98 @@ MENU
         }
     }
 
+    .navbar-header
+    {
+        .navbar-brand
+        {
+            background-color: @white;
+            height: auto;
+            padding: 0;
+            display: block;
+        }
+    }
+
+    #navbar
+    {
+        min-height: 100%;
+        ul.nav
+        {
+            li
+            {
+                a
+                {
+                    &:hover
+                    {
+                        background-color: transparent;
+                    }
+                }
+            }
+
+            &.nav_top
+            {
+                height: 115px;
+                padding-left: 1%;
+
+
+                li
+                {
+                    height: 100%;
+                    margin-left: 1em;
+                    margin-right: 1em;
+
+                    &.active
+                    {
+                        a
+                        {
+                            border-bottom: solid 2px @brand-primary;
+                        }
+                    }
+                    a
+                    {
+                        color: @white;
+                        text-transform: uppercase;
+                        padding: 0 .4em;
+                        display: block;
+                        height: 100%;
+                        max-height: 88px;
+
+                        line-height: 8em;
+                        font-size: 120%;
+
+                        &:hover
+                        {
+                            border-bottom: solid 2px @gray-lighter;
+                        }
+                    }
+                }
+            }
+
+            &.nav_lang
+            {
+                padding-top: 50px;
+                li
+                {
+                    margin-left: 15px;
+
+                    -webkit-filter: grayscale(10);
+                    filter: grayscale(10);
+                    a
+                    {
+                        padding: 0;
+                    }
+
+                    &.active
+                    {
+                        opacity: 1;
+
+                        -webkit-filter: grayscale(0);
+                        filter: grayscale(0);
+                    }
+                }
+            }
+        }
+    }
+
 
     /* RESPONSIVE CSS
     -------------------------------------------------- */

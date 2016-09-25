@@ -1,0 +1,110 @@
+/* ==================================================================
+ITEM
+================================================================== */
+.item
+{
+    .inner
+    {
+        position: relative;
+    }
+
+    h2
+    {
+        .title-cat;
+        margin-bottom: 15px;
+    }
+
+    h3
+    {
+        .title-news;
+        font-size: ceil((@font-size-base * 2.5));
+        overflow-x: hidden;
+        margin-bottom: 20px;
+        height: 62px;
+    }
+
+    p
+    {
+        // font-size: 1.2em;
+        line-height: 1.3em;
+        .fw-thin;
+    }
+
+    .btn
+    {
+        position: absolute;
+        top: 0;
+        right: 0;
+
+        padding: 4px 7px;
+
+        font-size: 2em;
+        line-height: 1em;
+
+        background-color: @gray;
+    }
+
+    &.item-notice
+    {
+        background-color: transparent;
+        .inner
+        {
+            background-color: @white;
+            padding: 2em 4.7em 0 0;
+            min-height: 192px;
+            position: relative;
+        }
+
+        h2,
+        h3,
+        p
+        {
+            margin: 0;
+        }
+
+        h3
+        {
+            font-size: ceil((@font-size-base * 3.0));
+            height: 75px;
+        }
+
+        img
+        {
+            margin-top: -2em;
+            margin-right: 2em;
+        }
+
+        .btn
+        {
+            position: absolute;
+            top: initial;
+            bottom: 0;
+            right: 0;
+
+            padding: 4px 10px;
+
+            background-color: @brand-primary;
+
+            font-size: 4em;
+        }
+
+    }
+
+    &.image
+    {
+        padding-bottom: 147px !important;
+        overflow: hidden;
+        img
+        {
+            width: 100%;
+            margin-left: -3em;
+            margin-right: -3em;
+
+            position: absolute;
+            bottom: 0;
+
+        }
+    }
+
+
+}
