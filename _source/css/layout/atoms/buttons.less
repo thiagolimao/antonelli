@@ -17,5 +17,29 @@ button,
     {
         background-color: @brand-primary;
         color: @white;
+        padding-right: 120px;
+        padding-left: 30px;
+
+        position: relative;
+
+        .ico
+        {
+            right: 15px;
+            top: 15px;
+            position: absolute;
+
+            width: 16px;
+            height: 30px;
+            display: inline-block;
+
+            background-image: url(../img/arrow_right_btn.png);
+            background-repeat: no-repeat;
+        }
+
+        &.big
+        {
+            font-size: ceil((@font-size-base * 3.0));
+            line-height: 45px;
+        }
     }
 }

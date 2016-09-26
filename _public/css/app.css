@@ -6855,6 +6855,12 @@ img {
 	display: inline-block;
 }
 
+@font-face {
+	font-family: 'Glyphicons Halflings';
+	src: url('../fonts/glyphicons-halflings-regular.eot');
+	src: url('../fonts/glyphicons-halflings-regular.eot?#iefix') format('embedded-opentype'), url('../fonts/glyphicons-halflings-regular.woff') format('woff'), url('../fonts/glyphicons-halflings-regular.ttf') format('truetype'), url('../fonts/glyphicons-halflings-regular.svg#glyphicons-halflingsregular') format('svg');
+}
+
 body {
 	font-family: 'Open Sans', Helvetica, Arial, sans-serif;
 	font-size: 10px;
@@ -7158,6 +7164,31 @@ button.btn-default,
 .btn.btn-default {
 	background-color: #da551b;
 	color: #ffffff;
+	padding-right: 120px;
+	padding-left: 30px;
+	position: relative;
+}
+
+input[type="submit"].btn-default .ico,
+input[type="button"].btn-default .ico,
+button.btn-default .ico,
+.btn.btn-default .ico {
+	right: 15px;
+	top: 15px;
+	position: absolute;
+	width: 16px;
+	height: 30px;
+	display: inline-block;
+	background-image: url(../img/arrow_right_btn.png);
+	background-repeat: no-repeat;
+}
+
+input[type="submit"].btn-default.big,
+input[type="button"].btn-default.big,
+button.btn-default.big,
+.btn.btn-default.big {
+	font-size: 30px;
+	line-height: 45px;
 }
 
 /* ==================================================================
@@ -7184,6 +7215,21 @@ HEADER
 
 #header .navbar-wrapper + .container > .row {
 	margin-bottom: 5em;
+}
+
+/* ==================================================================
+FOOTER
+================================================================== */
+
+#footer {
+	background-color: #da551b;
+	color: #ffffff;
+	padding-top: 55px;
+	padding-bottom: 80px;
+}
+
+#footer .navbar-brand {
+	padding: 0;
 }
 
 /* ==================================================================
@@ -7386,49 +7432,40 @@ Page: HOME
 	position: absolute;
 	bottom: 0;
 	right: 0;
-	font-size: 30px;
 }
 
-/* MARKETING CONTENT
--------------------------------------------------- */
-
-.marketing {
-	display: none;
+.main section.sec_equipe {
+	background-color: #f9f5f0;
 }
 
-/* Center align the text within the three columns below the carousel */
-
-.marketing .col-lg-4 {
-	margin-bottom: 20px;
-	text-align: center;
+.main section.sec_equipe .row {
+	background-image: url(../img/img_home_equipe.png);
+	background-position: bottom right;
+	background-size: auto 100%;
+	background-repeat: no-repeat;
+	min-height: 770px;
+	height: 100vh;
 }
 
-.marketing h2 {
-	font-weight: normal;
+.main section.sec_equipe .row .inner {
+	padding-top: 150px;
 }
 
-.marketing .col-lg-4 p {
-	margin-right: 10px;
-	margin-left: 10px;
+.main section.sec_equipe .row h1 {
+	font-size: 50px;
+	margin-bottom: .5em;
+	font-weight: 100;
 }
 
-/* Featurettes
-------------------------- */
-
-.featurette-divider {
-	margin: 80px 0; /* Space out the Bootstrap <hr> more */
+.main section.sec_equipe .row p {
+	font-size: 20px;
+	font-weight: 100;
+	padding-right: 4em;
 }
 
-/* Thin out the marketing headings */
-
-.featurette-heading {
-	font-weight: 300;
-	line-height: 1;
-	letter-spacing: -1px;
+.main section.sec_equipe .row .btn {
+	padding-right: 90px;
 }
-
-/* RESPONSIVE CSS
--------------------------------------------------- */
 
 @media screen and (-webkit-min-device-pixel-ratio: 0) {
 
@@ -8086,10 +8123,6 @@ input[type="month"].input-lg,
 	line-height: 1.4;
 }
 
-.featurette-heading {
-	font-size: 50px;
-}
-
 }
 
 @media screen and (min-width: 768px) {
@@ -8406,10 +8439,6 @@ td.visible-sm {
 
 .modal-lg {
 	width: 900px;
-}
-
-.featurette-heading {
-	margin-top: 120px;
 }
 
 }
