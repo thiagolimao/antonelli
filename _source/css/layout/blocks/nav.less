@@ -146,5 +146,44 @@ MENU
 
 }
 
+// FOOTER NAV
+.nav_bottom
+{
+    li
+    {
+        + li
+        {
+            margin-top: 0;
+        }
+        a
+        {
+            color: @white;
+            padding: 4px 0;
+            border-radius: 0;
+
+            &:hover
+            {
+                background-color: transparent;
+                text-decoration: underline;
+            }
+
+        }
+    }
+
+    ul
+    {
+        list-style-type: none;
+        padding-left: 30px;
+        li
+        {
+            &:before
+            {
+                content: ">>";
+                margin-right: 4px;
+            }
+            .fw-thin;
+        }
+    }
+}
 
 
