@@ -1,0 +1,32 @@
+/* ==================================================================
+LISTAS
+================================================================== */
+.list-news
+{
+    padding-left: 70px;
+    list-style-type: none;
+
+    li
+    {
+        font-size: ceil((@font-size-base * 2.0));
+        border-bottom: solid 1px @gray-lighter;
+
+        &:last-child
+        {
+            border: none;
+        }
+        a
+        {
+            padding: 25px 0;
+            display: block;
+            color: @text-color;
+
+
+            &:hover
+            {
+                text-decoration: none;
+                color: @brand-primary;
+            }
+        }
+    }
+}
