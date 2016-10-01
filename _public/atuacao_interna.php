@@ -71,7 +71,7 @@
 
                     <div class="row">
                         <div class="col-lg-6">
-                            <figure>
+                            <figure class="img-type01">
                                 <img src="img/tmp/img_atuacao_advogado.jpg" class="img-responsive" alt="">
                                 <figcaption>
                                     <h4>
@@ -84,7 +84,7 @@
                             </figure>
                         </div><!-- /col -->
                         <div class="col-lg-6">
-                            <figure>
+                            <figure class="img-type01">
                                 <img src="img/tmp/img_atuacao_advogado.jpg" class="img-responsive" alt="">
                                 <figcaption>
                                     <h4>

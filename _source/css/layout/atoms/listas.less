@@ -30,3 +30,35 @@ LISTAS
         }
     }
 }
+
+.list-nomes
+{
+    margin-left: -15px;
+    margin-right: -15px;
+    padding: 0;
+    list-style-type: none;
+    &:after,
+    &:before
+    {
+        content: " ";
+        display: table;
+        line-height: 0;
+    }
+    &:after
+    {
+        clear: both;
+    }
+    li
+    {
+        position: relative;
+
+        width: 41.66666667%;
+
+        float: left;
+
+        font-size: ceil((@font-size-base * 2.4));
+        min-height: 1px;
+
+        padding: 5px 15px;
+    }
+}

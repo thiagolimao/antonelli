@@ -17,6 +17,31 @@ body
 }
 
 
+.center-col
+{
+    display: -ms-flexbox;
+    display: -webkit-flex;
+    display: flex;
+
+    flex-wrap: wrap;
+
+    justify-content: center;
+
+
+    [class^="col-"]
+    {
+        display: -ms-flexbox;
+        display: -webkit-flex;
+        display: flex;
+
+
+        -ms-flex-align: flex-end;
+        -webkit-align-items: flex-end;
+        -webkit-box-align: flex-end;
+        align-items: flex-end;
+    }
+}
+
 // .desk
 // {
 //     @media screen and (min-width: 769px) {
