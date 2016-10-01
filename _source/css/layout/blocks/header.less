@@ -3,12 +3,16 @@ HEADER
 ================================================================== */
 #header
 {
-    // background-color: #f0f0f0;
-    min-height: 100vh;
-
     display: -ms-flexbox;
     display: -webkit-flex;
     display: flex;
+
+    min-height: 295px;
+    background-color: #0d0e0b;
+
+    background-repeat: no-repeat;
+    background-position: top center;
+    background-size: auto 100%;
 
     .navbar-wrapper + .container
     {
@@ -22,18 +26,43 @@ HEADER
         -webkit-box-align: flex-end;
         align-items: flex-end;
 
-        justify-content: center;
+        // justify-content: center;
 
         > .row
         {
-            margin-bottom: 5em;
-
             .item-notice
             {
                 @media (min-width: 1200px)
                 {
                     width: 45.834%;
                 }
+            }
+        }
+    }
+
+    .title-default
+    {
+        font-size: ceil((@font-size-base * 5.0));
+        margin-bottom: .5em;
+        margin-left: 70px;
+    }
+}
+
+// HEADER HOME
+.main
+{
+    #header
+    {
+        min-height: 100vh;
+        background-color: transparent;
+
+        .navbar-wrapper + .container
+        {
+            justify-content: center;
+
+            > .row
+            {
+                margin-bottom: 5em;
             }
         }
     }

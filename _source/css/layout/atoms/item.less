@@ -106,5 +106,159 @@ ITEM
         }
     }
 
+    &.item-news
+    {
+        &.destaque
+        {
+            .inner
+            {
+                border-width: 0 0 0 70px;
+                padding-left: 0;
+                padding-bottom: 0;
 
+                h3
+                {
+                    max-width: 70%;
+                }
+                .btn-default
+                {
+                    position: relative;
+
+                    bottom: initial;
+                    left: initial;
+                    top: initial;
+                    right: initial;
+                }
+            }
+        }
+        .inner
+        {
+            border-left: solid 16px @brand-primary;
+            padding-left: 16px;
+            position: relative;
+
+            padding-bottom: 45px;
+
+            h2
+            {
+                color: @text-color;
+                text-transform: uppercase;
+                .fw-thin;
+                font-size: ceil((@font-size-base * 1.6));
+            }
+            h3
+            {
+                color: @brand-primary;
+                height: auto;
+                overflow: initial;
+                font-size: ceil((@font-size-base * 2.2));
+                line-height: 1.4em;
+            }
+            p
+            {
+                line-height: 1.8em;
+
+            }
+
+
+            .btn-default
+            {
+                text-transform: uppercase;
+
+                position: absolute;
+                bottom: 0;
+                left: 16px;
+                top: initial;
+                right: initial;
+
+                display: table;
+            }
+        }
+    }
 }
+
+.item-atuacao
+{
+    *
+    {
+        font-family: @font-family-secundary;
+        .fw-light;
+    }
+
+    h3.title-type01
+    {
+
+    }
+
+    .row
+    {
+        h4
+        {
+            margin-left: 70px;
+            color: @brand-primary;
+            text-transform: uppercase;
+            font-size: ceil((@font-size-base * 3.0));
+        }
+
+        p
+        {
+            font-size: ceil((@font-size-base * 2.4));
+        }
+    }
+
+
+    .item-links
+    {
+        margin-left: 0;
+        margin-right: 0;
+        [class^="col-"]
+        {
+            border: solid 1px @gray-lighter;
+            text-align: center;
+            color: @text-color;
+            font-size: ceil((@font-size-base * 2.4));
+            text-transform: uppercase;
+            line-height: 230px;
+
+            &:hover
+            {
+                text-decoration: none;
+                color: @brand-primary;
+            }
+
+            &:nth-child(2)
+            {
+                margin-left: -1px;
+                margin-right: -1px;
+            }
+        }
+    }
+
+    &.destaque
+    {
+        text-align: center;
+        .inner
+        {
+            border: solid 1px #a9a9a9;
+            display: block;
+            &:hover
+            {
+                border-color: @brand-primary;
+                text-decoration: none;
+                h4
+                {
+                    color: @brand-primary;
+                }
+            }
+            h4
+            {
+                color: @text-color;
+                line-height: 135px;
+                text-transform: uppercase;
+                font-size: ceil((@font-size-base * 2.4));
+            }
+        }
+    }
+}
+
+

@@ -10,7 +10,7 @@
 
 body
 {
-    font-family: @font-family-sans-serif;
+    font-family: @font-family-primary;
     font-size: @font-size-base;
     color: @text-color;
     background-color: @body-bg;
@@ -40,6 +40,7 @@ a {
 .italic,em      { font-style: italic; }
 
 .fw-thin                 { font-weight: @thin-font-weight; }
+.fw-light                { font-weight: @light-font-weight; }
 .fw-normal               { font-weight: @normal-font-weight; }
 .fw-semi-bold, b, strong { font-weight: @semi-bold-font-weight; }
 .fw-bold                 { font-weight: @bold-font-weight; }
@@ -66,7 +67,7 @@ a {
 }
 
 
-input, select, textarea, button { font-family: @font-family-sans-serif; font-size: @font-size-small; }
+input, select, textarea, button { font-family: @font-family-primary; font-size: @font-size-small; }
 
 h1, h2, h3, h4, h5, h6 {
     .fw-normal;
@@ -102,6 +103,40 @@ h3 {
     text-transform: uppercase;
     .fw-thin;
 }
+
+.title-default
+{
+    color: @white;
+    line-height: 1.2em;
+    text-transform: uppercase;
+    .fw-thin;
+}
+
+.title-type01
+{
+    color: @text-color;
+    line-height: 1.2em;
+    text-transform: uppercase;
+    .fw-thin;
+
+    padding-left: 70px;
+
+    position: relative;
+    &:before
+    {
+        content: "";
+        width: 52px;
+        height: 24px;
+
+        background-color: @brand-primary;
+
+        display: block;
+        position: absolute;
+        left: 0;
+        top: 0;
+    }
+}
+
 /*
 .nav-social
 {

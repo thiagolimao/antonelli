@@ -17,29 +17,73 @@ button,
     {
         background-color: @brand-primary;
         color: @white;
-        padding-right: 120px;
-        padding-left: 30px;
 
         position: relative;
 
+        padding-right: 50px;
+        padding-left: 20px;
+
+        line-height: 45px;
+        font-size: ceil((@font-size-base * 1.8));
+
         .ico
         {
-            right: 15px;
-            top: 15px;
             position: absolute;
+            right: 15px;
 
-            width: 16px;
-            height: 30px;
-            display: inline-block;
+            &.type01
+            {
+                top: 15px;
+            }
 
-            background-image: url(../img/arrow_right_btn.png);
-            background-repeat: no-repeat;
+            &.type02
+            {
+                top: 20px;
+            }
         }
 
         &.big
         {
             font-size: ceil((@font-size-base * 3.0));
-            line-height: 45px;
+
+            padding-right: 120px;
+            padding-left: 30px;
         }
     }
+
+    &.btn-voltar
+    {
+        color: @text-color;
+        height: 42px;
+        line-height: 42px;
+        font-size: ceil((@font-size-base * 2.0));
+
+        padding: 0 0 0 60px;
+        position: relative;
+
+        text-transform: uppercase;
+
+        .ico
+        {
+            background-color: @brand-primary;
+            width: 42px;
+            height: 42px;
+            position: absolute;
+            left: 0;
+
+            background-position: 15px center;
+
+            transform: rotate(180deg);
+            -webkit-transform: rotate(180deg);
+            -moz-transform: rotate(180deg);
+            -o-transform: rotate(180deg);
+            -ms-transform: rotate(180deg);
+        }
+    }
+}
+
+
+body section .row.cont-btn + .row
+{
+    margin-top: 4em !important;
 }
