@@ -1,0 +1,306 @@
+/* ==================================================================
+Page: ESCRITORIO
+================================================================== */
+.escritorio
+{
+    overflow-x: hidden;
+    section
+    {
+        margin-top: 8em;
+
+        *
+        {
+            font-family: @font-family-secundary;
+            .fw-thin;
+        }
+
+
+        .row + .row
+        {
+            margin-top: 8em;
+        }
+
+        + footer
+        {
+            margin-top: 22em;
+        }
+
+        &.first
+        {
+            .title-cat
+            {
+                text-transform: uppercase;
+                font-size: ceil((@font-size-base * 3.0));
+                max-width: 90%;
+            }
+        }
+
+        &.sec_cite
+        {
+            overflow: hidden;
+            margin-top: 2em;
+
+            [class^="col-"]
+            {
+                position: relative;
+                min-height: 543px;
+
+                &:before
+                {
+                    position: absolute;
+                    top: 0;
+                    content: "";
+
+                    width: 9999px;
+                    height: 100%;
+
+                    background-size: auto 100%;
+                    background-repeat: no-repeat;
+                }
+
+                &:before
+                {
+                    left: -9999px;
+
+                    background-image: url(../img/img_left_escritorio_cite.jpg);
+                    background-position: right top;
+                }
+
+                .inner
+                {
+                    padding: 4em 2em 4em 5em;
+
+                    p
+                    {
+                        font-size: ceil((@font-size-base * 2.4));
+                        .fw-light;
+                        color: @brand-primary;
+                        font-style: italic;
+                        position: relative;
+
+                        &:before
+                        {
+                            content: "";
+                            width: 58px;
+                            height: 48px;
+                            display: block;
+
+                            background-image: url(../img/img_escritorio_cite_aspas.png);
+                            background-repeat: no-repeat;
+
+                            position: absolute;
+                            left: -58px;
+                            top: -10px;
+                        }
+                    }
+
+                    h2
+                    {
+                        font-size: ceil((@font-size-base * 2.0));
+                        text-transform: uppercase;
+                        .fw-bold;
+                        span
+                        {
+                            display: block;
+                        }
+                    }
+
+                    
+                    .btn
+                    {
+                        position: absolute;
+                        bottom: 0;
+                        right: 0;
+                    }
+                }
+
+            }
+        }
+
+        &.sec_razoes
+        {
+            // overflow-x: hidden;
+            // margin-top: 2em;
+            margin-bottom: 10em;
+
+            [class^="col-"]
+            {
+                position: relative;
+                min-height: 620px;
+                text-align: center;
+
+                &:after
+                {
+                    position: absolute;
+                    top: 0;
+                    content: "";
+
+                    width: 954px;
+                    height: 100%;
+
+                    background-size: auto 100%;
+                    background-repeat: no-repeat;
+                }
+
+                &:after
+                {
+                    right: -964px;
+                    margin-right: 50%;
+
+                    background-image: url(../img/img_right_escritorio_razoes.png);
+                    background-position: left top;
+                }
+
+                img
+                {
+                    display: inline-block;
+                }
+
+                .text
+                {
+                    position: absolute;
+                    width: 350px;
+                    // background-color: #f0f0f0;
+
+                    display: table;
+
+                    left: 50%;
+                    text-align: left;
+                    p
+                    {
+                        margin-bottom: 0;
+                    }
+
+                    &.missao
+                    {
+                        top: 123px;
+                        margin-left: -530px;
+                        padding-bottom: 15px;
+
+                        width: 433px;
+                        background-image: url(../img/bg_text_missao.png);
+                        background-repeat: no-repeat;
+                        background-position: left bottom;
+                    }
+
+                    &.valores
+                    {
+                        height: 220px;
+                        background-image: url(../img/bg_text_valores.png);
+                        background-repeat: no-repeat;
+
+                        bottom: -119px;
+                        margin-left: -545px;
+                        padding-left: 15px;
+                        padding-top: 150px;
+                    }
+
+                    &.visao
+                    {
+                        height: 220px;
+                        background-image: url(../img/bg_text_visao.png);
+                        background-repeat: no-repeat;
+
+                        bottom: -119px;
+                        margin-left: 103px;
+                        padding-left: 15px;
+                        padding-top: 150px;
+                    }
+                }
+
+            }
+        }
+
+        &.sec_historia
+        {
+            // overflow-x: hidden;
+            margin-top: 22em;
+
+            [class^="col-"]
+            {
+                position: relative;
+
+
+                .title-cat
+                {
+                    text-transform: uppercase;
+                    font-size: ceil((@font-size-base * 3.0));
+                }
+
+                &.destaque
+                {
+                    color: @white;
+                    margin-top: 120px;
+                    z-index: 10;
+                    p
+                    {
+                        padding: 2em;
+                        margin-left: -15px;
+                        margin-right: -15px;
+
+                        background-color: @brand-primary;
+                        &:last-child
+                        {
+                            margin-bottom: 0;
+                        }
+                    }
+
+                    &:after
+                    {
+                        position: absolute;
+                        top: -120px;
+                        left: 0;
+
+                        content: "";
+
+                        width: 1150px;
+                        height: 100%;
+
+                        background-size: auto 100%;
+                        background-repeat: no-repeat;
+
+                        z-index: -10;
+
+                        background-image: url(../img/img_right_escritorio_historia.jpg);
+                        background-position: left top;
+                    }
+
+                }
+
+                // &:after
+                // {
+                //     position: absolute;
+                //     top: 0;
+                //     content: "";
+
+                //     width: 954px;
+                //     height: 100%;
+
+                //     background-size: auto 100%;
+                //     background-repeat: no-repeat;
+                // }
+
+                // &:after
+                // {
+                //     right: -964px;
+                //     margin-right: 50%;
+
+                //     background-image: url(../img/img_right_escritorio_razoes.png);
+                //     background-position: left top;
+                // }
+
+                img
+                {
+                    display: inline-block;
+                }
+
+            }
+
+            .row + .row
+            {
+                margin-top: 12em;
+            }
+        }
+    }
+
+}

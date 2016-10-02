@@ -17,7 +17,7 @@
     <!-- ==============================================
     Header
     =============================================== -->
-    <header id="header" style="background-image: url(img/header/header_atuacao.jpg);">
+    <header id="header" style="background-image: url(img/header/header_equipe.jpg);">
         <?php include 'inc/inc_header.php';?>
 
         <div class="container">
@@ -35,6 +35,20 @@
     CONTEUDO
     =============================================== -->
 
+    <section class="equipe-fundador" style="background-image: url(img/equipe_background_fundador.jpg);">
+        <div class="container" style="background-image: url(img/equipe_foto_fundador.png);">
+
+            <div class="row">
+
+                <div class="col-lg-12">
+                    <h3 class="title-type01">Sócio Fundador</h3>
+                </div><!-- /col -->
+
+            </div><!-- /row -->
+
+        </div><!-- /container -->
+    </section>
+
     <section class="">
         <div class="container">
 
@@ -46,7 +60,7 @@
                     <div class="row center-col">
                         <div class="col-lg-4">
                             <figure class="img-type01">
-                                <img src="img/tmp/img_atuacao_advogado.jpg" class="img-responsive" alt="">
+                                <img src="img/tmp/img_atuacao_advogado01.jpg" class="img-responsive" alt="">
                                 <figcaption>
                                     <h4>
                                         Nome do advogado
@@ -55,11 +69,11 @@
                                         Área de atuação
                                     </h5>
                                 </figcaption>
-                            </figure>
-                        </div>
+                            </figure><!-- /img-type01 -->
+                        </div><!-- /col -->
                         <div class="col-lg-4">
                             <figure class="img-type01">
-                                <img src="img/tmp/img_atuacao_advogado.jpg" class="img-responsive" alt="">
+                                <img src="img/tmp/img_atuacao_advogado02.jpg" class="img-responsive" alt="">
                                 <figcaption>
                                     <h4>
                                         Nome do advogado
@@ -68,11 +82,11 @@
                                         Área de atuação
                                     </h5>
                                 </figcaption>
-                            </figure>
-                        </div>
+                            </figure><!-- /img-type01 -->
+                        </div><!-- /col -->
                         <div class="col-lg-4">
                             <figure class="img-type01">
-                                <img src="img/tmp/img_atuacao_advogado.jpg" class="img-responsive" alt="">
+                                <img src="img/tmp/img_atuacao_advogado03.jpg" class="img-responsive" alt="">
                                 <figcaption>
                                     <h4>
                                         Nome do advogado
@@ -81,11 +95,11 @@
                                         Área de atuação
                                     </h5>
                                 </figcaption>
-                            </figure>
-                        </div>
+                            </figure><!-- /img-type01 -->
+                        </div><!-- /col -->
                         <div class="col-lg-4">
                             <figure class="img-type01">
-                                <img src="img/tmp/img_atuacao_advogado.jpg" class="img-responsive" alt="">
+                                <img src="img/tmp/img_atuacao_advogado04.jpg" class="img-responsive" alt="">
                                 <figcaption>
                                     <h4>
                                         Nome do advogado
@@ -94,11 +108,11 @@
                                         Área de atuação
                                     </h5>
                                 </figcaption>
-                            </figure>
-                        </div>
+                            </figure><!-- /img-type01 -->
+                        </div><!-- /col -->
                         <div class="col-lg-4">
                             <figure class="img-type01">
-                                <img src="img/tmp/img_atuacao_advogado.jpg" class="img-responsive" alt="">
+                                <img src="img/tmp/img_atuacao_advogado05.jpg" class="img-responsive" alt="">
                                 <figcaption>
                                     <h4>
                                         Nome do advogado
@@ -107,9 +121,9 @@
                                         Área de atuação
                                     </h5>
                                 </figcaption>
-                            </figure>
-                        </div>
-                    </div>
+                            </figure><!-- /img-type01 -->
+                        </div><!-- /col -->
+                    </div><!-- /center-col -->
 
                 </div><!-- /col -->
 
@@ -144,7 +158,7 @@
                         </li>
                     </ul><!-- /list-nomes -->
 
-                </div><!-- / -->
+                </div><!-- /col -->
 
             </div><!-- /row -->
 

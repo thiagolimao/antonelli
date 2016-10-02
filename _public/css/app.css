@@ -7263,11 +7263,6 @@ ITEM
 	display: table;
 }
 
-.item-atuacao * {
-	font-family: 'Lato', Helvetica, Arial, sans-serif;
-	font-weight: 300;
-}
-
 .item-atuacao .row h4 {
 	margin-left: 70px;
 	color: #da551b;
@@ -7988,6 +7983,11 @@ Page: ATUACAO
 	margin-top: 4em;
 }
 
+.atuacao section * {
+	font-family: 'Lato', Helvetica, Arial, sans-serif;
+	font-weight: 100;
+}
+
 .atuacao section .row + .row {
 	margin-top: 14em;
 }
@@ -8018,7 +8018,7 @@ Page: NEWS
 
 .news section * {
 	font-family: 'Lato', Helvetica, Arial, sans-serif;
-	font-weight: 300;
+	font-weight: 100;
 }
 
 .news section .row + .row {
@@ -8041,13 +8041,28 @@ Page: NEWS
 Page: EQUIPE
 ================================================================== */
 
-.equipe section {
+.equipe section.equipe-fundador {
+	background-repeat: no-repeat;
+	background-position: top center;
+	background-size: auto 100%;
+}
+
+.equipe section.equipe-fundador .container {
+	min-height: 580px;
+}
+
+.equipe section.equipe-fundador .title-type01 {
+	color: #ffffff;
+	margin-top: 1em;
+}
+
+.equipe section.equipe-fundador + section {
 	margin-top: 8em;
 }
 
 .equipe section * {
 	font-family: 'Lato', Helvetica, Arial, sans-serif;
-	font-weight: 300;
+	font-weight: 100;
 }
 
 .equipe section .row + .row {
@@ -8072,6 +8087,228 @@ Page: EQUIPE
 
 .equipe section .list-nomes li {
 	text-transform: uppercase;
+}
+
+/* ==================================================================
+Page: ESCRITORIO
+================================================================== */
+
+.escritorio {
+	overflow-x: hidden;
+}
+
+.escritorio section {
+	margin-top: 8em;
+}
+
+.escritorio section * {
+	font-family: 'Lato', Helvetica, Arial, sans-serif;
+	font-weight: 100;
+}
+
+.escritorio section .row + .row {
+	margin-top: 8em;
+}
+
+.escritorio section + footer {
+	margin-top: 22em;
+}
+
+.escritorio section.first .title-cat {
+	text-transform: uppercase;
+	font-size: 30px;
+	max-width: 90%;
+}
+
+.escritorio section.sec_cite {
+	overflow: hidden;
+	margin-top: 2em;
+}
+
+.escritorio section.sec_cite [class^="col-"] {
+	position: relative;
+	min-height: 543px;
+}
+
+.escritorio section.sec_cite [class^="col-"]:before {
+	position: absolute;
+	top: 0;
+	content: "";
+	width: 9999px;
+	height: 100%;
+	background-size: auto 100%;
+	background-repeat: no-repeat;
+}
+
+.escritorio section.sec_cite [class^="col-"]:before {
+	left: -9999px;
+	background-image: url(../img/img_left_escritorio_cite.jpg);
+	background-position: right top;
+}
+
+.escritorio section.sec_cite [class^="col-"] .inner {
+	padding: 4em 2em 4em 5em;
+}
+
+.escritorio section.sec_cite [class^="col-"] .inner p {
+	font-size: 24px;
+	font-weight: 300;
+	color: #da551b;
+	font-style: italic;
+	position: relative;
+}
+
+.escritorio section.sec_cite [class^="col-"] .inner p:before {
+	content: "";
+	width: 58px;
+	height: 48px;
+	display: block;
+	background-image: url(../img/img_escritorio_cite_aspas.png);
+	background-repeat: no-repeat;
+	position: absolute;
+	left: -58px;
+	top: -10px;
+}
+
+.escritorio section.sec_cite [class^="col-"] .inner h2 {
+	font-size: 20px;
+	text-transform: uppercase;
+	font-weight: 700;
+}
+
+.escritorio section.sec_cite [class^="col-"] .inner h2 span {
+	display: block;
+}
+
+.escritorio section.sec_cite [class^="col-"] .inner .btn {
+	position: absolute;
+	bottom: 0;
+	right: 0;
+}
+
+.escritorio section.sec_razoes {
+	margin-bottom: 10em;
+}
+
+.escritorio section.sec_razoes [class^="col-"] {
+	position: relative;
+	min-height: 620px;
+	text-align: center;
+}
+
+.escritorio section.sec_razoes [class^="col-"]:after {
+	position: absolute;
+	top: 0;
+	content: "";
+	width: 954px;
+	height: 100%;
+	background-size: auto 100%;
+	background-repeat: no-repeat;
+}
+
+.escritorio section.sec_razoes [class^="col-"]:after {
+	right: -964px;
+	margin-right: 50%;
+	background-image: url(../img/img_right_escritorio_razoes.png);
+	background-position: left top;
+}
+
+.escritorio section.sec_razoes [class^="col-"] img {
+	display: inline-block;
+}
+
+.escritorio section.sec_razoes [class^="col-"] .text {
+	position: absolute;
+	width: 350px;
+	display: table;
+	left: 50%;
+	text-align: left;
+}
+
+.escritorio section.sec_razoes [class^="col-"] .text p {
+	margin-bottom: 0;
+}
+
+.escritorio section.sec_razoes [class^="col-"] .text.missao {
+	top: 123px;
+	margin-left: -530px;
+	padding-bottom: 15px;
+	width: 433px;
+	background-image: url(../img/bg_text_missao.png);
+	background-repeat: no-repeat;
+	background-position: left bottom;
+}
+
+.escritorio section.sec_razoes [class^="col-"] .text.valores {
+	height: 220px;
+	background-image: url(../img/bg_text_valores.png);
+	background-repeat: no-repeat;
+	bottom: -119px;
+	margin-left: -545px;
+	padding-left: 15px;
+	padding-top: 150px;
+}
+
+.escritorio section.sec_razoes [class^="col-"] .text.visao {
+	height: 220px;
+	background-image: url(../img/bg_text_visao.png);
+	background-repeat: no-repeat;
+	bottom: -119px;
+	margin-left: 103px;
+	padding-left: 15px;
+	padding-top: 150px;
+}
+
+.escritorio section.sec_historia {
+	margin-top: 22em;
+}
+
+.escritorio section.sec_historia [class^="col-"] {
+	position: relative;
+}
+
+.escritorio section.sec_historia [class^="col-"] .title-cat {
+	text-transform: uppercase;
+	font-size: 30px;
+}
+
+.escritorio section.sec_historia [class^="col-"].destaque {
+	color: #ffffff;
+	margin-top: 120px;
+	z-index: 10;
+}
+
+.escritorio section.sec_historia [class^="col-"].destaque p {
+	padding: 2em;
+	margin-left: -15px;
+	margin-right: -15px;
+	background-color: #da551b;
+}
+
+.escritorio section.sec_historia [class^="col-"].destaque p:last-child {
+	margin-bottom: 0;
+}
+
+.escritorio section.sec_historia [class^="col-"].destaque:after {
+	position: absolute;
+	top: -120px;
+	left: 0;
+	content: "";
+	width: 1150px;
+	height: 100%;
+	background-size: auto 100%;
+	background-repeat: no-repeat;
+	z-index: -10;
+	background-image: url(../img/img_right_escritorio_historia.jpg);
+	background-position: left top;
+}
+
+.escritorio section.sec_historia [class^="col-"] img {
+	display: inline-block;
+}
+
+.escritorio section.sec_historia .row + .row {
+	margin-top: 12em;
 }
 
 @media screen and (-webkit-min-device-pixel-ratio: 0) {
