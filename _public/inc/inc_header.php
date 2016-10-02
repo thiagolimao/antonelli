@@ -13,7 +13,7 @@
                             <span class="icon-bar"></span>
                         </button>
 
-                        <a class="navbar-brand" href="#">
+                        <a class="navbar-brand" href="index.php">
                             <img src="img/logo_antonelli.png" alt="">
                         </a>
                     </div><!-- /navbar-header -->
@@ -21,16 +21,16 @@
                     <div id="navbar" class="navbar-collapse collapse">
                         <ul class="nav navbar-nav nav_top">
                             <li class="active">
-                                <a href="#" title="O escritório">O escritório</a>
+                                <a href="o-escritorio.php" title="O escritório">O escritório</a>
                             </li>
                             <li>
-                                <a href="#" title="Equipe">Equipe</a>
+                                <a href="equipe.php" title="Equipe">Equipe</a>
                             </li>
                             <li>
-                                <a href="#" title="Atuação">Atuação</a>
+                                <a href="atuacao.php" title="Atuação">Atuação</a>
                             </li>
                             <li>
-                                <a href="#" title="Comunicação">Comunicação</a>
+                                <a href="comunicacao.php" title="Comunicação">Comunicação</a>
                             </li>
                             <li>
                                 <a href="#" title="Contato">Contato</a>

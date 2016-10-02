@@ -2,7 +2,7 @@
     Title and basic Meta Tags
     =============================================== -->
     <meta charset="utf-8">
-    <title>nome_do_projeto</title>
+    <title>Antonelli</title>
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
     <meta name="author" content="Thiago Limão" />
