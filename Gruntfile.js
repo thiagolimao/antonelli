@@ -121,6 +121,7 @@ module.exports = function(grunt) {
               '<%= vendor_src %>/bower_components/jquery/dist/jquery.js', // jQuery
               '<%= vendor_src %>/bower_components/jquery-validation/dist/jquery.validate.js', // jQuery
               '<%= vendor_src %>/bower_components/bootstrap/dist/js/bootstrap.min.js', // Bootstrap
+              '<%= vendor_src %>/bower_components/bootstrap-select/dist/js/bootstrap-select.min.js', // Bootstrap
               // '<%= vendor_src %>/bower_components/slick-carousel/slick/slick.js', // slick
             ],
             dest: '<%= js_build %>/vendor.js',

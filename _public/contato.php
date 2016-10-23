@@ -131,7 +131,7 @@
                             </div>
                             <div class="form-group">
                                 <label for="inputAssuntos">Assunto *</label>
-                                <select class="form-control" id="inputAssuntos">
+                                <select class="form-control selectpicker" id="inputAssuntos">
                                     <option>Selecione o assunto</option>
                                     <option>1</option>
                                     <option>2</option>

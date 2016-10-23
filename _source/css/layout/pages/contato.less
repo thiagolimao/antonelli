@@ -22,6 +22,31 @@ Page: CONTATO
         {
             font-size: ceil((@font-size-base * 2.6));
             margin-bottom: 15px;
+            position: relative;
+
+            &.sede
+            {
+                &:after
+                {
+                    content: "sede";
+                    background-color: @brand-primary;
+                    color: @white;
+                    text-transform: lowercase;
+                    padding: 2px 6px;
+                    font-size: ceil((@font-size-base * 1.2));
+                }
+                &:before
+                {
+                    border-left: 10px solid transparent;
+                    border-right: 10px solid transparent;
+                    border-top: 10px dashed @brand-primary;
+                    
+                    width: 0;
+                    height: 0;
+                    display: block;
+                    content: "";
+                }
+            }
         }
 
         .inner
@@ -43,12 +68,12 @@ Page: CONTATO
                     margin-bottom: 15px;
                     font-size: ceil((@font-size-base * 1.8));
                     .fw-light;
-                    
+
                     &.tel
                     {
                         background-image: url(../img/ico_tel.png);
                     }
-                    
+
                     &.end
                     {
                         background-image: url(../img/ico_end.png);
