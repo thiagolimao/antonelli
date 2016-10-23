@@ -76,7 +76,7 @@
                             São Paulo
                         </h2>
 
-                        <h3 class="title-default sede">
+                        <h3 class="title-default">
                             Ipanema
                         </h3>
                         <ul>
@@ -96,7 +96,7 @@
                             Brasília
                         </h2>
 
-                        <h3 class="title-default sede">
+                        <h3 class="title-default">
                             Ipanema
                         </h3>
                         <ul>

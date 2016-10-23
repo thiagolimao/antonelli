@@ -26,25 +26,38 @@ Page: CONTATO
 
             &.sede
             {
+                margin-top: 60px;
+                &:after, &:before
+                {
+                    position: absolute;
+
+                    left: 0;
+                }
                 &:after
                 {
                     content: "sede";
                     background-color: @brand-primary;
                     color: @white;
                     text-transform: lowercase;
-                    padding: 2px 6px;
+                    padding: 2px 12px 2px 8px;
+                    line-height: 20px;
                     font-size: ceil((@font-size-base * 1.2));
+
+                    top: -28px;
                 }
                 &:before
                 {
-                    border-left: 10px solid transparent;
-                    border-right: 10px solid transparent;
-                    border-top: 10px dashed @brand-primary;
-                    
+                    border-left: 6px solid transparent;
+                    border-right: 6px solid transparent;
+                    border-top: 5px dashed @brand-primary;
+
                     width: 0;
                     height: 0;
                     display: block;
                     content: "";
+
+                    top: -4px;
+                    left: 4px;
                 }
             }
         }

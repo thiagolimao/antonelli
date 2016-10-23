@@ -8826,23 +8826,37 @@ Page: CONTATO
 	position: relative;
 }
 
+.contato section h3.sede {
+	margin-top: 60px;
+}
+
+.contato section h3.sede:after,
+.contato section h3.sede:before {
+	position: absolute;
+	left: 0;
+}
+
 .contato section h3.sede:after {
 	content: "sede";
 	background-color: #da551b;
 	color: #ffffff;
 	text-transform: lowercase;
-	padding: 2px 6px;
+	padding: 2px 12px 2px 8px;
+	line-height: 20px;
 	font-size: 12px;
+	top: -28px;
 }
 
 .contato section h3.sede:before {
-	border-left: 10px solid transparent;
-	border-right: 10px solid transparent;
-	border-top: 10px dashed #da551b;
+	border-left: 6px solid transparent;
+	border-right: 6px solid transparent;
+	border-top: 5px dashed #da551b;
 	width: 0;
 	height: 0;
 	display: block;
 	content: "";
+	top: -4px;
+	left: 4px;
 }
 
 .contato section .inner {
