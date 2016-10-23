@@ -23,7 +23,9 @@ $(window).load(function() {
 });
 
 $(document).ready(function(){
-
+    $( ".btn-extras" ).click(function() {
+        $(this).next().toggle("slow");
+    });
 });
 
 

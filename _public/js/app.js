@@ -1,11 +1,12 @@
 $(window).load(function() {
 
-	"use strict";
+    "use strict";
     /* ==============================================
     PRELOADER
     =============================================== */
     var preloaderDelay = 500;
     var preloaderFadeOutTime = 800;
+    var startPage = 0;
 
     function hidePreloader() {
         var loadingAnimation = $('#loading-animation');
@@ -13,7 +14,7 @@ $(window).load(function() {
 
         loadingAnimation.fadeOut();
         preloader.delay(preloaderDelay).fadeOut(preloaderFadeOutTime, function() {
-        	setTimeout(startPage, 1500);
+            setTimeout(startPage, 1500);
          });
     }
 
@@ -22,5 +23,9 @@ $(window).load(function() {
 });
 
 $(document).ready(function(){
-
+    $( ".btn-extras" ).click(function() {
+        $(this).next().toggle("slow");
+    });
 });
+
+

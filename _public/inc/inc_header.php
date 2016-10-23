@@ -33,7 +33,7 @@
                                 <a href="comunicacao.php" title="Comunicação">Comunicação</a>
                             </li>
                             <li>
-                                <a href="#" title="Contato">Contato</a>
+                                <a href="contato.php" title="Contato">Contato</a>
                             </li>
                         </ul><!-- / -->
 

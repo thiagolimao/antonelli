@@ -43,21 +43,21 @@
                 <div class="col-lg-4">
                     <a href="#" class="inner" title="nome da atuação 01">
                         <img src="img/tmp/img_atuacao_destaque.jpg" class="img-responsive" alt="">
-                        <h4>nome da atuação 01</h4>
+                        <h4>Contencioso & <br>Estratégico</h4>
                     </a><!-- /inner -->
                 </div><!-- /col -->
 
                 <div class="col-lg-4">
                     <a href="#" class="inner" title="nome da atuação 02">
                         <img src="img/tmp/img_atuacao_destaque.jpg" class="img-responsive" alt="">
-                        <h4>nome da atuação 02</h4>
+                        <h4>Direito <br>Tributário</h4>
                     </a><!-- /inner -->
                 </div><!-- /col -->
 
                 <div class="col-lg-4">
                     <a href="#" class="inner" title="nome da atuação 03">
                         <img src="img/tmp/img_atuacao_destaque.jpg" class="img-responsive" alt="">
-                        <h4>nome da atuação 03</h4>
+                        <h4>Reabilitação</h4>
                     </a><!-- /inner -->
                 </div><!-- /col -->
 
@@ -90,6 +90,35 @@
                             Nome da subárea
                         </a><!-- /col -->
                     </div><!-- /row -->
+
+                    <a class="btn btn-default btn-extras" href="javascript:void(0);" role="button">+ atuações</a>
+                    <div class="extras">
+
+                        <div class="row item-links">
+                            <a href="atuacao_interna.php" title="Nome da subárea" class="col-lg-4">
+                                Nome da subárea
+                            </a><!-- /col -->
+                            <a href="atuacao_interna.php" title="Nome da subárea" class="col-lg-4">
+                                Nome da subárea
+                            </a><!-- /col -->
+                            <a href="atuacao_interna.php" title="Nome da subárea" class="col-lg-4">
+                                Nome da subárea
+                            </a><!-- /col -->
+                        </div><!-- /row -->
+                        <div class="row item-links">
+                            <a href="atuacao_interna.php" title="Nome da subárea" class="col-lg-4">
+                                Nome da subárea
+                            </a><!-- /col -->
+                            <a href="atuacao_interna.php" title="Nome da subárea" class="col-lg-4">
+                                Nome da subárea
+                            </a><!-- /col -->
+                            <a href="atuacao_interna.php" title="Nome da subárea" class="col-lg-4">
+                                Nome da subárea
+                            </a><!-- /col -->
+                        </div><!-- /row -->
+
+                    </div><!-- /extras -->
+
 
                 </div><!-- / -->
 
@@ -154,6 +183,23 @@
                             Nome da subárea
                         </a><!-- /col -->
                     </div><!-- /row -->
+
+                    <a class="btn btn-default btn-extras" href="javascript:void(0);" role="button">+ atuações</a>
+                    <div class="extras">
+
+                        <div class="row item-links">
+                            <a href="atuacao_interna.php" title="Nome da subárea" class="col-lg-4">
+                                Nome da subárea
+                            </a><!-- /col -->
+                            <a href="atuacao_interna.php" title="Nome da subárea" class="col-lg-4">
+                                Nome da subárea
+                            </a><!-- /col -->
+                            <a href="atuacao_interna.php" title="Nome da subárea" class="col-lg-4">
+                                Nome da subárea
+                            </a><!-- /col -->
+                        </div><!-- /row -->
+
+                    </div><!-- /extras -->
 
                 </div><!-- / -->
 
