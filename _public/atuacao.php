@@ -42,21 +42,21 @@
 
                 <div class="col-lg-4">
                     <a href="#" class="inner" title="nome da atuação 01">
-                        <img src="img/tmp/img_atuacao_destaque.jpg" class="img-responsive" alt="">
+                        <img src="img/img_atuacao_contencioso.jpg" class="img-responsive" alt="Contencioso & Estratégico">
                         <h4>Contencioso & <br>Estratégico</h4>
                     </a><!-- /inner -->
                 </div><!-- /col -->
 
                 <div class="col-lg-4">
                     <a href="#" class="inner" title="nome da atuação 02">
-                        <img src="img/tmp/img_atuacao_destaque.jpg" class="img-responsive" alt="">
+                        <img src="img/img_atuacao_tributario.jpg" class="img-responsive" alt="Direito Tributário">
                         <h4>Direito <br>Tributário</h4>
                     </a><!-- /inner -->
                 </div><!-- /col -->
 
                 <div class="col-lg-4">
                     <a href="#" class="inner" title="nome da atuação 03">
-                        <img src="img/tmp/img_atuacao_destaque.jpg" class="img-responsive" alt="">
+                        <img src="img/img_atuacao_reabilitacao.jpg" class="img-responsive" alt="Reabilitação">
                         <h4>Reabilitação</h4>
                     </a><!-- /inner -->
                 </div><!-- /col -->
@@ -80,13 +80,13 @@
                     </div><!-- /row -->
 
                     <div class="row item-links">
-                        <a href="atuacao_interna.php" title="Nome da subárea" class="col-lg-4">
+                        <a  href="javascript:void(0);" data-toggle="modal" data-target=".modalSubArea" title="Nome da subárea" class="col-lg-4">
                             Nome da subárea
                         </a><!-- /col -->
-                        <a href="atuacao_interna.php" title="Nome da subárea" class="col-lg-4">
+                        <a  href="javascript:void(0);" data-toggle="modal" data-target=".modalSubArea" title="Nome da subárea" class="col-lg-4">
                             Nome da subárea
                         </a><!-- /col -->
-                        <a href="atuacao_interna.php" title="Nome da subárea" class="col-lg-4">
+                        <a  href="javascript:void(0);" data-toggle="modal" data-target=".modalSubArea" title="Nome da subárea" class="col-lg-4">
                             Nome da subárea
                         </a><!-- /col -->
                     </div><!-- /row -->
@@ -95,24 +95,24 @@
                     <div class="extras">
 
                         <div class="row item-links">
-                            <a href="atuacao_interna.php" title="Nome da subárea" class="col-lg-4">
+                            <a  href="javascript:void(0);" data-toggle="modal" data-target=".modalSubArea" title="Nome da subárea" class="col-lg-4">
                                 Nome da subárea
                             </a><!-- /col -->
-                            <a href="atuacao_interna.php" title="Nome da subárea" class="col-lg-4">
+                            <a  href="javascript:void(0);" data-toggle="modal" data-target=".modalSubArea" title="Nome da subárea" class="col-lg-4">
                                 Nome da subárea
                             </a><!-- /col -->
-                            <a href="atuacao_interna.php" title="Nome da subárea" class="col-lg-4">
+                            <a  href="javascript:void(0);" data-toggle="modal" data-target=".modalSubArea" title="Nome da subárea" class="col-lg-4">
                                 Nome da subárea
                             </a><!-- /col -->
                         </div><!-- /row -->
                         <div class="row item-links">
-                            <a href="atuacao_interna.php" title="Nome da subárea" class="col-lg-4">
+                            <a  href="javascript:void(0);" data-toggle="modal" data-target=".modalSubArea" title="Nome da subárea" class="col-lg-4">
                                 Nome da subárea
                             </a><!-- /col -->
-                            <a href="atuacao_interna.php" title="Nome da subárea" class="col-lg-4">
+                            <a  href="javascript:void(0);" data-toggle="modal" data-target=".modalSubArea" title="Nome da subárea" class="col-lg-4">
                                 Nome da subárea
                             </a><!-- /col -->
-                            <a href="atuacao_interna.php" title="Nome da subárea" class="col-lg-4">
+                            <a  href="javascript:void(0);" data-toggle="modal" data-target=".modalSubArea" title="Nome da subárea" class="col-lg-4">
                                 Nome da subárea
                             </a><!-- /col -->
                         </div><!-- /row -->
@@ -141,13 +141,13 @@
                     </div><!-- /row -->
 
                     <div class="row item-links">
-                        <a href="atuacao_interna.php" title="Nome da subárea" class="col-lg-4">
+                        <a  href="javascript:void(0);" data-toggle="modal" data-target=".modalSubArea" title="Nome da subárea" class="col-lg-4">
                             Nome da subárea
                         </a><!-- /col -->
-                        <a href="atuacao_interna.php" title="Nome da subárea" class="col-lg-4">
+                        <a  href="javascript:void(0);" data-toggle="modal" data-target=".modalSubArea" title="Nome da subárea" class="col-lg-4">
                             Nome da subárea
                         </a><!-- /col -->
-                        <a href="atuacao_interna.php" title="Nome da subárea" class="col-lg-4">
+                        <a  href="javascript:void(0);" data-toggle="modal" data-target=".modalSubArea" title="Nome da subárea" class="col-lg-4">
                             Nome da subárea
                         </a><!-- /col -->
                     </div><!-- /row -->
@@ -173,13 +173,13 @@
                     </div><!-- /row -->
 
                     <div class="row item-links">
-                        <a href="atuacao_interna.php" title="Nome da subárea" class="col-lg-4">
+                        <a  href="javascript:void(0);" data-toggle="modal" data-target=".modalSubArea" title="Nome da subárea" class="col-lg-4">
                             Nome da subárea
                         </a><!-- /col -->
-                        <a href="atuacao_interna.php" title="Nome da subárea" class="col-lg-4">
+                        <a  href="javascript:void(0);" data-toggle="modal" data-target=".modalSubArea" title="Nome da subárea" class="col-lg-4">
                             Nome da subárea
                         </a><!-- /col -->
-                        <a href="atuacao_interna.php" title="Nome da subárea" class="col-lg-4">
+                        <a  href="javascript:void(0);" data-toggle="modal" data-target=".modalSubArea" title="Nome da subárea" class="col-lg-4">
                             Nome da subárea
                         </a><!-- /col -->
                     </div><!-- /row -->
@@ -188,13 +188,13 @@
                     <div class="extras">
 
                         <div class="row item-links">
-                            <a href="atuacao_interna.php" title="Nome da subárea" class="col-lg-4">
+                            <a  href="javascript:void(0);" data-toggle="modal" data-target=".modalSubArea" title="Nome da subárea" class="col-lg-4">
                                 Nome da subárea
                             </a><!-- /col -->
-                            <a href="atuacao_interna.php" title="Nome da subárea" class="col-lg-4">
+                            <a  href="javascript:void(0);" data-toggle="modal" data-target=".modalSubArea" title="Nome da subárea" class="col-lg-4">
                                 Nome da subárea
                             </a><!-- /col -->
-                            <a href="atuacao_interna.php" title="Nome da subárea" class="col-lg-4">
+                            <a  href="javascript:void(0);" data-toggle="modal" data-target=".modalSubArea" title="Nome da subárea" class="col-lg-4">
                                 Nome da subárea
                             </a><!-- /col -->
                         </div><!-- /row -->
@@ -213,6 +213,42 @@
     Footer
     =============================================== -->
     <?php include 'inc/inc_footer.php';?>
+
+
+
+    <!-- ==============================================
+    MODAIS
+    =============================================== -->
+
+    <!-- ATUACAO -->
+    <div class="modal fade modalSubArea" tabindex="-1" role="dialog" aria-labelledby="mySmallModalLabel">
+        <div class="modal-dialog" role="document">
+            <div class="modal-content">
+
+                <div class="modal-header">
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close"></button>
+                </div><!-- /.modal-header -->
+
+                <div class="modal-body">
+                    <div class="row">
+                        <div class="col-md-12">
+                            <h2 class="title-color">
+                                Nome da Subárea
+                            </h2>
+
+                            <p>
+                                Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a tyLorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a ty.
+                            </p>
+                            <p>
+                                Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a tyLorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a ty.
+                            </p>
+                        </div>
+                    </div><!-- /.row -->
+                </div><!-- /.modal-body -->
+
+            </div><!-- /.modal-content -->
+        </div><!-- /.modal-dialog -->
+    </div><!-- /.modal -->
 
 </body>
 </html>

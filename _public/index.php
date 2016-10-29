@@ -31,9 +31,10 @@
         <div class="container">
             <div class="row">
 
-                <div class="col-lg-5 item item-notice">
+                <div class="col-lg-5 col-md-5 col-sm-5 col-xs-12 item item-notice">
+                    <img class="img-md" src="data:image/gif;base64,R0lGODlhAQABAIAAAHd3dwAAACH5BAAAAAAALAAAAAABAAEAAAICRAEAOw==" alt="Generic placeholder image" width="100%" height="90">
                     <div class="inner">
-                        <img class="pull-left" src="data:image/gif;base64,R0lGODlhAQABAIAAAHd3dwAAACH5BAAAAAAALAAAAAABAAEAAAICRAEAOw==" alt="Generic placeholder image" width="176" height="192">
+                        <img class="pull-left img-lg" src="data:image/gif;base64,R0lGODlhAQABAIAAAHd3dwAAACH5BAAAAAAALAAAAAABAAEAAAICRAEAOw==" alt="Generic placeholder image" width="176" height="192">
                         <h2>atuação</h2>
                         <h3>Contencioso</h3>
                         <p>
@@ -43,9 +44,10 @@
                     </div><!-- /inner -->
                 </div><!-- /.col-lg-5 -->
 
-                <div class="col-lg-offset-1 col-lg-5 item item-notice">
+                <div class="col-lg-offset-1 col-lg-5 col-md-offset-1 col-md-5 col-sm-5 col-xs-12 item item-notice">
+                    <img class="img-md" src="data:image/gif;base64,R0lGODlhAQABAIAAAHd3dwAAACH5BAAAAAAALAAAAAABAAEAAAICRAEAOw==" alt="Generic placeholder image" width="100%" height="90">
                     <div class="inner">
-                        <img class="pull-left" src="data:image/gif;base64,R0lGODlhAQABAIAAAHd3dwAAACH5BAAAAAAALAAAAAABAAEAAAICRAEAOw==" alt="Generic placeholder image" width="176" height="192">
+                        <img class="pull-left img-lg" src="data:image/gif;base64,R0lGODlhAQABAIAAAHd3dwAAACH5BAAAAAAALAAAAAABAAEAAAICRAEAOw==" alt="Generic placeholder image" width="176" height="192">
                     <h2>news</h2>
                     <h3>UM DIA INcrível de Premiação</h3>
                         <p>
@@ -67,7 +69,7 @@
         <div class="container">
 
             <div class="row">
-                <div class="col-lg-4 item image">
+                <div class="col-lg-4 col-md-4 item image">
                     <img class="" src="data:image/gif;base64,R0lGODlhAQABAIAAAHd3dwAAACH5BAAAAAAALAAAAAABAAEAAAICRAEAOw==" alt="Generic placeholder image" width="100%" height="147">
                     <div class="inner">
                         <a class="btn" href="#" role="button">+</a>
@@ -79,7 +81,7 @@
                     </div><!-- /inner -->
                 </div><!-- / -->
 
-                <div class="col-lg-4 item">
+                <div class="col-lg-4 col-md-4 item">
                     <div class="inner">
                         <a class="btn" href="#" role="button">+</a>
                         <h2>equipe</h2>
@@ -90,7 +92,7 @@
                     </div><!-- /inner -->
                 </div><!-- / -->
 
-                <div class="col-lg-4 item image">
+                <div class="col-lg-4 col-md-4 item image">
                     <img class="" src="data:image/gif;base64,R0lGODlhAQABAIAAAHd3dwAAACH5BAAAAAAALAAAAAABAAEAAAICRAEAOw==" alt="Generic placeholder image" width="100%" height="147">
                     <div class="inner">
                         <a class="btn" href="#" role="button">+</a> 
@@ -113,7 +115,7 @@
         <div class="container">
             <div class="row">
 
-                <div class="col-lg-offset-7 col-lg-5 cont_profile">
+                <div class="col-lg-offset-7 col-lg-5 col-md-offset-6 col-md-6 cont_profile">
                     <div class="inner">
                         <h1>uma frase instigante sobre o perfil</h1>
                         <p>
@@ -134,7 +136,7 @@
         <div class="container">
             <div class="row">
 
-                <div class="col-lg-4">
+                <div class="col-lg-4 col-md-6 col-sm-6 col-xs-6">
                     <div class="inner">
                         <h1>uma frase empolgante e humanizada sobre a equipe</h1>
                         <p>

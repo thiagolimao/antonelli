@@ -39,10 +39,30 @@ MENU
     {
         .navbar-brand
         {
-            background-color: @white;
+            // background-color: @white;
             height: auto;
             padding: 0;
             display: block;
+
+            img
+            {
+                width: 100%;
+            }
+
+            @media (max-width: 1200px)
+            {
+                max-width: 350px;
+            }
+
+            @media (max-width: 1100px)
+            {
+                max-width: 275px;
+            }
+
+            @media (max-width: 768px)
+            {
+                max-width: 175px;
+            }
         }
     }
 
@@ -74,14 +94,61 @@ MENU
                     margin-left: 1em;
                     margin-right: 1em;
 
+                    ul
+                    {
+                        background-color: @brand-primary;
+                        // display: block;
+                        top: 80%;
+                        li
+                        {
+                            margin-left: .5em;
+                            margin-right: .5em;
+
+                            &:last-child
+                            {
+                                a,
+                                a:hover
+                                {
+                                    border: none;
+                                }
+                            }
+
+                            a
+                            {
+                                color: @white;
+                                line-height: 3em;
+                                padding: 0 .5em;
+                                border-bottom: solid 1px @white;
+                                &:hover
+                                {
+                                    color: rgba(255, 255, 255, .8);
+                                    border-bottom: solid 1px @white;
+                                }
+                            }
+                        }
+                    }
+
+                    &:hover
+                    {
+                        ul
+                        {
+                            display: block;
+                        }
+                    }
+
                     &.active
                     {
                         a
                         {
                             border-bottom: solid 2px @brand-primary;
+                            cursor: default;
+                            &:hover
+                            {
+                                border-bottom: solid 2px @brand-primary;
+                            }
                         }
                     }
-                    a
+                    a,span
                     {
                         color: @white;
                         text-transform: uppercase;
@@ -93,9 +160,32 @@ MENU
                         line-height: 8em;
                         font-size: 120%;
 
+                        @media (max-width: 1200px)
+                        {
+                            max-height: 77px;
+
+                            line-height: 7em;
+                            font-size: 100%;
+                        }
+
+                        @media (max-width: 1100px)
+                        {
+                            max-height: 60px;
+
+                            line-height: 6em;
+                        }
+
                         &:hover
                         {
                             border-bottom: solid 2px @gray-lighter;
+                        }
+                    }
+
+                    span
+                    {
+                        &:hover
+                        {
+                            border-bottom: solid 2px transparent;
                         }
                     }
                 }
@@ -104,6 +194,16 @@ MENU
             &.nav_lang
             {
                 padding-top: 50px;
+
+                @media (max-width: 1199px)
+                {
+                    padding-top: 42px;
+                }
+
+                @media (max-width: 1100px)
+                {
+                    padding-top: 28px;
+                }
                 li
                 {
                     margin-left: 15px;
@@ -146,6 +246,7 @@ MENU
 
 }
 
+
 // FOOTER NAV
 .nav_bottom
 {
@@ -187,3 +288,51 @@ MENU
 }
 
 
+.main
+{
+    .navbar-wrapper
+    {
+        #navbar
+        {
+            min-height: 100%;
+            ul.nav
+            {
+                li
+                {
+                    a,span
+                    {
+                        color: @brand-primary;
+
+                        &:hover
+                        {
+                            border-bottom: solid 2px @brand-primary;
+                        }
+                    }
+
+                    span
+                    {
+                        &:hover
+                        {
+                            border-bottom: solid 2px transparent;
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
+
+
+.equipe
+{
+    .navbar-wrapper
+    {
+        .navbar-header
+        {
+            .navbar-brand
+            {
+                background-color: @white;
+            }
+        }
+    }
+}

@@ -30,7 +30,18 @@
                                 <a href="atuacao.php" title="Atuação">Atuação</a>
                             </li>
                             <li>
-                                <a href="comunicacao.php" title="Comunicação">Comunicação</a>
+                                <span>Comunicação</span>
+                                <ul class="dropdown-menu">
+                                    <li>
+                                        <a href="news.php" title="News">News</a>
+                                    </li>
+                                    <li>
+                                        <a href="clipping.php" title="Clipping">Clipping</a>
+                                    </li>
+                                    <li>
+                                        <a href="artigos.php" title="Artigos">Artigos</a>
+                                    </li>
+                                </ul>
                             </li>
                             <li>
                                 <a href="contato.php" title="Contato">Contato</a>

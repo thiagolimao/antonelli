@@ -7062,7 +7062,6 @@ select.selectpicker {
 }
 
 body {
-	min-width: 928px;
 	border-top: solid 4px #da551b;
 	color: #888888;
 }
@@ -7342,6 +7341,22 @@ h3 {
 	font-weight: 100;
 }
 
+.title-color {
+	font-size: 30px;
+	color: #da551b;
+	text-transform: uppercase;
+	font-family: 'Lato', Helvetica, Arial, sans-serif;
+	font-weight: 300;
+}
+
+.sub-title {
+	font-size: 20px;
+	color: #888888;
+	text-transform: uppercase;
+	font-family: 'Lato', Helvetica, Arial, sans-serif;
+	font-weight: 300;
+}
+
 .title-type01 {
 	color: #888888;
 	line-height: 1.2em;
@@ -7360,6 +7375,10 @@ h3 {
 	position: absolute;
 	left: 0;
 	top: 6px;
+}
+
+.color {
+	color: #da551b;
 }
 
 /*
@@ -7955,6 +7974,10 @@ LISTAS
 	padding: 5px 15px;
 }
 
+.list-nomes li a {
+	color: #888888;
+}
+
 /* ==================================================================
 IMAGENS
 ================================================================== */
@@ -7986,6 +8009,10 @@ IMAGENS
 .img-type01 figcaption h5 {
 	color: #ffffff;
 	font-size: 20px;
+}
+
+.img-md {
+	display: none;
 }
 
 /* ==================================================================
@@ -8064,6 +8091,70 @@ PAGINACAO
 }
 
 /* ==================================================================
+MODAL
+================================================================== */
+
+.modal .modal-sm {
+	width: 550px;
+}
+
+.modal .modal-lg {
+	width: 950px;
+}
+
+.modal .modal-content {
+	border-radius: 0;
+	padding-bottom: 20px;
+}
+
+.modal .modal-content .modal-header {
+	border-top: solid 12px #da551b;
+	border-bottom: none;
+	padding: 0;
+}
+
+.modal .modal-content .modal-header .close {
+	margin-top: -12px;
+	color: #ffffff;
+	opacity: 1;
+	display: block;
+	width: 40px;
+	height: 40px;
+	background-image: url(../img/ico_close.png);
+	background-color: #da551b;
+	background-repeat: no-repeat;
+	background-position: center;
+}
+
+.modal .modal-content .modal-body {
+	padding: 20px 60px;
+}
+
+.modal .modal-content .modal-body p {
+	margin: 20px 0 0 0;
+}
+
+.modal .modal-content .modal-footer {
+	border: none;
+	text-align: left;
+	padding: 20px 60px;
+}
+
+.modal.modalFundador .modal-content .modal-footer {
+	text-transform: uppercase;
+	padding-top: 0;
+	padding-bottom: 10px;
+}
+
+.modal.modalFundador .modal-content .modal-footer p {
+	margin-bottom: 0;
+}
+
+.modal.modalSubArea .modal-dialog {
+	width: 800px;
+}
+
+/* ==================================================================
 HEADER
 ================================================================== */
 
@@ -8108,7 +8199,7 @@ HEADER
 }
 
 .main #header .item-notice p {
-	height: 58px;
+	height: 56px;
 	overflow: hidden;
 }
 
@@ -8141,16 +8232,6 @@ FOOTER
 #footer .row [class^="col-"] {
 	padding-left: 35px;
 	padding-right: 35px;
-}
-
-#footer .row [class^="col-"]:nth-child(1) {
-	width: 30%;
-}
-
-#footer .row [class^="col-"]:nth-child(2) {
-	width: 18%;
-	border-left: solid 1px #ffffff;
-	border-right: solid 1px #ffffff;
 }
 
 #footer .row [class^="col-"]:nth-child(3) div {
@@ -8233,10 +8314,13 @@ MENU
 }
 
 .navbar-wrapper .navbar-header .navbar-brand {
-	background-color: #ffffff;
 	height: auto;
 	padding: 0;
 	display: block;
+}
+
+.navbar-wrapper .navbar-header .navbar-brand img {
+	width: 100%;
 }
 
 .navbar-wrapper #navbar {
@@ -8258,11 +8342,48 @@ MENU
 	margin-right: 1em;
 }
 
+.navbar-wrapper #navbar ul.nav.nav_top li ul {
+	background-color: #da551b;
+	top: 80%;
+}
+
+.navbar-wrapper #navbar ul.nav.nav_top li ul li {
+	margin-left: .5em;
+	margin-right: .5em;
+}
+
+.navbar-wrapper #navbar ul.nav.nav_top li ul li:last-child a,
+.navbar-wrapper #navbar ul.nav.nav_top li ul li:last-child a:hover {
+	border: none;
+}
+
+.navbar-wrapper #navbar ul.nav.nav_top li ul li a {
+	color: #ffffff;
+	line-height: 3em;
+	padding: 0 .5em;
+	border-bottom: solid 1px #ffffff;
+}
+
+.navbar-wrapper #navbar ul.nav.nav_top li ul li a:hover {
+	color: rgba(255, 255, 255, 0.8);
+	border-bottom: solid 1px #ffffff;
+}
+
+.navbar-wrapper #navbar ul.nav.nav_top li:hover ul {
+	display: block;
+}
+
 .navbar-wrapper #navbar ul.nav.nav_top li.active a {
+	border-bottom: solid 2px #da551b;
+	cursor: default;
+}
+
+.navbar-wrapper #navbar ul.nav.nav_top li.active a:hover {
 	border-bottom: solid 2px #da551b;
 }
 
-.navbar-wrapper #navbar ul.nav.nav_top li a {
+.navbar-wrapper #navbar ul.nav.nav_top li a,
+.navbar-wrapper #navbar ul.nav.nav_top li span {
 	color: #ffffff;
 	text-transform: uppercase;
 	padding: 0 .4em;
@@ -8273,8 +8394,13 @@ MENU
 	font-size: 120%;
 }
 
-.navbar-wrapper #navbar ul.nav.nav_top li a:hover {
+.navbar-wrapper #navbar ul.nav.nav_top li a:hover,
+.navbar-wrapper #navbar ul.nav.nav_top li span:hover {
 	border-bottom: solid 2px #e0e0e0;
+}
+
+.navbar-wrapper #navbar ul.nav.nav_top li span:hover {
+	border-bottom: solid 2px transparent;
 }
 
 .navbar-wrapper #navbar ul.nav.nav_lang {
@@ -8324,6 +8450,28 @@ MENU
 .nav_bottom ul li:before {
 	content: ">>";
 	margin-right: 4px;
+}
+
+.main .navbar-wrapper #navbar {
+	min-height: 100%;
+}
+
+.main .navbar-wrapper #navbar ul.nav li a,
+.main .navbar-wrapper #navbar ul.nav li span {
+	color: #da551b;
+}
+
+.main .navbar-wrapper #navbar ul.nav li a:hover,
+.main .navbar-wrapper #navbar ul.nav li span:hover {
+	border-bottom: solid 2px #da551b;
+}
+
+.main .navbar-wrapper #navbar ul.nav li span:hover {
+	border-bottom: solid 2px transparent;
+}
+
+.equipe .navbar-wrapper .navbar-header .navbar-brand {
+	background-color: #ffffff;
 }
 
 /* ==================================================================
@@ -8552,6 +8700,36 @@ Page: EQUIPE
 	margin-top: 8em;
 }
 
+.equipe section.equipe-fundador .info div {
+	margin-left: 70px;
+}
+
+.equipe section.equipe-fundador .info div h2 {
+	font-size: 30px;
+	font-family: 'Lato', Helvetica, Arial, sans-serif;
+	text-transform: uppercase;
+	font-weight: 300;
+	color: #ffffff;
+	margin-bottom: .4em;
+}
+
+.equipe section.equipe-fundador .info div p {
+	font-size: 14px;
+	font-family: 'Lato', Helvetica, Arial, sans-serif;
+	color: #ffffff;
+}
+
+.equipe section.equipe-fundador .info div .btn {
+	font-size: 20px;
+	min-width: 200px;
+	text-align: left;
+}
+
+.equipe section.equipe-fundador .info div .btn .ico {
+	background-size: 70% auto;
+	top: 19px;
+}
+
 .equipe section * {
 	font-family: 'Lato', Helvetica, Arial, sans-serif;
 	font-weight: 100;
@@ -8579,6 +8757,10 @@ Page: EQUIPE
 
 .equipe section .list-nomes li {
 	text-transform: uppercase;
+}
+
+.equipe section .img-type01 {
+	cursor: pointer;
 }
 
 /* ==================================================================
@@ -9657,6 +9839,20 @@ td.visible-sm {
 
 }
 
+@media (min-width: 769px) {
+
+#footer .row [class^="col-"]:nth-child(1) {
+	width: 30%;
+}
+
+#footer .row [class^="col-"]:nth-child(2) {
+	width: 18%;
+	border-left: solid 1px #ffffff;
+	border-right: solid 1px #ffffff;
+}
+
+}
+
 @media (min-width: 992px) {
 
 .container {
@@ -10190,6 +10386,241 @@ td.visible-lg {
 
 #header .navbar-wrapper + .container > .row .item-notice {
 	width: 45.834%;
+}
+
+}
+
+@media (max-width: 1350px) {
+
+.main section.sec_equipe .row {
+	min-height: 770px;
+	height: auto;
+}
+
+.main section.sec_equipe .row h1 {
+	font-size: 40px;
+}
+
+.main section.sec_equipe .row p {
+	padding-right: 0;
+}
+
+}
+
+@media (max-width: 1250px) {
+
+.main section.sec_equipe .row {
+	min-height: 720px;
+}
+
+.main section.sec_equipe .row h1 {
+	font-size: 40px;
+}
+
+}
+
+@media (max-width: 1200px) {
+
+.navbar-wrapper .navbar-header .navbar-brand {
+	max-width: 350px;
+}
+
+.navbar-wrapper #navbar ul.nav.nav_top li a,
+.navbar-wrapper #navbar ul.nav.nav_top li span {
+	max-height: 77px;
+	line-height: 7em;
+	font-size: 100%;
+}
+
+}
+
+@media (max-width: 1199px) {
+
+.container {
+	width: 100%;
+}
+
+.item h3 {
+	font-size: 22px;
+	height: 52px;
+}
+
+#header .navbar-wrapper + .container > .row .item-notice {
+	width: 45.666667%;
+}
+
+.main #header .item-notice h3 {
+	font-size: 24px;
+	height: 60px;
+}
+
+.main #header .item-notice p {
+	height: 70px;
+}
+
+.navbar-wrapper #navbar ul.nav.nav_lang {
+	padding-top: 42px;
+}
+
+.main section.sec_featutes .row .item {
+	padding-bottom: 0;
+}
+
+.main section.sec_profile .cont_profile {
+	min-height: 575px;
+}
+
+.main section.sec_profile .cont_profile .inner h1 {
+	font-size: 42px;
+}
+
+.main section.sec_profile .cont_profile .inner p {
+	font-size: 18px;
+}
+
+.main section.sec_equipe .row {
+	min-height: 560px;
+}
+
+.main section.sec_equipe .row .btn {
+	width: 100%;
+	text-align: left;
+}
+
+}
+
+@media (max-width: 1100px) {
+
+.item.item-notice img {
+	margin-top: 0;
+}
+
+.img-md {
+	display: block;
+}
+
+#header .navbar-wrapper + .container > .row .item-notice {
+	width: 50%;
+}
+
+#header .navbar-wrapper + .container > .row .item-notice .inner {
+	padding-left: 3em;
+	padding-right: 3em;
+}
+
+#header .navbar-wrapper + .container > .row .item-notice.col-md-offset-1 {
+	margin-left: 0;
+}
+
+.main #header .item-notice h3 {
+	height: 35px;
+}
+
+.main #header .item-notice img.img-lg {
+	display: none;
+}
+
+.navbar-wrapper .navbar-header .navbar-brand {
+	max-width: 275px;
+}
+
+.navbar-wrapper #navbar ul.nav.nav_top li a,
+.navbar-wrapper #navbar ul.nav.nav_top li span {
+	max-height: 60px;
+	line-height: 6em;
+}
+
+.navbar-wrapper #navbar ul.nav.nav_lang {
+	padding-top: 28px;
+}
+
+.main section.sec_equipe .row {
+	min-height: 520px;
+}
+
+.main section.sec_equipe .row .inner {
+	padding-top: 120px;
+}
+
+.main section.sec_equipe .row h1 {
+	font-size: 34px;
+}
+
+}
+
+@media (max-width: 940px) {
+
+.main section.sec_equipe .row {
+	background-size: 50% auto;
+}
+
+}
+
+@media (max-width: 768px) {
+
+.main #header .item-notice h3 {
+	height: auto;
+	overflow: inherit;
+}
+
+#footer .navbar-brand {
+	float: none;
+	display: inline-block;
+}
+
+#footer .row [class^="col-"] {
+	width: 100%;
+	max-width: 480px;
+	margin-left: auto;
+	margin-right: auto;
+	float: none;
+}
+
+#footer .row [class^="col-"]:nth-child(1) {
+	text-align: center;
+}
+
+#footer .row [class^="col-"]:nth-child(2) {
+	border-top: solid 1px #ffffff;
+	border-bottom: solid 1px #ffffff;
+	margin-bottom: 2.5em;
+	padding-top: 2.5em;
+	padding-bottom: 2.5em;
+}
+
+#footer .row [class^="col-"]:nth-child(2) ul {
+	max-width: 130px;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+.navbar-wrapper .navbar-header .navbar-brand {
+	max-width: 175px;
+}
+
+.main section.sec_featutes {
+	padding: 4em 3em;
+}
+
+.main section.sec_profile .cont_profile {
+	padding-top: 478px;
+}
+
+.main section.sec_profile .cont_profile:after,
+.main section.sec_profile .cont_profile:before {
+	width: 100%;
+	height: 478px;
+	display: block;
+	background-size: 100% auto;
+}
+
+.main section.sec_profile .cont_profile:after {
+	left: 0;
+	top: 0;
+}
+
+.main section.sec_profile .cont_profile:before {
+	display: none;
 }
 
 }

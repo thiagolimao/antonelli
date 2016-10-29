@@ -19,6 +19,12 @@ FOOTER
             width: 100%;
             display: inline-block;
         }
+
+        @media (max-width: 768px)
+        {
+            float: none;
+            display: inline-block;
+        }
     }
 
     .row
@@ -31,17 +37,56 @@ FOOTER
             padding-left: 35px;
             padding-right: 35px;
 
-            &:nth-child(1)
+            @media (min-width: 769px)
             {
-                width: 30%;
+                &:nth-child(1)
+                {
+                    width: 30%;
+                }
+
+                &:nth-child(2)
+                {
+                    width: 18%;
+                    border-left: solid 1px @white;
+                    border-right: solid 1px @white;
+                }
+
             }
 
-            &:nth-child(2)
+            @media (max-width: 768px)
             {
-                width: 18%;
-                border-left: solid 1px @white;
-                border-right: solid 1px @white;
+                width: 100%;
+                max-width: 480px;
+                margin-left: auto;
+                margin-right: auto;
+
+                float: none;
+
+                &:nth-child(1)
+                {
+                    text-align: center;
+                }
+
+                &:nth-child(2)
+                {
+                    border-top: solid 1px @white;
+                    border-bottom: solid 1px @white;
+
+                    margin-bottom: 2.5em;
+
+                    padding-top: 2.5em;
+                    padding-bottom: 2.5em;
+
+                    ul
+                    {
+                        max-width: 130px;
+                        margin-left: auto;
+                        margin-right: auto;
+                    }
+                }
+
             }
+
             &:nth-child(3)
             {
                 div

@@ -1,6 +1,6 @@
 body
 {
-	min-width: @screen;
+	// min-width: @screen;
     border-top: solid 4px @brand-primary;
     // padding-bottom: 40px;
     color: @text-color;
@@ -13,6 +13,12 @@ body
     {
         width: 100%;
         max-width: 1370px;
+    }
+
+    @media (max-width: 1199px)
+    {
+        width: 100%;
+        // max-width: 1370px;
     }
 }
 

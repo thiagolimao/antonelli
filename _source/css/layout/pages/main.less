@@ -12,6 +12,11 @@ Page: HOME
             padding-top: 105px;
             padding-bottom: 105px;
 
+            @media (max-width: 768px)
+            {
+                padding: 4em 3em;
+            }
+
             .row
             {
                 background-color: #f8f7f3;
@@ -21,6 +26,12 @@ Page: HOME
                     padding: 3em;
 
                     border-right: solid 1px @white;
+
+                    @media (max-width: 1199px)
+                    {
+                        // margin-top: 0;
+                        padding-bottom: 0;
+                    }
 
                     &:last-child
                     {
@@ -39,6 +50,16 @@ Page: HOME
                 position: relative;
                 min-height: 675px;
 
+                @media (max-width: 1199px)
+                {
+                    min-height: 575px;
+                }
+
+                @media (max-width: 768px)
+                {
+                    padding-top: 478px;
+                }
+
                 &:after,
                 &:before
                 {
@@ -51,6 +72,17 @@ Page: HOME
 
                     background-size: auto 100%;
                     background-repeat: no-repeat;
+
+                    @media (max-width: 768px)
+                    {
+                        width: 100%;
+                        height: 478px;
+
+                        display: block;
+
+                        background-size: 100% auto;
+                    }
+
                 }
 
                 &:after
@@ -59,6 +91,12 @@ Page: HOME
 
                     background-image: url(../img/img_left_profile.jpg);
                     background-position: right top;
+
+                    @media (max-width: 768px)
+                    {
+                        left: 0;
+                        top: 0;
+                    }
                 }
                 &:before
                 {
@@ -66,6 +104,12 @@ Page: HOME
 
                     background-image: url(../img/img_right_profile.jpg);
                     background-position: left top;
+
+
+                    @media (max-width: 768px)
+                    {
+                        display: none;
+                    }
                 }
 
                 .inner
@@ -77,12 +121,22 @@ Page: HOME
                         font-size: ceil((@font-size-base * 5.0));
                         margin-bottom: .5em;
                         .fw-thin;
+
+                        @media (max-width: 1199px)
+                        {
+                            font-size: ceil((@font-size-base * 4.2));
+                        }
                     }
 
                     p
                     {
                         font-size: ceil((@font-size-base * 2.0));
                         .fw-thin;
+
+                        @media (max-width: 1199px)
+                        {
+                            font-size: ceil((@font-size-base * 1.8));
+                        }
                     }
 
                     .btn
@@ -110,15 +164,67 @@ Page: HOME
                 min-height: 770px;
                 height: 100vh;
 
+                @media (max-width: 1350px)
+                {
+                    min-height: 770px;
+                    height: auto;
+                }
+
+                @media (max-width: 1250px)
+                {
+                    min-height: 720px;
+                }
+
+                @media (max-width: 1199px)
+                {
+                    min-height: 560px;
+                    .btn
+                    {
+                        width: 100%;
+                        text-align: left;
+                    }
+                }
+
+                @media (max-width: 1100px)
+                {
+                    min-height: 520px;
+                }
+
+                @media (max-width: 940px)
+                {
+                    background-size: 50% auto;
+                }
+
+
                 .inner
                 {
                     padding-top: 150px;
+                    @media (max-width: 1100px)
+                    {
+                        padding-top: 120px;
+                    }
                 }
                 h1
                 {
                     font-size: ceil((@font-size-base * 5.0));
                     margin-bottom: .5em;
                     .fw-thin;
+
+                    @media (max-width: 1350px)
+                    {
+                        font-size: ceil((@font-size-base * 4.0));
+                    }
+
+
+                    @media (max-width: 1250px)
+                    {
+                        font-size: ceil((@font-size-base * 4.0));
+                    }
+
+                    @media (max-width: 1100px)
+                    {
+                        font-size: ceil((@font-size-base * 3.4));
+                    }
                 }
 
                 p
@@ -126,6 +232,11 @@ Page: HOME
                     font-size: ceil((@font-size-base * 2.0));
                     .fw-thin;
                     padding-right: 4em;
+
+                    @media (max-width: 1350px)
+                    {
+                        padding-right: 0;
+                    }
                 }
 
                 .btn

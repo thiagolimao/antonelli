@@ -1,0 +1,88 @@
+/* ==================================================================
+MODAL
+================================================================== */
+.modal
+{
+    .modal-sm
+    {
+        width: 550px;
+    }
+
+    .modal-lg
+    {
+        width: 950px;
+    }
+
+    .modal-content
+    {
+        border-radius: 0;
+        padding-bottom: 20px;
+
+        .modal-header
+        {
+            border-top: solid 12px @brand-primary;
+            border-bottom: none;
+            padding: 0;
+
+            .close
+            {
+                margin-top: -12px;
+                color: @white;
+                opacity: 1;
+
+                display: block;
+                width: 40px;
+                height: 40px;
+
+                background-image: url(../img/ico_close.png);
+                background-color: @brand-primary;
+                background-repeat: no-repeat;
+                background-position: center;
+
+            }
+        }
+
+        .modal-body
+        {
+            padding: 20px 60px;
+
+            p
+            {
+                margin: 20px 0 0 0;
+            }
+        }
+
+        .modal-footer
+        {
+            border: none;
+            text-align: left;
+            padding: 20px 60px;
+        }
+    }
+
+    &.modalFundador
+    {
+        .modal-content
+        {
+            .modal-footer
+            {
+                text-transform: uppercase;
+                padding-top: 0;
+                padding-bottom: 10px;
+
+                p
+                {
+                    margin-bottom: 0;
+                }
+            }
+        }
+    }
+
+    &.modalSubArea
+    {
+        .modal-dialog
+        {
+            width: 800px;
+        }
+    }
+}

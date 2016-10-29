@@ -3,13 +3,13 @@
         <div class="container">
             <div class="row">
 
-                <div class="col-lg-4">
+                <div class="col-lg-4 col-md-4 col-sm-4 col-xs-12">
                     <a class="navbar-brand" href="#">
                         <img src="img/logo_antonelli_white.png" alt="">
                     </a>
                 </div><!-- / -->
 
-                <div class="col-lg-2">
+                <div class="col-lg-2 col-md-2 col-sm-2 col-xs-12">
                     <ul class="nav nav-pills nav-stacked nav_bottom">
                         <li role="presentation"><a href="index.php" title="Home">Home</a></li>
                         <li role="presentation"><a href="o-escritorio.php" title="O Escritório">O Escritório</a></li>
@@ -27,7 +27,7 @@
 
                 </div><!-- / -->
 
-                <div class="col-lg-6">
+                <div class="col-lg-6 col-md-6 col-sm-6 col-xs-12">
 
                     <div class="">
                         <h3>Assine nossa News Letter:</h3>
