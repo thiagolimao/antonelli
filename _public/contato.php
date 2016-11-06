@@ -7,7 +7,7 @@
     <?php include 'inc/inc_head.php';?>
 </head>
 
-<body class="contato">
+<body class="contato" id="page-top" data-spy="scroll" data-target=".navbar-fixed-top">
     <!-- ==============================================
     Preloader
     =============================================== -->
@@ -55,6 +55,7 @@
                             </li>
                             <li class="end">
                                 Rua Vinícius de Morais, nº111, 3º andar <br>Rio de janeiro - RJ
+                                <a href="javascript:void(0);" data-toggle="modal" data-target=".modalMapa">ver mapa</a>
                             </li>
                         </ul>
 
@@ -67,6 +68,7 @@
                             </li>
                             <li class="end">
                                 Rua Vinícius de Morais, nº111, 3º andar <br>Rio de janeiro - RJ
+                                <a href="javascript:void(0);" data-toggle="modal" data-target=".modalMapa">ver mapa</a>
                             </li>
                         </ul>
 
@@ -88,6 +90,7 @@
                             </li>
                             <li class="end">
                                 Rua Vinícius de Morais, nº111, 3º andar <br>Rio de janeiro - RJ
+                                <a href="javascript:void(0);" data-toggle="modal" data-target=".modalMapa">ver mapa</a>
                             </li>
                         </ul>
                     </div><!-- /inner -->
@@ -105,6 +108,7 @@
                             </li>
                             <li class="end">
                                 Rua Vinícius de Morais, nº111, 3º andar <br>Rio de janeiro - RJ
+                                <a href="javascript:void(0);" data-toggle="modal" data-target=".modalMapa">ver mapa</a>
                             </li>
                         </ul>
                     </div><!-- /inner -->
@@ -158,16 +162,52 @@
         </div><!-- /container -->
     </section><!-- / -->
 
+    <!--
     <section class="googlemaps">
-        <div class="overlay"></div><!-- /overlay -->
         <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3673.0846284413433!2d-43.20525438450342!3d-22.98391528497262!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x9bd51aa6dee2d7%3A0x504fa115bd19680!2sR.+Vin%C3%ADcius+de+Moraes%2C+111+-+Ipanema%2C+Rio+de+Janeiro+-+RJ%2C+22411-010!5e0!3m2!1spt-BR!2sbr!4v1477166729126" width="100%" height="670px" frameborder="0" style="border:0" allowfullscreen></iframe>
-    </section><!-- /googlemaps -->
+    </section>
+    /googlemaps -->
 
 
     <!-- ==============================================
     Footer
     =============================================== -->
     <?php include 'inc/inc_footer.php';?>
+    <!-- ==============================================
+    MODAIS
+    =============================================== -->
+
+    <!-- FUNDADOR -->
+    <div class="modal fade modalMapa" tabindex="-1" role="dialog" aria-labelledby="myLargeModalLabel">
+        <div class="modal-dialog modal-lg" role="document">
+            <div class="modal-content">
+
+                <div class="modal-header">
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close"></button>
+                </div><!-- /.modal-header -->
+
+                <div class="modal-body">
+                    <div class="row">
+                        <div class="col-md-12">
+                            <h2 class="title-color">
+                                Ipanema
+                            </h2>
+                            <p class="end">
+                                Rua Vinícius de Morais, nº111, 3º andar <br>Rio de janeiro - RJ
+                            </p>
+                        </div>
+                    </div><!-- /.row -->
+
+                    <div class="row">
+                        <div class="col-md-12">
+                                <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3673.0846284413433!2d-43.20525438450342!3d-22.98391528497262!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x9bd51aa6dee2d7%3A0x504fa115bd19680!2sR.+Vin%C3%ADcius+de+Moraes%2C+111+-+Ipanema%2C+Rio+de+Janeiro+-+RJ%2C+22411-010!5e0!3m2!1spt-BR!2sbr!4v1477166729126" width="100%" height="410px" frameborder="0" style="border:0" allowfullscreen></iframe>
+                        </div>
+                    </div>
+                </div><!-- /.modal-body -->
+
+            </div><!-- /.modal-content -->
+        </div><!-- /.modal-dialog -->
+    </div><!-- /.modal -->
 
 </body>
 </html>

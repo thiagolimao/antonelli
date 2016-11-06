@@ -20,8 +20,9 @@ body
 p
 {
     font-size: @font-size-small;
-    line-height: 1.8em;
+    line-height: 1.5em;
     margin: 0 0 20px 0;
+    .fw-light;
 }
 
 li
@@ -34,6 +35,10 @@ a {
     &:hover {
         text-decoration: underline;
         color: @link-hover-color;
+    }
+    &:focus {
+        outline: none;
+        outline-offset: -2px;
     }
 }
 
@@ -93,7 +98,7 @@ h3 {
     font-size: @font-size-large;
     color: @brand-primary;
     text-transform: lowercase;
-    .fw-bold;
+    .fw-normal;
 }
 
 .title-news
@@ -101,7 +106,7 @@ h3 {
     color: @text-color;
     line-height: 1.2em;
     text-transform: uppercase;
-    .fw-thin;
+    .fw-light;
 }
 
 .title-default
@@ -109,7 +114,7 @@ h3 {
     color: @white;
     line-height: 1.2em;
     text-transform: uppercase;
-    .fw-thin;
+    .fw-light;
 }
 
 .title-color
@@ -117,7 +122,7 @@ h3 {
     font-size: ceil((@font-size-base * 3.0));
     color: @brand-primary;
     text-transform: uppercase;
-    font-family: @font-family-secundary;
+    // font-family: @font-family-secundary;
     .fw-light;
 }
 
@@ -126,7 +131,7 @@ h3 {
     font-size: ceil((@font-size-base * 2.0));
     color: @text-color;
     text-transform: uppercase;
-    font-family: @font-family-secundary;
+    // font-family: @font-family-secundary;
     .fw-light;
 }
 
@@ -135,7 +140,7 @@ h3 {
     color: @text-color;
     line-height: 1.2em;
     text-transform: uppercase;
-    .fw-thin;
+    .fw-light;
 
     padding-left: 70px;
 
@@ -168,7 +173,7 @@ h3 {
     li
     {
         .pull-left;
-        .fw-thin;
+        .fw-light;
         line-height: 53px;
         list-style-type: none;
         margin-left: 15px;

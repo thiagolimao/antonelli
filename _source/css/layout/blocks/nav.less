@@ -29,6 +29,7 @@ MENU
 
     .navbar
     {
+        border-bottom: none;
         .container
         {
             width: auto;
@@ -86,8 +87,6 @@ MENU
             {
                 height: 115px;
                 padding-left: 1%;
-
-
                 li
                 {
                     height: 100%;
@@ -99,6 +98,7 @@ MENU
                         background-color: @brand-primary;
                         // display: block;
                         top: 80%;
+                        min-width: 180px;
                         li
                         {
                             margin-left: .5em;
@@ -119,6 +119,8 @@ MENU
                                 line-height: 3em;
                                 padding: 0 .5em;
                                 border-bottom: solid 1px @white;
+                                font-size: 1.1em;
+                                .fw-light;
                                 &:hover
                                 {
                                     color: rgba(255, 255, 255, .8);
@@ -136,18 +138,6 @@ MENU
                         }
                     }
 
-                    &.active
-                    {
-                        a
-                        {
-                            border-bottom: solid 2px @brand-primary;
-                            cursor: default;
-                            &:hover
-                            {
-                                border-bottom: solid 2px @brand-primary;
-                            }
-                        }
-                    }
                     a,span
                     {
                         color: @white;
@@ -221,6 +211,41 @@ MENU
 
                         -webkit-filter: grayscale(0);
                         filter: grayscale(0);
+
+                        a
+                        {
+                            background-color: transparent;
+                        }
+                    }
+                }
+            }
+        }
+    }
+
+    .top-nav-collapse
+    {
+        #navbar
+        {
+            ul.nav_top
+            {
+                li
+                {
+                    a,span
+                    {
+                        color: @brand-primary;
+
+                        &:hover
+                        {
+                            border-bottom: solid 2px @brand-primary;
+                        }
+                    }
+
+                    span
+                    {
+                        &:hover
+                        {
+                            border-bottom: solid 2px transparent;
+                        }
                     }
                 }
             }
@@ -282,7 +307,7 @@ MENU
                 content: ">>";
                 margin-right: 4px;
             }
-            .fw-thin;
+            .fw-light;
         }
     }
 }
@@ -323,16 +348,17 @@ MENU
 }
 
 
-.equipe
+.escritorio .navbar-wrapper #navbar ul.nav li.nav_escritorio a,
+.equipe     .navbar-wrapper #navbar ul.nav li.nav_equipe a,
+.atuacao    .navbar-wrapper #navbar ul.nav li.nav_atuacao a,
+.news       .navbar-wrapper #navbar ul.nav li.nav_comunicacao span,
+.contato    .navbar-wrapper #navbar ul.nav li.nav_contato a
 {
-    .navbar-wrapper
+    border-bottom: solid 2px @brand-primary;
+    background-color: transparent;
+    cursor: default;
+    &:hover
     {
-        .navbar-header
-        {
-            .navbar-brand
-            {
-                background-color: @white;
-            }
-        }
+        border-bottom: solid 2px @brand-primary;
     }
 }

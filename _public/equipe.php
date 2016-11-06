@@ -7,7 +7,7 @@
     <?php include 'inc/inc_head.php';?>
 </head>
 
-<body class="equipe">
+<body class="equipe" id="page-top" data-spy="scroll" data-target=".navbar-fixed-top">
     <!-- ==============================================
     Preloader
     =============================================== -->
@@ -72,7 +72,7 @@
 
                     <div class="row center-col">
                         <div class="col-lg-4">
-                            <figure class="img-type01" data-toggle="modal" data-target=".modalAdvogados">
+                            <figure class="img-type01" data-toggle="modal" data-target=".modalSocios">
                                 <img src="img/tmp/img_atuacao_advogado01.jpg" class="img-responsive" alt="">
                                 <figcaption>
                                     <h4>
@@ -85,7 +85,7 @@
                             </figure><!-- /img-type01 -->
                         </div><!-- /col -->
                         <div class="col-lg-4">
-                            <figure class="img-type01" data-toggle="modal" data-target=".modalAdvogados">
+                            <figure class="img-type01" data-toggle="modal" data-target=".modalSocios">
                                 <img src="img/tmp/img_atuacao_advogado02.jpg" class="img-responsive" alt="">
                                 <figcaption>
                                     <h4>
@@ -98,7 +98,7 @@
                             </figure><!-- /img-type01 -->
                         </div><!-- /col -->
                         <div class="col-lg-4">
-                            <figure class="img-type01" data-toggle="modal" data-target=".modalAdvogados">
+                            <figure class="img-type01" data-toggle="modal" data-target=".modalSocios">
                                 <img src="img/tmp/img_atuacao_advogado03.jpg" class="img-responsive" alt="">
                                 <figcaption>
                                     <h4>
@@ -111,7 +111,7 @@
                             </figure><!-- /img-type01 -->
                         </div><!-- /col -->
                         <div class="col-lg-4">
-                            <figure class="img-type01" data-toggle="modal" data-target=".modalAdvogados">
+                            <figure class="img-type01" data-toggle="modal" data-target=".modalSocios">
                                 <img src="img/tmp/img_atuacao_advogado04.jpg" class="img-responsive" alt="">
                                 <figcaption>
                                     <h4>
@@ -124,7 +124,7 @@
                             </figure><!-- /img-type01 -->
                         </div><!-- /col -->
                         <div class="col-lg-4">
-                            <figure class="img-type01" data-toggle="modal" data-target=".modalAdvogados">
+                            <figure class="img-type01" data-toggle="modal" data-target=".modalSocios">
                                 <img src="img/tmp/img_atuacao_advogado05.jpg" class="img-responsive" alt="">
                                 <figcaption>
                                     <h4>
@@ -145,29 +145,77 @@
             <div class="row item-atuacao">
 
                 <div class="col-lg-12">
-                    <h3 class="title-type01">Advogados</h3>
+                    <h3 class="title-type01">Equipe</h3>
 
                     <ul class="list-nomes">
                         <li>
-                            <a href="javascript:void(0);" data-toggle="modal" data-target=".modalAdvogados">Nome Completo do Avgogado</a>
+                            <a href="javascript:void(0);" data-toggle="modal" data-target=".modalEquipe">Nome Completo do Avgogado</a>
                         </li>
                         <li>
-                            <a href="javascript:void(0);" data-toggle="modal" data-target=".modalAdvogados">Nome Completo do Avgogado</a>
+                            <a href="javascript:void(0);" data-toggle="modal" data-target=".modalEquipe">Nome Completo do Avgogado</a>
                         </li>
                         <li>
-                            <a href="javascript:void(0);" data-toggle="modal" data-target=".modalAdvogados">Nome Completo do Avgogado</a>
+                            <a href="javascript:void(0);" data-toggle="modal" data-target=".modalEquipe">Nome Completo do Avgogado</a>
                         </li>
                         <li>
-                            <a href="javascript:void(0);" data-toggle="modal" data-target=".modalAdvogados">Nome Completo do Avgogado</a>
+                            <a href="javascript:void(0);" data-toggle="modal" data-target=".modalEquipe">Nome Completo do Avgogado</a>
                         </li>
                         <li>
-                            <a href="javascript:void(0);" data-toggle="modal" data-target=".modalAdvogados">Nome Completo do Avgogado</a>
+                            <a href="javascript:void(0);" data-toggle="modal" data-target=".modalEquipe">Nome Completo do Avgogado</a>
                         </li>
                         <li>
-                            <a href="javascript:void(0);" data-toggle="modal" data-target=".modalAdvogados">Nome Completo do Avgogado</a>
+                            <a href="javascript:void(0);" data-toggle="modal" data-target=".modalEquipe">Nome Completo do Avgogado</a>
                         </li>
                         <li>
-                            <a href="javascript:void(0);" data-toggle="modal" data-target=".modalAdvogados">Nome Completo do Avgogado</a>
+                            <a href="javascript:void(0);" data-toggle="modal" data-target=".modalEquipe">Nome Completo do Avgogado</a>
+                        </li>
+                    </ul><!-- /list-nomes -->
+
+                    <ul class="list-nomes">
+                        <li>
+                            <a href="javascript:void(0);" data-toggle="modal" data-target=".modalEquipe">Nome Completo do Avgogado</a>
+                        </li>
+                        <li>
+                            <a href="javascript:void(0);" data-toggle="modal" data-target=".modalEquipe">Nome Completo do Avgogado</a>
+                        </li>
+                        <li>
+                            <a href="javascript:void(0);" data-toggle="modal" data-target=".modalEquipe">Nome Completo do Avgogado</a>
+                        </li>
+                        <li>
+                            <a href="javascript:void(0);" data-toggle="modal" data-target=".modalEquipe">Nome Completo do Avgogado</a>
+                        </li>
+                        <li>
+                            <a href="javascript:void(0);" data-toggle="modal" data-target=".modalEquipe">Nome Completo do Avgogado</a>
+                        </li>
+                        <li>
+                            <a href="javascript:void(0);" data-toggle="modal" data-target=".modalEquipe">Nome Completo do Avgogado</a>
+                        </li>
+                        <li>
+                            <a href="javascript:void(0);" data-toggle="modal" data-target=".modalEquipe">Nome Completo do Avgogado</a>
+                        </li>
+                    </ul><!-- /list-nomes -->
+
+                    <ul class="list-nomes">
+                        <li>
+                            <a href="javascript:void(0);" data-toggle="modal" data-target=".modalEquipe">Nome Completo do Avgogado</a>
+                        </li>
+                        <li>
+                            <a href="javascript:void(0);" data-toggle="modal" data-target=".modalEquipe">Nome Completo do Avgogado</a>
+                        </li>
+                        <li>
+                            <a href="javascript:void(0);" data-toggle="modal" data-target=".modalEquipe">Nome Completo do Avgogado</a>
+                        </li>
+                        <li>
+                            <a href="javascript:void(0);" data-toggle="modal" data-target=".modalEquipe">Nome Completo do Avgogado</a>
+                        </li>
+                        <li>
+                            <a href="javascript:void(0);" data-toggle="modal" data-target=".modalEquipe">Nome Completo do Avgogado</a>
+                        </li>
+                        <li>
+                            <a href="javascript:void(0);" data-toggle="modal" data-target=".modalEquipe">Nome Completo do Avgogado</a>
+                        </li>
+                        <li>
+                            <a href="javascript:void(0);" data-toggle="modal" data-target=".modalEquipe">Nome Completo do Avgogado</a>
                         </li>
                     </ul><!-- /list-nomes -->
 
@@ -235,8 +283,52 @@
         </div><!-- /.modal-dialog -->
     </div><!-- /.modal -->
 
+    <div class="modal fade modalSocios" tabindex="-1" role="dialog" aria-labelledby="myLargeModalLabel">
+        <div class="modal-dialog modal-lg" role="document">
+            <div class="modal-content">
+
+                <div class="modal-header">
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close"></button>
+                </div><!-- /.modal-header -->
+
+                <div class="modal-body">
+                    <div class="row">
+                        <div class="col-md-4">
+                            <img src="img/tmp/img_atuacao_advogado01.jpg" alt="" class="img-responsive">
+                        </div>
+                        <div class="col-md-8">
+                            <h2 class="title-color">
+                                Nome do sócio
+                            </h2>
+                            <h5 class="sub-title">
+                                Sócio Fundador
+                            </h5>
+
+                            <p>
+                                Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a tyLorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a ty.
+                            </p>
+                            <p>
+                                Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a tyLorem Ipsum is simply dummy text of the printing and typesetting 
+                            </p>
+                        </div>
+                    </div><!-- /.row -->
+                </div><!-- /.modal-body -->
+                <div class="modal-footer">
+                    <div class="row">
+                        <div class="col-md-12">
+                            <p>
+                                <span class="color">Áreas de atuação:</span> Contencioso, Tributário e Cível
+                            </p>
+                        </div>
+                    </div><!-- /.row -->
+                </div><!-- /.modal-footer -->
+
+            </div><!-- /.modal-content -->
+        </div><!-- /.modal-dialog -->
+    </div><!-- /.modal -->
+
     <!-- ADVOGADOS -->
-    <div class="modal fade modalAdvogados" tabindex="-1" role="dialog" aria-labelledby="mySmallModalLabel">
+    <div class="modal fade modalEquipe" tabindex="-1" role="dialog" aria-labelledby="mySmallModalLabel">
         <div class="modal-dialog modal-sm" role="document">
             <div class="modal-content">
 

@@ -7,7 +7,7 @@
     <?php include 'inc/inc_head.php';?>
 </head>
 
-<body class="atuacao">
+<body class="atuacao" id="page-top" data-spy="scroll" data-target=".navbar-fixed-top">
     <!-- ==============================================
     Preloader
     =============================================== -->

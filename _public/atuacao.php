@@ -7,7 +7,7 @@
     <?php include 'inc/inc_head.php';?>
 </head>
 
-<body class="atuacao">
+<body class="atuacao" id="page-top" data-spy="scroll" data-target=".navbar-fixed-top">
     <!-- ==============================================
     Preloader
     =============================================== -->
@@ -41,21 +41,21 @@
             <div class="row item-atuacao destaque">
 
                 <div class="col-lg-4">
-                    <a href="#" class="inner" title="nome da atuação 01">
+                    <a href="#area_contencioso" class="inner page-scroll" title="Contencioso & Estratégico">
                         <img src="img/img_atuacao_contencioso.jpg" class="img-responsive" alt="Contencioso & Estratégico">
                         <h4>Contencioso & <br>Estratégico</h4>
                     </a><!-- /inner -->
                 </div><!-- /col -->
 
                 <div class="col-lg-4">
-                    <a href="#" class="inner" title="nome da atuação 02">
+                    <a href="#area_tributario" class="inner page-scroll" title="Direito Tributário">
                         <img src="img/img_atuacao_tributario.jpg" class="img-responsive" alt="Direito Tributário">
                         <h4>Direito <br>Tributário</h4>
                     </a><!-- /inner -->
                 </div><!-- /col -->
 
                 <div class="col-lg-4">
-                    <a href="#" class="inner" title="nome da atuação 03">
+                    <a href="#area_reabilitacao" class="inner page-scroll" title="Reabilitação">
                         <img src="img/img_atuacao_reabilitacao.jpg" class="img-responsive" alt="Reabilitação">
                         <h4>Reabilitação</h4>
                     </a><!-- /inner -->
@@ -64,13 +64,14 @@
             </div><!-- /row -->
 
             <div class="row item-atuacao">
+                <span class="anchor" id="area_contencioso"></span>
 
                 <div class="col-lg-12">
-                    <h3 class="title-type01">Nome da  Atuação 01</h3>
+                    <h3 class="title-type01">Contencioso & Estratégico</h3>
 
                     <div class="row">
                         <div class="col-lg-5">
-                            <h4>Frase de chamada sobre a área de atuação 01</h4>
+                            <h4>Frase de chamada sobre Contencioso & Estratégico</h4>
                         </div><!-- /col -->
                         <div class="col-lg-7">
                             <p>
@@ -120,18 +121,19 @@
                     </div><!-- /extras -->
 
 
-                </div><!-- / -->
+                </div><!-- /Contencioso & Estratégico -->
 
             </div><!-- /row -->
 
             <div class="row item-atuacao">
+                <span class="anchor" id="area_tributario"></span>
 
                 <div class="col-lg-12">
-                    <h3 class="title-type01">Nome da  Atuação 02</h3>
+                    <h3 class="title-type01">Direito Tributário</h3>
 
                     <div class="row">
                         <div class="col-lg-5">
-                            <h4>Frase de chamada sobre a área de atuação 01</h4>
+                            <h4>Frase de chamada sobre Direito Tributário</h4>
                         </div><!-- /col -->
                         <div class="col-lg-7">
                             <p>
@@ -152,18 +154,19 @@
                         </a><!-- /col -->
                     </div><!-- /row -->
 
-                </div><!-- / -->
+                </div><!-- /Direito Tributário -->
 
             </div><!-- /row -->
 
             <div class="row item-atuacao">
+                <span class="anchor" id="area_reabilitacao"></span>
 
                 <div class="col-lg-12">
-                    <h3 class="title-type01">Nome da  Atuação 03</h3>
+                    <h3 class="title-type01">Reabilitação</h3>
 
                     <div class="row">
                         <div class="col-lg-5">
-                            <h4>Frase de chamada sobre a área de atuação 01</h4>
+                            <h4>Frase de chamada sobre Reabilitação</h4>
                         </div><!-- /col -->
                         <div class="col-lg-7">
                             <p>
@@ -201,7 +204,7 @@
 
                     </div><!-- /extras -->
 
-                </div><!-- / -->
+                </div><!-- /Reabilitação -->
 
             </div><!-- /row -->
 

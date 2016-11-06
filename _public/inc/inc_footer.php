@@ -15,11 +15,11 @@
                         <li role="presentation"><a href="o-escritorio.php" title="O Escritório">O Escritório</a></li>
                         <li role="presentation"><a href="equipe.php" title="Equipe">Equipe</a></li>
                         <li role="presentation"><a href="atuacao.php" title="Atuação">Atuação</a></li>
-                        <li role="presentation"><a href="comunicacao.php" title="Comunicação">Comunicação</a>
+                        <li role="presentation"><a href="javascript:void(0);" title="Comunicação">Comunicação</a>
                             <ul>
-                                <li role="presentation"><a href="#" title="Artigo">Artigo</a></li>
-                                <li role="presentation"><a href="#" title="News">News</a></li>
-                                <li role="presentation"><a href="#" title="Clipping">Clipping</a></li>
+                                <li role="presentation"><a href="artigos.php" title="Artigo">Artigo</a></li>
+                                <li role="presentation"><a href="news.php" title="News">News</a></li>
+                                <li role="presentation"><a href="clipping.php" title="Clipping">Clipping</a></li>
                             </ul>
                         </li>
                         <li role="presentation"><a href="contato.php" title="Contato">Contato</a></li>

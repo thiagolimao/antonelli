@@ -1,8 +1,7 @@
-
     <div class="navbar-wrapper">
         <div class="container">
 
-            <nav class="navbar navbar-static-top">
+            <nav class="navbar navbar-default navbar-fixed-top" role="navigation">
                 <div class="container">
 
                     <div class="navbar-header">
@@ -20,16 +19,16 @@
 
                     <div id="navbar" class="navbar-collapse collapse">
                         <ul class="nav navbar-nav nav_top">
-                            <li class="active">
+                            <li class="nav_escritorio">
                                 <a href="o-escritorio.php" title="O escritório">O escritório</a>
                             </li>
-                            <li>
+                            <li class="nav_equipe">
                                 <a href="equipe.php" title="Equipe">Equipe</a>
                             </li>
-                            <li>
+                            <li class="nav_atuacao">
                                 <a href="atuacao.php" title="Atuação">Atuação</a>
                             </li>
-                            <li>
+                            <li class="nav_comunicacao">
                                 <span>Comunicação</span>
                                 <ul class="dropdown-menu">
                                     <li>
@@ -43,7 +42,7 @@
                                     </li>
                                 </ul>
                             </li>
-                            <li>
+                            <li class="nav_contato">
                                 <a href="contato.php" title="Contato">Contato</a>
                             </li>
                         </ul><!-- / -->

@@ -7,7 +7,8 @@
     <?php include 'inc/inc_head.php';?>
 </head>
 
-<body class="main">
+<body id="page-top" class="main" data-spy="scroll" data-target=".navbar-fixed-top">
+
     <!-- ==============================================
     Preloader
     =============================================== -->
@@ -17,9 +18,38 @@
     <!-- ==============================================
     Video background
     =============================================== -->
+    <!--
     <video autoplay loop id="video-background" muted>
         <source src="https://player.vimeo.com/external/158148793.hd.mp4?s=8e8741dbee251d5c35a759718d4b0976fbf38b6f&profile_id=119&oauth2_token_id=57447761" type="video/mp4">
     </video>
+    -->
+    <div class="video-background">
+        <div class="video-foreground">
+            <iframe id="video-destaque" src="https://www.youtube.com/embed/2naasNvqi1g?controls=0&showinfo=0&rel=0&autoplay=1&loop=1&enablejsapi=1&playlist=2naasNvqi1g" frameborder="0" volume="0" allowfullscreen></iframe>
+        </div>
+    </div>
+
+    <script>
+        var tag = document.createElement('script');
+
+        tag.src = "https://www.youtube.com/iframe_api";
+        var firstScriptTag = document.getElementsByTagName('script')[0];
+        firstScriptTag.parentNode.insertBefore(tag, firstScriptTag);
+
+        var player;
+
+        function onYouTubeIframeAPIReady() {
+            player = new YT.Player('video-destaque', {
+                events: {
+                    'onReady': onPlayerReady
+                }
+            });
+        }
+
+        function onPlayerReady(event) {
+            player.mute();
+        }
+    </script>
 
 
     <!-- ==============================================
@@ -121,7 +151,7 @@
                         <p>
                             Contrary to popular belief, Lorem Ipsum is not simply random text. It has roots in a piece of classical Latin literature from 45 BC, making it over 2000 years old. Richard McClintock, a Latin professor at Hampden-Sydney College in Virginia, looked up one of the more obscure Latin words, consectetur, from a Lorem Ipsum passage, and going through the cites of the word in classical literature, discovered the undoubtable source. Lorem Ipsum comes from sections 1.10.32 and 1.10.33 of "de Finibus Bonorum et Malorum".
                         </p>
-                        <a class="btn btn-default big pull-right" href="#" role="button">saiba mais <span class="ico type01" aria-hidden="true"></span></a>
+                        <a class="btn btn-default big pull-right" href="o-escritorio.php" role="button">saiba mais <span class="ico type01" aria-hidden="true"></span></a>
                     </div><!-- /inner -->
                 </div><!-- / -->
 
@@ -136,14 +166,24 @@
         <div class="container">
             <div class="row">
 
-                <div class="col-lg-4 col-md-6 col-sm-6 col-xs-6">
+                <div class="col-lg-5 col-md-6 col-sm-6 col-xs-6">
                     <div class="inner">
                         <h1>uma frase empolgante e humanizada sobre a equipe</h1>
                         <p>
                             Contrary to popular belief, Lorem Ipsum is not simply random text. It has roots in a piece of classical Latin literature from 45 BC, making it over 2000 years old. Richard McClintock, a Latin professor at Hampden-Sydney.
                         </p>
-                        <a class="btn btn-default big" href="#" role="button">conheça nossos advogados <span class="ico type01" aria-hidden="true"></span></a>
+                        <a class="btn btn-default big" href="equipe.php" role="button">conheça nossos advogados <span class="ico type01" aria-hidden="true"></span></a>
                     </div><!-- /inner -->
+                </div><!-- / -->
+
+                <div class="col-lg-7 col-md-6 col-sm-6 col-xs-6">
+
+                    <div class="equipe_home">
+                        <div><img src="img/img_home_equipe01.png" class="img-responsive" alt=""></div>
+                        <div><img src="img/img_home_equipe02.png" class="img-responsive" alt=""></div>
+                        <div><img src="img/img_home_equipe03.png" class="img-responsive" alt=""></div>
+                    </div>
+                    <!-- <img src="img/img_home_equipe.png" alt=""> -->
                 </div><!-- / -->
 
             </div><!-- /row -->

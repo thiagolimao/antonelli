@@ -10,8 +10,8 @@ Page: ESCRITORIO
 
         *
         {
-            font-family: @font-family-secundary;
-            .fw-thin;
+            // font-family: @font-family-secundary;
+            // .fw-light;
         }
 
 
@@ -32,6 +32,7 @@ Page: ESCRITORIO
                 text-transform: uppercase;
                 font-size: ceil((@font-size-base * 3.0));
                 max-width: 90%;
+                .fw-light;
             }
         }
 
@@ -102,6 +103,7 @@ Page: ESCRITORIO
                         span
                         {
                             display: block;
+                            .fw-light;
                         }
                     }
 
@@ -220,10 +222,22 @@ Page: ESCRITORIO
             {
                 position: relative;
 
+                &.no-pd-lf
+                {
+                    padding-left: 0;
+                }
+
+
+                .sub-title
+                {
+                    font-size: ceil((@font-size-base * 3.0));
+                    margin-bottom: .4em;
+                }
 
                 .title-cat
                 {
                     text-transform: uppercase;
+                    .fw-light;
                     font-size: ceil((@font-size-base * 3.0));
                 }
 
@@ -294,6 +308,10 @@ Page: ESCRITORIO
                     display: inline-block;
                 }
 
+            }
+
+            .col-lg-4 {
+                width: 28%;
             }
 
             .row + .row

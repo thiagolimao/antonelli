@@ -1,0 +1,32 @@
+/* ==================================================================
+SCROLLING-NAV
+================================================================== */
+@media(min-width:767px) {
+    .navbar {
+        padding: 20px 0;
+        -webkit-transition: background .5s ease-in-out,padding .5s ease-in-out;
+        -moz-transition: background .5s ease-in-out,padding .5s ease-in-out;
+        transition: background .5s ease-in-out,padding .5s ease-in-out;
+
+        background-color: transparent;
+    }
+
+    .top-nav-collapse {
+        top: -15px;
+        padding: 0;
+        margin-bottom: 0;
+        background-color: #ffffff;
+        &:before
+        {
+            width: 100%;
+            height: 4px;
+            display: block;
+            background-color: #da551b;
+            position: absolute;
+            top: 15px;
+            left: 0;
+
+            z-index: 9999;
+        }
+    }
+}

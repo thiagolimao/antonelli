@@ -10,11 +10,14 @@ Page: EQUIPE
 
             background-repeat: no-repeat;
             background-position: top center;
-            background-size: auto 100%;
+            background-size: cover;
 
             .container
             {
                 min-height: 580px;
+
+                background-repeat: no-repeat;
+                background-position: right bottom;
             }
 
             .title-type01
@@ -37,7 +40,7 @@ Page: EQUIPE
                     h2
                     {
                         font-size: ceil((@font-size-base * 3.0));
-                        font-family: @font-family-secundary;
+                        // font-family: @font-family-secundary;
                         text-transform: uppercase;
                         .fw-light;
                         color: @white;
@@ -46,7 +49,7 @@ Page: EQUIPE
                     p
                     {
                         font-size: ceil((@font-size-base * 1.4));
-                        font-family: @font-family-secundary;
+                        // font-family: @font-family-secundary;
                         color: @white;
                     }
                     .btn
@@ -66,8 +69,8 @@ Page: EQUIPE
 
         *
         {
-            font-family: @font-family-secundary;
-            .fw-thin;
+            // font-family: @font-family-secundary;
+            // .fw-light;
         }
 
         .row + .row
@@ -96,6 +99,11 @@ Page: EQUIPE
 
         .list-nomes
         {
+            margin-bottom: 40px;
+            &:last-child
+            {
+                margin-bottom: 0;
+            }
             li
             {
                 text-transform: uppercase;
