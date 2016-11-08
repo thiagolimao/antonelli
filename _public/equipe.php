@@ -52,7 +52,7 @@
                 <div class="col-lg-5">
                     <h2>Leonardo Antonelli</h2>
                     <p>
-                        Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a tyLorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a ty.
+                        Graduado pela Faculdade Cândido Mendes; Pós-graduado em direito tributário; mestre em direito econômico pela UCAM; professor universitário e conferencista; integrou diversas bancas em concursos públicos, entre as quais a da magistratura de carreira, delegado da polícia federal e civil; atua ainda como Conselheiro da OAB onde Preside a Comissão de Defesa do Jurisdicionado;
                     </p>
                     <a class="btn btn-default" href="javascript:void(0);" data-toggle="modal" data-target=".modalFundador">saiba mais <span class="ico type01" aria-hidden="true"></span></a>
                 </div><!-- /.col-lg-5 -->

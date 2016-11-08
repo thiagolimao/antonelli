@@ -7316,6 +7316,10 @@ body {
 	visibility: hidden !important;
 }
 
+.noShow {
+	visibility: hidden !important;
+}
+
 img {
 	display: inline-block;
 }
@@ -7437,6 +7441,13 @@ h2 {
 
 h3 {
 	font-size: 30px;
+}
+
+h6 {
+	font-size: 14px;
+	line-height: 1.5em;
+	margin: 0;
+	font-weight: 400;
 }
 
 .title-cat {
@@ -8766,6 +8777,7 @@ Page: HOME
 	font-size: 50px;
 	margin-bottom: .5em;
 	font-weight: 300;
+	max-width: 470px;
 }
 
 .main section.sec_equipe .row p {
@@ -8824,6 +8836,28 @@ Page: NEWS
 
 .news section .title-type01 {
 	margin-bottom: 1.3em;
+}
+
+.news section article h2.title-cat {
+	font-size: 50px;
+	text-transform: uppercase;
+	margin-bottom: 30px;
+	font-weight: 300;
+	max-width: 80%;
+}
+
+.news section article p {
+	font-size: 18px;
+	margin-bottom: 30px;
+}
+
+.news section article figure {
+	margin-bottom: 30px;
+}
+
+.news section article img.img-responsive {
+	display: inline-block;
+	min-width: 100%;
 }
 
 .news .pagination {
@@ -9057,13 +9091,17 @@ Page: ESCRITORIO
 }
 
 .escritorio section.sec_razoes [class^="col-"] .text.missao {
-	top: 123px;
+	top: 112px;
 	margin-left: -530px;
 	padding-bottom: 15px;
 	width: 433px;
 	background-image: url(../img/bg_text_missao.png);
 	background-repeat: no-repeat;
 	background-position: left bottom;
+}
+
+.escritorio section.sec_razoes [class^="col-"] .text.missao p {
+	padding-right: 80px;
 }
 
 .escritorio section.sec_razoes [class^="col-"] .text.valores {
@@ -9090,6 +9128,10 @@ Page: ESCRITORIO
 	margin-top: 22em;
 }
 
+.escritorio section.sec_historia .row:first-child {
+	min-height: 560px;
+}
+
 .escritorio section.sec_historia [class^="col-"] {
 	position: relative;
 }
@@ -9111,28 +9153,36 @@ Page: ESCRITORIO
 
 .escritorio section.sec_historia [class^="col-"].destaque {
 	color: #ffffff;
-	margin-top: 120px;
+	margin-top: 0;
 	z-index: 10;
 }
 
-.escritorio section.sec_historia [class^="col-"].destaque p {
-	padding: 2em;
-	margin-left: -15px;
-	margin-right: -15px;
-	background-color: #da551b;
+.escritorio section.sec_historia [class^="col-"].destaque .sub-title {
+	font-size: 26px;
+	line-height: 38px;
 }
 
-.escritorio section.sec_historia [class^="col-"].destaque p:last-child {
+.escritorio section.sec_historia [class^="col-"].destaque div {
+	background-color: #da551b;
+	padding: 0 2em 2em 2em;
+	margin-left: -15px;
+	margin-right: -15px;
+	height: 100%;
+	min-height: 560px;
+}
+
+.escritorio section.sec_historia [class^="col-"].destaque div p:last-child {
 	margin-bottom: 0;
 }
 
 .escritorio section.sec_historia [class^="col-"].destaque:after {
 	position: absolute;
-	top: -120px;
+	top: 0;
 	left: 0;
 	content: "";
 	width: 1150px;
 	height: 100%;
+	min-height: 560px;
 	background-size: auto 100%;
 	background-repeat: no-repeat;
 	z-index: -10;

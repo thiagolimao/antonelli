@@ -52,7 +52,7 @@
                                 <p>
                                     Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.
                                 </p>
-                                <a class="btn btn-default" href="#" role="button">saiba mais <span class="ico type02" aria-hidden="true"></span></a>
+                                <a class="btn btn-default" href="news_interna.php" role="button">saiba mais <span class="ico type02" aria-hidden="true"></span></a>
                             </div><!-- /col -->
                         </div><!-- /row -->
 
@@ -70,7 +70,7 @@
                         <p>
                             Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard.
                         </p>
-                        <a class="btn btn-default" href="#" role="button">saiba mais <span class="ico type02" aria-hidden="true"></span></a>
+                        <a class="btn btn-default" href="news_interna.php" role="button">saiba mais <span class="ico type02" aria-hidden="true"></span></a>
                     </div><!-- /inner -->
                 </div><!-- / -->
 
@@ -81,7 +81,7 @@
                         <p>
                             Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard.
                         </p>
-                        <a class="btn btn-default" href="#" role="button">saiba mais <span class="ico type02" aria-hidden="true"></span></a>
+                        <a class="btn btn-default" href="news_interna.php" role="button">saiba mais <span class="ico type02" aria-hidden="true"></span></a>
                     </div><!-- /inner -->
                 </div><!-- / -->
 
@@ -92,7 +92,7 @@
                         <p>
                             Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard.
                         </p>
-                        <a class="btn btn-default" href="#" role="button">saiba mais <span class="ico type02" aria-hidden="true"></span></a>
+                        <a class="btn btn-default" href="news_interna.php" role="button">saiba mais <span class="ico type02" aria-hidden="true"></span></a>
                     </div><!-- /inner -->
                 </div><!-- / -->
             </div><!-- /row -->
@@ -109,27 +109,27 @@
                     <h3 class="title-type01">Notícias anteriores</h3>
                     <ul class="list-news">
                         <li>
-                            <a href="#">
+                            <a href="news_interna.php">
                                 Lorem Ipsum is simply dummy text of the printing and typesetting industry.
                             </a>
                         </li>
                         <li>
-                            <a href="#">
+                            <a href="news_interna.php">
                                 Lorem Ipsum is simply dummy text of the printing and typesetting industry. and typesetting industry.
                             </a>
                         </li>
                         <li>
-                            <a href="#">
+                            <a href="news_interna.php">
                                 Lorem Ipsum is simply dummy text of the printing and typesetting industry.
                             </a>
                         </li>
                         <li>
-                            <a href="#">
+                            <a href="news_interna.php">
                                 Lorem Ipsum is simply dummy text of the printing and typesetting industry. and typesetting industry.
                             </a>
                         </li>
                         <li>
-                            <a href="#">
+                            <a href="news_interna.php">
                                 Lorem Ipsum is simply dummy text of the printing and typesetting industry.
                             </a>
                         </li>

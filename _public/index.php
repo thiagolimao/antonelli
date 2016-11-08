@@ -70,7 +70,7 @@
                         <p>
                             Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s.
                         </p>
-                        <a class="btn" href="#" role="button">+</a>
+                        <a class="btn" href="news_interna.php" role="button">+</a>
                     </div><!-- /inner -->
                 </div><!-- /.col-lg-5 -->
 
@@ -83,7 +83,7 @@
                         <p>
                             Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s.
                         </p>
-                        <a class="btn" href="#" role="button">+</a>
+                        <a class="btn" href="news_interna.php" role="button">+</a>
                     </div><!-- /inner -->
                 </div><!-- /.col-lg-5 -->
 
@@ -102,7 +102,7 @@
                 <div class="col-lg-4 col-md-4 item image">
                     <img class="" src="data:image/gif;base64,R0lGODlhAQABAIAAAHd3dwAAACH5BAAAAAAALAAAAAABAAEAAAICRAEAOw==" alt="Generic placeholder image" width="100%" height="147">
                     <div class="inner">
-                        <a class="btn" href="#" role="button">+</a>
+                        <a class="btn" href="news_interna.php" role="button">+</a>
                         <h2>artigo</h2>
                         <h3>Colocar aqui o Título do destaque</h3>
                         <p>
@@ -113,7 +113,7 @@
 
                 <div class="col-lg-4 col-md-4 item">
                     <div class="inner">
-                        <a class="btn" href="#" role="button">+</a>
+                        <a class="btn" href="news_interna.php" role="button">+</a>
                         <h2>equipe</h2>
                         <h3>Contencioso</h3>
                         <p>
@@ -125,7 +125,7 @@
                 <div class="col-lg-4 col-md-4 item image">
                     <img class="" src="data:image/gif;base64,R0lGODlhAQABAIAAAHd3dwAAACH5BAAAAAAALAAAAAABAAEAAAICRAEAOw==" alt="Generic placeholder image" width="100%" height="147">
                     <div class="inner">
-                        <a class="btn" href="#" role="button">+</a> 
+                        <a class="btn" href="news_interna.php" role="button">+</a> 
                         <h2>atuação</h2>
                         <h3>Contencioso</h3>
                         <p>
@@ -147,9 +147,9 @@
 
                 <div class="col-lg-offset-7 col-lg-5 col-md-offset-6 col-md-6 cont_profile">
                     <div class="inner">
-                        <h1>uma frase instigante sobre o perfil</h1>
+                        <h1>Nossas escolhas foram determinantes para o nosso reconhecido sucesso. </h1>
                         <p>
-                            Contrary to popular belief, Lorem Ipsum is not simply random text. It has roots in a piece of classical Latin literature from 45 BC, making it over 2000 years old. Richard McClintock, a Latin professor at Hampden-Sydney College in Virginia, looked up one of the more obscure Latin words, consectetur, from a Lorem Ipsum passage, and going through the cites of the word in classical literature, discovered the undoubtable source. Lorem Ipsum comes from sections 1.10.32 and 1.10.33 of "de Finibus Bonorum et Malorum".
+                            O Antonelli Advogados tem um perfil desafiador, com atuações em causas emblemáticas e casos, aparentemente, sem solução. O Time Antonelli é persistente, incansável. Esse é o nosso negócio, buscar o resultado desenvolvendo estratégias jurídicas singulares, que se adequem ao perfil de cada cliente.
                         </p>
                         <a class="btn btn-default big pull-right" href="o-escritorio.php" role="button">saiba mais <span class="ico type01" aria-hidden="true"></span></a>
                     </div><!-- /inner -->
@@ -168,9 +168,9 @@
 
                 <div class="col-lg-5 col-md-6 col-sm-6 col-xs-6">
                     <div class="inner">
-                        <h1>uma frase empolgante e humanizada sobre a equipe</h1>
+                        <h1>Quando a equipe excede o indivíduo, a excelência se torna realidade. </h1>
                         <p>
-                            Contrary to popular belief, Lorem Ipsum is not simply random text. It has roots in a piece of classical Latin literature from 45 BC, making it over 2000 years old. Richard McClintock, a Latin professor at Hampden-Sydney.
+                            O comprometimento e o trabalho em grupo levam ao resultado planejado. O Antonelli Advogados investe em capacitação técnica e tem definido um plano de cargos e salários com uma política interna de participação nos lucros, resultados e ascensão à sociedade que estimula e possibilita o crescimento profissional daqueles que integram as nossas equipes.
                         </p>
                         <a class="btn btn-default big" href="equipe.php" role="button">conheça nossos advogados <span class="ico type01" aria-hidden="true"></span></a>
                     </div><!-- /inner -->
