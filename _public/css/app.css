@@ -8823,7 +8823,7 @@ Page: NEWS
 ================================================================== */
 
 .news section {
-	margin-top: 8em;
+	margin-top: 6em;
 }
 
 .news section .row + .row {
@@ -8838,21 +8838,47 @@ Page: NEWS
 	margin-bottom: 1.3em;
 }
 
+.news section .cont-btn .btn-voltar {
+	background-color: #da551b;
+	padding-right: 15px;
+	padding-left: 45px;
+	color: #ffffff;
+}
+
+.news section .cont-btn .btn-voltar .ico {
+	background-size: auto 55%;
+}
+
+.news section .cont-btn + article {
+	margin-top: 6em;
+}
+
+.news section article span.data,
+.news section article h2.title-cat {
+	text-align: right;
+}
+
+.news section article span.data {
+	font-size: 25px;
+	margin-bottom: 10px;
+	display: block;
+	font-weight: 300;
+}
+
 .news section article h2.title-cat {
 	font-size: 50px;
 	text-transform: uppercase;
 	margin-bottom: 30px;
 	font-weight: 300;
-	max-width: 80%;
 }
 
 .news section article p {
 	font-size: 18px;
-	margin-bottom: 30px;
+	margin-bottom: 50px;
 }
 
 .news section article figure {
-	margin-bottom: 30px;
+	margin-bottom: 50px;
 }
 
 .news section article img.img-responsive {
