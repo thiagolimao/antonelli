@@ -52,7 +52,7 @@
                 <div class="col-lg-5">
                     <h2>Leonardo Antonelli</h2>
                     <p>
-                        Graduado pela Faculdade Cândido Mendes; Pós-graduado em direito tributário; mestre em direito econômico pela UCAM; professor universitário e conferencista; integrou diversas bancas em concursos públicos, entre as quais a da magistratura de carreira, delegado da polícia federal e civil; atua ainda como Conselheiro da OAB onde Preside a Comissão de Defesa do Jurisdicionado;
+                        Graduado pela Faculdade Cândido Mendes; Pós-graduado em direito tributário; mestre em direito econômico pela UCAM; professor universitário e conferencista; integrou diversas bancas em concursos públicos, entre as quais a da magistratura de carreira, delegado da polícia federal e civil; atua ainda como Conselheiro da OAB onde Preside a Comissão de Defesa do Jurisdicionado; foi agraciado com o Premio Innovare pelo Projeto a Justiça fala para quem quer ouvir; por fim, dirigiu a Escola da Magistratura Eleitoral durante o período em que integrou o Tribunal Regional Eleitoral do Estado do Rio de Janeiro, na classe jurista, por indicação da Presidência da República.
                     </p>
                     <a class="btn btn-default" href="javascript:void(0);" data-toggle="modal" data-target=".modalFundador">saiba mais <span class="ico type01" aria-hidden="true"></span></a>
                 </div><!-- /.col-lg-5 -->
@@ -76,7 +76,7 @@
                                 <img src="img/tmp/img_atuacao_advogado01.jpg" class="img-responsive" alt="">
                                 <figcaption>
                                     <h4>
-                                        Nome do advogado
+                                        Alexandre França
                                     </h4>
                                     <h5>
                                         Área de atuação
@@ -89,7 +89,7 @@
                                 <img src="img/tmp/img_atuacao_advogado02.jpg" class="img-responsive" alt="">
                                 <figcaption>
                                     <h4>
-                                        Nome do advogado
+                                        Carolina Pederneiras Lopes
                                     </h4>
                                     <h5>
                                         Área de atuação
@@ -102,7 +102,7 @@
                                 <img src="img/tmp/img_atuacao_advogado03.jpg" class="img-responsive" alt="">
                                 <figcaption>
                                     <h4>
-                                        Nome do advogado
+                                        André Luiz Oliveira de Moraes
                                     </h4>
                                     <h5>
                                         Área de atuação
@@ -115,7 +115,7 @@
                                 <img src="img/tmp/img_atuacao_advogado04.jpg" class="img-responsive" alt="">
                                 <figcaption>
                                     <h4>
-                                        Nome do advogado
+                                        Rafaella Savaget Madeira
                                     </h4>
                                     <h5>
                                         Área de atuação
@@ -128,7 +128,7 @@
                                 <img src="img/tmp/img_atuacao_advogado05.jpg" class="img-responsive" alt="">
                                 <figcaption>
                                     <h4>
-                                        Nome do advogado
+                                        Bernardo A. Cardoso de Oliveira
                                     </h4>
                                     <h5>
                                         Área de atuação
@@ -149,29 +149,35 @@
 
                     <ul class="list-nomes">
                         <li>
-                            <a href="javascript:void(0);" data-toggle="modal" data-target=".modalEquipe">Nome Completo do Avgogado</a>
+                            <a href="javascript:void(0);" data-toggle="modal" data-target=".modalEquipe">Bernardo Watanabe</a>
                         </li>
                         <li>
-                            <a href="javascript:void(0);" data-toggle="modal" data-target=".modalEquipe">Nome Completo do Avgogado</a>
+                            <a href="javascript:void(0);" data-toggle="modal" data-target=".modalEquipe">Caio Albuquerque Borges de Miranda</a>
                         </li>
                         <li>
-                            <a href="javascript:void(0);" data-toggle="modal" data-target=".modalEquipe">Nome Completo do Avgogado</a>
+                            <a href="javascript:void(0);" data-toggle="modal" data-target=".modalEquipe">Fabiana Lima</a>
                         </li>
                         <li>
-                            <a href="javascript:void(0);" data-toggle="modal" data-target=".modalEquipe">Nome Completo do Avgogado</a>
+                            <a href="javascript:void(0);" data-toggle="modal" data-target=".modalEquipe">Felipe Sarkis</a>
                         </li>
                         <li>
-                            <a href="javascript:void(0);" data-toggle="modal" data-target=".modalEquipe">Nome Completo do Avgogado</a>
+                            <a href="javascript:void(0);" data-toggle="modal" data-target=".modalEquipe">Juliana de Araujo Cunha Chaves</a>
                         </li>
                         <li>
-                            <a href="javascript:void(0);" data-toggle="modal" data-target=".modalEquipe">Nome Completo do Avgogado</a>
+                            <a href="javascript:void(0);" data-toggle="modal" data-target=".modalEquipe">Jorge Mesquita</a>
                         </li>
                         <li>
-                            <a href="javascript:void(0);" data-toggle="modal" data-target=".modalEquipe">Nome Completo do Avgogado</a>
+                            <a href="javascript:void(0);" data-toggle="modal" data-target=".modalEquipe">Raphael Pereira Teixeira da Silva</a>
+                        </li>
+                        <li>
+                            <a href="javascript:void(0);" data-toggle="modal" data-target=".modalEquipe">Raysa Moraes</a>
+                        </li>
+                        <li>
+                            <a href="javascript:void(0);" data-toggle="modal" data-target=".modalEquipe">Ruan Buarque</a>
                         </li>
                     </ul><!-- /list-nomes -->
 
-                    <ul class="list-nomes">
+                    <!--<ul class="list-nomes">
                         <li>
                             <a href="javascript:void(0);" data-toggle="modal" data-target=".modalEquipe">Nome Completo do Avgogado</a>
                         </li>
@@ -193,9 +199,9 @@
                         <li>
                             <a href="javascript:void(0);" data-toggle="modal" data-target=".modalEquipe">Nome Completo do Avgogado</a>
                         </li>
-                    </ul><!-- /list-nomes -->
+                    </ul> /list-nomes -->
 
-                    <ul class="list-nomes">
+                    <!--<ul class="list-nomes">
                         <li>
                             <a href="javascript:void(0);" data-toggle="modal" data-target=".modalEquipe">Nome Completo do Avgogado</a>
                         </li>
@@ -217,7 +223,7 @@
                         <li>
                             <a href="javascript:void(0);" data-toggle="modal" data-target=".modalEquipe">Nome Completo do Avgogado</a>
                         </li>
-                    </ul><!-- /list-nomes -->
+                    </ul> /list-nomes -->
 
                 </div><!-- /col -->
 
