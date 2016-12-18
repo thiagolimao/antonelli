@@ -39,14 +39,14 @@
 
             <div class="row">
 
-                <div class="col-lg-12 item item-news destaque">
+                <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12 item item-news destaque">
                     <div class="inner">
 
                         <div class="row">
-                            <div class="col-lg-6">
+                            <div class="col-lg-6 col-md-6 col-sm-12 col-xs-12">
                                 <img class="img-responsive" src="img/tmp/img_news_destaque.jpg" alt="Generic placeholder image" >
                             </div><!-- /col -->
-                            <div class="col-lg-6">
+                            <div class="col-lg-6 col-md-6 col-sm-12 col-xs-12">
                                 <h2>destaque</h2>
                                 <h3>Lorem Ipsum is simply dummy text of the printing and typesetting industry.</h3>
                                 <p>
@@ -63,7 +63,7 @@
 
             <div class="row">
 
-                <div class="col-lg-4 item item-news">
+                <div class="col-lg-4 col-md-4 col-sm-4 col-xs-12 item item-news">
                     <div class="inner">
                         <h2>Categoria da notícia</h2>
                         <h3>Lorem Ipsum is simply dummy text of the printing and typesetting industry.</h3>
@@ -74,7 +74,7 @@
                     </div><!-- /inner -->
                 </div><!-- / -->
 
-                <div class="col-lg-4 item item-news">
+                <div class="col-lg-4 col-md-4 col-sm-4 col-xs-12 item item-news">
                     <div class="inner">
                         <h2>Categoria da notícia</h2>
                         <h3>Lorem Ipsum is simply dummy text of the printing and typesetting industry.</h3>
@@ -85,7 +85,7 @@
                     </div><!-- /inner -->
                 </div><!-- / -->
 
-                <div class="col-lg-4 item item-news">
+                <div class="col-lg-4 col-md-4 col-sm-4 col-xs-12 item item-news">
                     <div class="inner">
                         <h2>Categoria da notícia</h2>
                         <h3>Lorem Ipsum is simply dummy text of the printing and typesetting industry.</h3>

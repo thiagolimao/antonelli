@@ -166,7 +166,7 @@
         <div class="container">
             <div class="row">
 
-                <div class="col-lg-5 col-md-6 col-sm-6 col-xs-6">
+                <div class="col-lg-5 col-md-6 col-sm-12 col-xs-12">
                     <div class="inner">
                         <h1>Quando a equipe excede o indivíduo, a excelência se torna realidade. </h1>
                         <p>
@@ -176,7 +176,7 @@
                     </div><!-- /inner -->
                 </div><!-- / -->
 
-                <div class="col-lg-7 col-md-6 col-sm-6 col-xs-6">
+                <div class="col-lg-7 col-md-6 col-sm-12 col-xs-12">
 
                     <div class="equipe_home">
                         <div><img src="img/img_home_equipe01.png" class="img-responsive" alt=""></div>

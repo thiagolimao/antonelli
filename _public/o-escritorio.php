@@ -39,12 +39,12 @@
 
             <div class="row">
 
-                <div class="col-lg-4">
+                <div class="col-lg-4 col-md-4 col-sm-12 col-xs-12">
                     <h2 class="title-cat">
                         Inovação, estratégia e resultado.
                     </h2>
                 </div><!-- /col -->
-                <div class="col-lg-4">
+                <div class="col-lg-4 col-md-4 col-sm-6 col-xs-12">
                     <p>
                         Dentro do competitivo cenário jurídico contemporâneo, pode-se afirmar que o Antonelli possui alguns diferenciais. <br>
                         O foco é a advocacia de resultado. Nossas crenças e valores estão embasados no comprometimento, estratégia e velocidade. 
@@ -59,7 +59,7 @@
                         O Antonelli Advogados tem uma filosofia de crescimento baseada na relevância jurídica e econômica da causa.
                     </p>
                 </div><!-- /col -->
-                <div class="col-lg-4">
+                <div class="col-lg-4 col-md-4 col-sm-6 col-xs-12">
                     <p>
                         Como disse a Presidente do Supremo Tribunal Federal Ministra Carmem Lúcia o excesso de processos no Brasil trava o Judiciário. Nossa política focada no resultado nos permite limitar a quantidade de novos processos em benefício dos clientes e dos nossos colaboradores.
                     </p>
@@ -83,7 +83,7 @@
         <div class="container">
             <div class="row">
 
-                <blockquote class="col-lg-offset-7 col-lg-5">
+                <blockquote class="col-lg-offset-7 col-lg-5 col-md-offset-6 col-md-6 col-sm-12 col-xs-12">
                     <div class="inner">
                         <p>
                             No direito contemporâneo, a vitória no contencioso judicial é decorrente de uma série de fatores. Ter o melhor direito nem sempre garante a vitória. Técnica, estratégia e diligencia são os nossos deveres profissionais. Ser ouvido pelo julgador, uma necessidade.” 
@@ -108,7 +108,7 @@
     =============================================== -->
     <section class="sec_razoes">
         <div class="container">
-            <div class="row">
+            <div class="row desktop">
 
                 <div class="col-lg-12">
                     <img src="img/img_escritorio_razoes.png" alt="" class="img-responsive">
@@ -131,6 +131,56 @@
                 </div><!-- /col -->
 
             </div><!-- /row -->
+
+            <div class="mobile">
+
+                <div class="row">
+                    <div class="col-xs-12">
+                        <h2>
+                            Razões para crer
+                        </h2>
+                    </div>
+                </div><!-- /row -->
+
+                <div class="row">
+                    <div class="col-xs-4">
+                        <h3>
+                            Missão
+                        </h3>
+                    </div>
+                    <div class="col-xs-8">
+                        <p>
+                            Advocacia altamente especializada em soluções jurídicas com foco no contencioso estratégico, reabilitação empresarial, proteção patrimonial e administração e redução de passivos tributários.
+                        </p>
+                    </div>
+                </div><!-- /row -->
+
+                <div class="row">
+                    <div class="col-xs-4">
+                        <h3>
+                            Valores
+                        </h3>
+                    </div>
+                    <div class="col-xs-8">
+                        <p>
+                            Foco no Resultado, Técnica, Velocidade, Precisão e Comprometimento.
+                        </p>
+                    </div>
+                </div><!-- /row -->
+
+                <div class="row">
+                    <div class="col-xs-4">
+                        <h3>
+                            Visão
+                        </h3>
+                    </div>
+                    <div class="col-xs-8">
+                        <p>
+                            Aprofundar nossa política restritiva de seleção de novas causas pela relevância jurídica e econômica.
+                        </p>
+                    </div>
+                </div><!-- /row -->
+            </div><!-- /mobile -->
         </div><!-- /container -->
     </section><!-- /sec_razoes -->
 
@@ -141,7 +191,7 @@
         <div class="container">
             <div class="row">
 
-                <div class="col-lg-4">
+                <div class="col-lg-4 col-md-4 col-sm-12 col-xs-12">
                     <h2 class="sub-title">
                         Foco no resultado
                     </h2>
@@ -153,7 +203,7 @@
                     </p>
                 </div><!-- /col -->
 
-                <div class="col-lg-3 destaque">
+                <div class="col-lg-3 col-md-4 col-sm-12 col-xs-12 destaque">
                     <div class="">
                         <h2 class="sub-title noShow">
                             Foco no resultado
@@ -171,13 +221,13 @@
 
             <div class="row">
 
-                <div class="col-lg-4">
+                <div class="col-lg-4 col-md-4 col-sm-12 col-xs-12">
                     <h2 class="title-cat">
                         Ética e Responsabilidade Social
                     </h2>
                 </div><!-- /col -->
 
-                <div class="col-lg-5 no-pd-lf">
+                <div class="col-lg-5 col-md-5 col-sm-12 col-xs-12 no-pd-lf">
                     <p>
                         Nossas práticas estão integralmente alinhadas aos valores previstos no Código de Ética da Ordem dos Advogados do Brasil e às regras de compliance estabelecidas pela Lei nº 12.846 de 1º de agosto de 2013. Nossos sócios integram o Tribunal Pleno da OAB na qualidade de julgadores das questões ético-disciplinares.
                     </p>

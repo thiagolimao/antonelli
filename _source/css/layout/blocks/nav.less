@@ -62,7 +62,7 @@ MENU
 
             @media (max-width: 768px)
             {
-                max-width: 175px;
+                max-width: 270px;
             }
         }
     }
@@ -288,6 +288,119 @@ MENU
 
 }
 
+@media (max-width: 991px) {
+
+    .navbar-default
+    {
+        .navbar-header
+        {
+            padding-top: 12px;
+        }
+
+        .navbar-toggle
+        {
+            border-color: transparent;
+            border-radius: 0;
+            padding: 0;
+
+            &:focus,
+            &:hover
+            {
+                background-color: transparent;
+            }
+
+            .icon-bar
+            {
+                width: 32px;
+                height: 4px;
+                border-radius: 0;
+
+                background-color: @brand-primary;
+            }
+        }
+    }
+
+    .navbar-fixed-bottom .navbar-collapse,
+    .navbar-fixed-top .navbar-collapse
+    {
+        max-height: 100vh;
+    }
+
+    .navbar-wrapper #navbar
+    {
+        border-top: 1px solid transparent;
+        box-shadow: none;
+        background-color: #f8f8f8;
+
+        ul.nav.nav_top
+        {
+            margin-top: 0;
+            li
+            {
+                a,
+                span
+                {
+                    color: @text-color !important;
+                    line-height: 4em;
+                }
+
+                &.nav_comunicacao,
+                a
+                {
+                    border-bottom: solid 1px #cccccc;
+                }
+
+                .dropdown-menu
+                {
+                    position: static;
+                    display: block;
+                    float: inherit;
+                    min-width: 100%;
+
+                    background-color: transparent !important;
+                    border: none;
+                    box-shadow: none;
+
+                    padding: 0;
+                    margin: 0;
+
+                    li
+                    {
+                        margin-left: 0;
+                        margin-right: 0;
+
+                        a
+                        {
+                            &:before
+                            {
+                                content: ">";
+                                margin-right: 10px;
+                            }
+                        }
+                    }
+                }
+
+            }
+        }
+    }
+
+    .nav_lang
+    {
+        display: none;
+    }
+
+
+}
+@media (max-width: @screen-sm-min) {
+
+    .navbar-default
+    {
+        .navbar-header
+        {
+            padding-top: 0;
+        }
+    }
+}
 
 // FOOTER NAV
 .nav_bottom

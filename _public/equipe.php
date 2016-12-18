@@ -49,7 +49,7 @@
 
             <div class="row info">
 
-                <div class="col-lg-5">
+                <div class="col-lg-5 col-md-6 col-sm-6 col-xs-12">
                     <h2>Leonardo Antonelli</h2>
                     <p>
                         Graduado pela Faculdade Cândido Mendes; Pós-graduado em direito tributário; mestre em direito econômico pela UCAM; professor universitário e conferencista; integrou diversas bancas em concursos públicos, entre as quais a da magistratura de carreira, delegado da polícia federal e civil; atua ainda como Conselheiro da OAB onde Preside a Comissão de Defesa do Jurisdicionado; foi agraciado com o Premio Innovare pelo Projeto a Justiça fala para quem quer ouvir; por fim, dirigiu a Escola da Magistratura Eleitoral durante o período em que integrou o Tribunal Regional Eleitoral do Estado do Rio de Janeiro, na classe jurista, por indicação da Presidência da República.
@@ -71,7 +71,7 @@
                     <h3 class="title-type01">Sócios</h3>
 
                     <div class="row center-col">
-                        <div class="col-lg-4">
+                        <div class="col-lg-4 col-md-4 col-sm-6 col-xs-8">
                             <figure class="img-type01" data-toggle="modal" data-target=".modalSocios">
                                 <img src="img/tmp/img_atuacao_advogado01.jpg" class="img-responsive" alt="">
                                 <figcaption>
@@ -84,7 +84,7 @@
                                 </figcaption>
                             </figure><!-- /img-type01 -->
                         </div><!-- /col -->
-                        <div class="col-lg-4">
+                        <div class="col-lg-4 col-md-4 col-sm-6 col-xs-8">
                             <figure class="img-type01" data-toggle="modal" data-target=".modalSocios">
                                 <img src="img/tmp/img_atuacao_advogado02.jpg" class="img-responsive" alt="">
                                 <figcaption>
@@ -97,7 +97,7 @@
                                 </figcaption>
                             </figure><!-- /img-type01 -->
                         </div><!-- /col -->
-                        <div class="col-lg-4">
+                        <div class="col-lg-4 col-md-4 col-sm-6 col-xs-8">
                             <figure class="img-type01" data-toggle="modal" data-target=".modalSocios">
                                 <img src="img/tmp/img_atuacao_advogado03.jpg" class="img-responsive" alt="">
                                 <figcaption>
@@ -110,7 +110,7 @@
                                 </figcaption>
                             </figure><!-- /img-type01 -->
                         </div><!-- /col -->
-                        <div class="col-lg-4">
+                        <div class="col-lg-4 col-md-4 col-sm-6 col-xs-8">
                             <figure class="img-type01" data-toggle="modal" data-target=".modalSocios">
                                 <img src="img/tmp/img_atuacao_advogado04.jpg" class="img-responsive" alt="">
                                 <figcaption>
@@ -123,7 +123,7 @@
                                 </figcaption>
                             </figure><!-- /img-type01 -->
                         </div><!-- /col -->
-                        <div class="col-lg-4">
+                        <div class="col-lg-4 col-md-4 col-sm-6 col-xs-8">
                             <figure class="img-type01" data-toggle="modal" data-target=".modalSocios">
                                 <img src="img/tmp/img_atuacao_advogado05.jpg" class="img-responsive" alt="">
                                 <figcaption>
@@ -255,10 +255,10 @@
 
                 <div class="modal-body">
                     <div class="row">
-                        <div class="col-md-4">
+                        <div class="col-lg-4 col-md-4 col-sm-4 col-xs-12">
                             <img src="img/equipe_foto_fundador2.jpg" alt="" class="img-responsive">
                         </div>
-                        <div class="col-md-8">
+                        <div class="col-lg-8 col-md-8 col-sm-8 col-xs-12">
                             <h2 class="title-color">
                                 Nome do advogado
                             </h2>
@@ -277,7 +277,7 @@
                 </div><!-- /.modal-body -->
                 <div class="modal-footer">
                     <div class="row">
-                        <div class="col-md-12">
+                        <div class="col-lg-12">
                             <p>
                                 <span class="color">Áreas de atuação:</span> Contencioso, Tributário e Cível
                             </p>
@@ -299,10 +299,10 @@
 
                 <div class="modal-body">
                     <div class="row">
-                        <div class="col-md-4">
+                        <div class="col-lg-4 col-md-4 col-sm-4 col-xs-12">
                             <img src="img/tmp/img_atuacao_advogado01.jpg" alt="" class="img-responsive">
                         </div>
-                        <div class="col-md-8">
+                        <div class="col-lg-8 col-md-8 col-sm-8 col-xs-12">
                             <h2 class="title-color">
                                 Nome do sócio
                             </h2>
@@ -321,7 +321,7 @@
                 </div><!-- /.modal-body -->
                 <div class="modal-footer">
                     <div class="row">
-                        <div class="col-md-12">
+                        <div class="col-lg-12">
                             <p>
                                 <span class="color">Áreas de atuação:</span> Contencioso, Tributário e Cível
                             </p>
@@ -344,7 +344,7 @@
 
                 <div class="modal-body">
                     <div class="row">
-                        <div class="col-md-12">
+                        <div class="col-lg-12">
                             <h2 class="title-color">
                                 Nome do advogado
                             </h2>

@@ -9,7 +9,7 @@ BACKGROUND
     z-index: -100;
 
 
-    @media (max-width: 768px)
+    @media (max-width: @screen-sm-min)
     {
         display: none;
     }
@@ -30,4 +30,16 @@ BACKGROUND
 }
 @media (max-aspect-ratio: 16/9) {
   .video-foreground { width: 300%; left: -100%; }
+}
+
+@media (max-width: @screen-sm-min)
+{
+    .main #header
+    {
+        background-image: url(../img/bg_mobile_home.jpg);
+
+        background-repeat: no-repeat;
+        background-position: top center;
+        background-size: cover;
+    }
 }

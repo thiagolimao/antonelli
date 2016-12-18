@@ -121,15 +121,29 @@ ITEM
     {
         &.destaque
         {
+
+            @media (max-width: 768px) {
+                margin-bottom: 0;
+            }
             .inner
             {
-                border-width: 0 0 0 70px;
+                border-width: 0;
                 padding-left: 0;
                 padding-bottom: 0;
 
                 h3
                 {
                     max-width: 70%;
+                }
+
+                img
+                {
+                    border-left: solid 70px @brand-primary;
+                    width: 100%;
+
+                    @media (max-width: 991px) {
+                        margin-bottom: 30px;
+                    }
                 }
                 .btn-default
                 {
@@ -186,6 +200,10 @@ ITEM
                 display: table;
             }
         }
+
+        @media (max-width: 768px) {
+            margin-bottom: 30px;
+        }
     }
 }
 
@@ -238,6 +256,16 @@ ITEM
                 align-self: center;
 
             }
+
+
+
+            @media (max-width: 991px)
+            {
+                img
+                {
+                    width: 100%;
+                }
+            }
         }
     }
 
@@ -255,6 +283,12 @@ ITEM
             text-transform: uppercase;
             font-size: ceil((@font-size-base * 3.0));
             .fw-light;
+
+            @media (max-width: 991px)
+            {
+                margin-left: 0;
+                margin-bottom: 10px;
+            }
         }
 
         p
