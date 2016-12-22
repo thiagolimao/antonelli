@@ -7,11 +7,29 @@ MODAL
     .modal-sm
     {
         width: 550px;
+
+        @media (max-width: 668px)
+        {
+            width: 100%;
+        }
     }
 
     .modal-lg
     {
         width: 950px;
+        @media (max-width: 668px)
+        {
+            width: 100%;
+        }
+    }
+
+    .modal-dialog
+    {
+
+        @media (max-width: 668px)
+        {
+            margin: 0;
+        }
     }
 
     .modal-content
@@ -46,6 +64,11 @@ MODAL
         .modal-body
         {
             padding: 20px 60px;
+
+            @media (max-width: 668px)
+            {
+                padding: 0 15px;
+            }
 
             p
             {
@@ -84,6 +107,11 @@ MODAL
         .modal-dialog
         {
             width: 800px;
+
+            @media (max-width: 668px)
+            {
+                width: 100%;
+            }
         }
     }
 }

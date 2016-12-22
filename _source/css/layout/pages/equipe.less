@@ -18,6 +18,10 @@ Page: EQUIPE
 
                 background-repeat: no-repeat;
                 background-position: right bottom;
+                @media (max-width: 668px)
+                {
+                    background-position: -220px bottom;
+                }
             }
 
             .title-type01
@@ -29,6 +33,11 @@ Page: EQUIPE
             + section
             {
                 margin-top: 8em;
+
+                @media (max-width: 668px)
+                {
+                    margin-top: 4em;
+                }
             }
 
             .info
@@ -37,6 +46,13 @@ Page: EQUIPE
                 {
                     margin-left: 70px;
                     max-width: 80%;
+                    @media (max-width: 668px)
+                    {
+                        padding-left: 160px;
+                        max-width: 100%;
+                        margin-left: 0;
+                    }
+
 
                     h2
                     {
@@ -46,6 +62,11 @@ Page: EQUIPE
                         .fw-light;
                         color: @white;
                         margin-bottom: .4em;
+
+                        @media (max-width: 668px)
+                        {
+                            font-size: ceil((@font-size-base * 2.2));
+                        }
                     }
                     p
                     {
@@ -58,6 +79,17 @@ Page: EQUIPE
                         font-size: ceil((@font-size-base * 2.0));
                         min-width: 200px;
                         text-align: left;
+
+                        @media (max-width: 668px)
+                        {
+                            min-width: 100%;
+                            margin-bottom: 15px;
+
+                            padding-left: 0;
+                            padding-right: 0;
+
+                            text-align: center;
+                        }
                         .ico
                         {
                              background-size: 70% auto;
@@ -77,11 +109,27 @@ Page: EQUIPE
         .row + .row
         {
             margin-top: 8em;
+            @media (max-width: 668px)
+            {
+                margin-top: 0;
+            }
+        }
+
+        .item-atuacao
+        {
+            @media (max-width: 668px)
+            {
+                margin-top: 4em !important;
+            }
         }
 
         + footer
         {
             margin-top: 22em;
+            @media (max-width: 668px)
+            {
+                margin-top: 4em;
+            }
         }
 
         .title-type01

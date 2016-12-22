@@ -41,13 +41,6 @@
             <div class="row item-atuacao destaque">
 
                 <div class="col-lg-4 col-md-4 col-sm-4 col-xs-12">
-                    <a href="#area_contencioso" class="inner page-scroll" title="Contencioso & Estratégico">
-                        <img src="img/img_atuacao_contencioso.jpg" class="img-responsive" alt="Contencioso & Estratégico">
-                        <h4>Contencioso & <br>Estratégico</h4>
-                    </a><!-- /inner -->
-                </div><!-- /col -->
-
-                <div class="col-lg-4 col-md-4 col-sm-4 col-xs-12">
                     <a href="#area_tributario" class="inner page-scroll" title="Direito Tributário">
                         <img src="img/img_atuacao_tributario.jpg" class="img-responsive" alt="Direito Tributário">
                         <h4>Direito <br>Tributário</h4>
@@ -55,69 +48,18 @@
                 </div><!-- /col -->
 
                 <div class="col-lg-4 col-md-4 col-sm-4 col-xs-12">
-                    <a href="#area_reabilitacao" class="inner page-scroll" title="Reabilitação">
-                        <img src="img/img_atuacao_reabilitacao.jpg" class="img-responsive" alt="Reabilitação">
-                        <h4>Reabilitação</h4>
+                    <a href="#area_contencioso" class="inner page-scroll" title="Contencioso & Estratégico">
+                        <img src="img/img_atuacao_contencioso.jpg" class="img-responsive" alt="Contencioso & Estratégico">
+                        <h4>Contencioso & <br>Estratégico</h4>
                     </a><!-- /inner -->
                 </div><!-- /col -->
 
-            </div><!-- /row -->
-
-            <div class="row item-atuacao">
-                <span class="anchor" id="area_contencioso"></span>
-
-                <div class="col-lg-12">
-                    <h3 class="title-type01">Contencioso & Estratégico</h3>
-
-                    <div class="row">
-                        <div class="col-lg-5 col-md-5 col-sm-12 col-xs-12">
-                            <h4>Frase de chamada sobre Contencioso & Estratégico</h4>
-                        </div><!-- /col -->
-                        <div class="col-lg-7 col-md-7 col-sm-12 col-xs-12">
-                            <p>
-                                A atuação da equipe de contencioso estratégico do escritório Antonelli é focada na busca de soluções judiciais para problemas empresariais. A área de contencioso estratégico é composta por equipes com vasta experiência e formação multidisciplinar, capitaneando direitos coletivos, garantindo socorro ao funcionamento de concessionárias de serviços públicos, defendendo acionistas contra hostile takeovers, intercedendo em disputas de terras em latifúndios rurais etc. O time busca ir  além da assessoria jurídica e do acompanhamento de processos. Representar nossos clientes requer mais que conhecimento do caso: direito material, domínio do direito processual e das áreas conexas possibilita a entrega do resultado. Com vasta experiência e formação multidisciplinar, a equipe ostenta diversos sucessos emblemáticos, perante as Cortes Superiores em Brasilia. A disputa de interesses na justiça é o nosso core business. 
-                            </p>
-                        </div><!-- /col -->
-                    </div><!-- /row -->
-
-                    <div class="row item-links">
-                        <a class="col-lg-4 col-md-4 col-sm-4 col-xs-12" href="javascript:void(0);" data-toggle="modal" data-target=".modalSubArea" title="Contencioso Societário, Civel e Empresarial">
-                            Contencioso Societário, Civel e Empresarial
-                        </a><!-- /col -->
-                        <a class="col-lg-4 col-md-4 col-sm-4 col-xs-12" href="javascript:void(0);" data-toggle="modal" data-target=".modalSubArea" title="Direito administrativo e concessões públicas">
-                            Direito administrativo e concessões públicas
-                        </a><!-- /col -->
-                        <a class="col-lg-4 col-md-4 col-sm-4 col-xs-12" href="javascript:void(0);" data-toggle="modal" data-target=".modalSubArea" title="Direito Ambiental e Agrário">
-                            Direito Ambiental e Agrário
-                        </a><!-- /col -->
-                    </div><!-- /row -->
-
-                    <a class="btn btn-default btn-extras" href="javascript:void(0);" role="button">+ atuações</a>
-                    <div class="extras">
-
-                        <div class="row item-links">
-                            <a class="col-lg-4 col-md-4 col-sm-4 col-xs-12" href="javascript:void(0);" data-toggle="modal" data-target=".modalSubArea" title="Direito Coletivo">
-                                Direito Coletivo
-                            </a><!-- /col -->
-                            <a class="col-lg-4 col-md-4 col-sm-4 col-xs-12" href="javascript:void(0);" data-toggle="modal" data-target=".modalSubArea" title="Direito da Energia Elétrica">
-                                Direito da Energia Elétrica
-                            </a><!-- /col -->
-                            <a class="col-lg-4 col-md-4 col-sm-4 col-xs-12" href="javascript:void(0);" data-toggle="modal" data-target=".modalSubArea" title="Direito Regulatório">
-                                Direito Regulatório
-                            </a><!-- /col -->
-                        </div><!-- /row -->
-                        <div class="row item-links">
-                            <a class="col-lg-4 col-md-4 col-sm-4 col-xs-12" href="javascript:void(0);" data-toggle="modal" data-target=".modalSubArea" title="Mercado Financeiro e de Capitais">
-                                Mercado Financeiro e de Capitais
-                            </a><!-- /col -->
-                            <a class="col-lg-4 col-md-4 col-sm-4 col-xs-12" href="javascript:void(0);" data-toggle="modal" data-target=".modalSubArea" title="Reestruturação e Recuperação de Empresas">
-                                Reestruturação e Recuperação de Empresas
-                            </a><!-- /col -->
-                        </div><!-- /row -->
-
-                    </div><!-- /extras -->
-
-                </div><!-- /Contencioso & Estratégico -->
+                <div class="col-lg-4 col-md-4 col-sm-4 col-xs-12">
+                    <a href="#area_reabilitacao" class="inner page-scroll" title="Recuperação Judicial e reestruturação de dívidas">
+                        <img src="img/img_atuacao_reabilitacao.jpg" class="img-responsive" alt="Recuperação Judicial e reestruturação de dívidas">
+                        <h4>Recuperação Judicial e reestruturação de dívidas</h4>
+                    </a><!-- /inner -->
+                </div><!-- /col -->
 
             </div><!-- /row -->
 
@@ -181,10 +123,68 @@
             </div><!-- /row -->
 
             <div class="row item-atuacao">
+                <span class="anchor" id="area_contencioso"></span>
+
+                <div class="col-lg-12">
+                    <h3 class="title-type01">Contencioso & Estratégico</h3>
+
+                    <div class="row">
+                        <div class="col-lg-5 col-md-5 col-sm-12 col-xs-12">
+                            <h4>Frase de chamada sobre Contencioso & Estratégico</h4>
+                        </div><!-- /col -->
+                        <div class="col-lg-7 col-md-7 col-sm-12 col-xs-12">
+                            <p>
+                                A atuação da equipe de contencioso estratégico do escritório Antonelli é focada na busca de soluções judiciais para problemas empresariais. A área de contencioso estratégico é composta por equipes com vasta experiência e formação multidisciplinar, capitaneando direitos coletivos, garantindo socorro ao funcionamento de concessionárias de serviços públicos, defendendo acionistas contra hostile takeovers, intercedendo em disputas de terras em latifúndios rurais etc. O time busca ir  além da assessoria jurídica e do acompanhamento de processos. Representar nossos clientes requer mais que conhecimento do caso: direito material, domínio do direito processual e das áreas conexas possibilita a entrega do resultado. Com vasta experiência e formação multidisciplinar, a equipe ostenta diversos sucessos emblemáticos, perante as Cortes Superiores em Brasilia. A disputa de interesses na justiça é o nosso core business. 
+                            </p>
+                        </div><!-- /col -->
+                    </div><!-- /row -->
+
+                    <div class="row item-links">
+                        <a class="col-lg-4 col-md-4 col-sm-4 col-xs-12" href="javascript:void(0);" data-toggle="modal" data-target=".modalSubArea" title="Contencioso Societário, Civel e Empresarial">
+                            Contencioso Societário, Civel e Empresarial
+                        </a><!-- /col -->
+                        <a class="col-lg-4 col-md-4 col-sm-4 col-xs-12" href="javascript:void(0);" data-toggle="modal" data-target=".modalSubArea" title="Direito administrativo e concessões públicas">
+                            Direito administrativo e concessões públicas
+                        </a><!-- /col -->
+                        <a class="col-lg-4 col-md-4 col-sm-4 col-xs-12" href="javascript:void(0);" data-toggle="modal" data-target=".modalSubArea" title="Direito Ambiental e Agrário">
+                            Direito Ambiental e Agrário
+                        </a><!-- /col -->
+                    </div><!-- /row -->
+
+                    <a class="btn btn-default btn-extras" href="javascript:void(0);" role="button">+ atuações</a>
+                    <div class="extras">
+
+                        <div class="row item-links">
+                            <a class="col-lg-4 col-md-4 col-sm-4 col-xs-12" href="javascript:void(0);" data-toggle="modal" data-target=".modalSubArea" title="Direito Coletivo">
+                                Direito Coletivo
+                            </a><!-- /col -->
+                            <a class="col-lg-4 col-md-4 col-sm-4 col-xs-12" href="javascript:void(0);" data-toggle="modal" data-target=".modalSubArea" title="Direito da Energia Elétrica">
+                                Direito da Energia Elétrica
+                            </a><!-- /col -->
+                            <a class="col-lg-4 col-md-4 col-sm-4 col-xs-12" href="javascript:void(0);" data-toggle="modal" data-target=".modalSubArea" title="Direito Regulatório">
+                                Direito Regulatório
+                            </a><!-- /col -->
+                        </div><!-- /row -->
+                        <div class="row item-links">
+                            <a class="col-lg-4 col-md-4 col-sm-4 col-xs-12" href="javascript:void(0);" data-toggle="modal" data-target=".modalSubArea" title="Mercado Financeiro e de Capitais">
+                                Mercado Financeiro e de Capitais
+                            </a><!-- /col -->
+                            <a class="col-lg-4 col-md-4 col-sm-4 col-xs-12" href="javascript:void(0);" data-toggle="modal" data-target=".modalSubArea" title="Reestruturação e Recuperação de Empresas">
+                                Reestruturação e Recuperação de Empresas
+                            </a><!-- /col -->
+                        </div><!-- /row -->
+
+                    </div><!-- /extras -->
+
+                </div><!-- /Contencioso & Estratégico -->
+
+            </div><!-- /row -->
+
+            <div class="row item-atuacao">
                 <span class="anchor" id="area_reabilitacao"></span>
 
                 <div class="col-lg-12">
-                    <h3 class="title-type01">Reabilitação</h3>
+                    <h3 class="title-type01">Recuperação Judicial e reestruturação de dívidas</h3>
 
                     <div class="row">
                         <div class="col-lg-5 col-md-5 col-sm-12 col-xs-12">

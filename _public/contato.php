@@ -54,12 +54,13 @@
                                 (21) 1234-5678
                             </li>
                             <li class="end">
-                                Rua Vinícius de Morais, nº111, 3º andar <br>Rio de janeiro - RJ
+                                Rua Vinicius de Moraes, nº. 111, 2º e 3º andar, <br>Ipanema, Rio de Janeiro/RJ, CEP: 22.411-010
                                 <a href="javascript:void(0);" data-toggle="modal" data-target=".modalMapa">ver mapa</a>
                             </li>
                         </ul>
 
-                        <h3 class="title-default">
+
+                        <!-- <h3 class="title-default">
                             centro
                         </h3>
                         <ul>
@@ -70,7 +71,7 @@
                                 Rua Vinícius de Morais, nº111, 3º andar <br>Rio de janeiro - RJ
                                 <a href="javascript:void(0);" data-toggle="modal" data-target=".modalMapa">ver mapa</a>
                             </li>
-                        </ul>
+                        </ul> -->
 
                     </div><!-- /inner -->
                     <div class="inner">
@@ -79,7 +80,7 @@
                         </h2>
 
                         <h3 class="title-default">
-                            Ipanema
+                            Bela Vista
                         </h3>
                         <ul>
                             <li class="tel">
@@ -89,7 +90,7 @@
                                 (21) 1234-5678
                             </li>
                             <li class="end">
-                                Rua Vinícius de Morais, nº111, 3º andar <br>Rio de janeiro - RJ
+                                Avenida Paulista, nº. 1439, 2º andar,  <br>Bela Vista, São Paulo/SP, CEP: 01.311-926
                                 <a href="javascript:void(0);" data-toggle="modal" data-target=".modalMapa">ver mapa</a>
                             </li>
                         </ul>
@@ -100,14 +101,14 @@
                         </h2>
 
                         <h3 class="title-default">
-                            Ipanema
+                            Lago Sul
                         </h3>
                         <ul>
                             <li class="tel">
                                 (21) 1234-5678
                             </li>
                             <li class="end">
-                                Rua Vinícius de Morais, nº111, 3º andar <br>Rio de janeiro - RJ
+                                SHIS QL 10, Conjunto 09, Casa 5, Lago Sul, <br>Brasília/DF, CEP: 71.630-095
                                 <a href="javascript:void(0);" data-toggle="modal" data-target=".modalMapa">ver mapa</a>
                             </li>
                         </ul>
@@ -193,7 +194,7 @@
                                 Ipanema
                             </h2>
                             <p class="end">
-                                Rua Vinícius de Morais, nº111, 3º andar <br>Rio de janeiro - RJ
+                                Rua Vinicius de Moraes, nº. 111, 2º e 3º andar, <br>Ipanema, Rio de Janeiro/RJ, CEP: 22.411-010
                             </p>
                         </div>
                     </div><!-- /.row -->

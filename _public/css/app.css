@@ -7954,6 +7954,7 @@ ITEM
 	align-items: center;
 	-webkit-justify-content: center;
 	justify-content: center;
+	margin-bottom: -1px;
 }
 
 .item-atuacao .item-links [class^="col-"]:hover {
@@ -10905,7 +10906,7 @@ td.visible-lg {
 }
 
 .main section.sec_profile .cont_profile .inner p {
-	font-size: 18px;
+	font-size: 16px;
 }
 
 .main section.sec_equipe .row {
@@ -11464,6 +11465,51 @@ td.visible-xs {
 	display: none !important;
 }
 
+.item h2 {
+	font-size: 16px;
+}
+
+.item h3 {
+	font-size: 18px;
+	height: auto;
+}
+
+.item.item-notice .inner {
+	min-height: auto;
+}
+
+.item.image {
+	padding-top: 160px !important;
+	padding-bottom: 3em !important;
+}
+
+.item.image img {
+	bottom: initial;
+	top: 0;
+}
+
+#header .navbar-wrapper + .container > .row .item-notice {
+	width: 100%;
+	margin-top: 15px;
+}
+
+#header .navbar-wrapper + .container > .row .item-notice .inner {
+	padding-bottom: 3em;
+}
+
+.main #header .item-notice h2 {
+	font-size: 16px;
+}
+
+.main #header .item-notice h3 {
+	font-size: 18px;
+}
+
+.main section.sec_featutes .row .item {
+	border-right: none;
+	border-bottom: solid 10px #ffffff;
+}
+
 }
 
 @media screen and (max-width: 767px) {
@@ -11516,6 +11562,357 @@ td.visible-xs {
 .table-responsive > .table-bordered > tbody > tr:last-child > td,
 .table-responsive > .table-bordered > tfoot > tr:last-child > td {
 	border-bottom: 0;
+}
+
+}
+
+@media (max-width: 668px) {
+
+p {
+	font-size: 16px;
+}
+
+.title-type01 {
+	font-size: 24px;
+}
+
+.title-type01:before {
+	top: 4px;
+	height: 20px;
+}
+
+.contato .btn-default {
+	width: 100%;
+	text-align: center;
+	padding-left: 0;
+	padding-right: 0;
+}
+
+.item.item-news.destaque .inner h3 {
+	max-width: 100%;
+}
+
+.item.item-news .inner {
+	padding-bottom: 0;
+}
+
+.item.item-news .inner .btn-default {
+	width: 100%;
+	padding-left: 0;
+	padding-right: 0;
+	text-align: center;
+	position: relative;
+	left: 0;
+}
+
+.item-atuacao.destaque .inner h4 {
+	height: 75px;
+	font-size: 16px;
+}
+
+.item-atuacao .row h4 {
+	font-size: 20px;
+}
+
+.item-atuacao .row p {
+	font-size: 16px;
+}
+
+.item-atuacao .item-links [class^="col-"] {
+	font-size: 16px;
+	min-height: 120px;
+}
+
+.item-atuacao a.btn-extras {
+	width: 100%;
+}
+
+input[type="submit"].btn-default.big,
+input[type="button"].btn-default.big,
+button.btn-default.big,
+.btn.btn-default.big {
+	font-size: 20px;
+	line-height: 35px;
+	padding-right: 60px;
+}
+
+input[type="submit"].btn-default.big .ico.type01,
+input[type="button"].btn-default.big .ico.type01,
+button.btn-default.big .ico.type01,
+.btn.btn-default.big .ico.type01 {
+	background-size: 10px auto;
+}
+
+.list-news {
+	padding-left: 0;
+}
+
+.list-nomes li {
+	font-size: 16px;
+}
+
+.img-type01 figcaption h4 {
+	font-size: 16px !important;
+	margin-bottom: 4px !important;
+}
+
+.img-type01 figcaption h5 {
+	font-size: 14px !important;
+}
+
+.modal .modal-sm {
+	width: 100%;
+}
+
+.modal .modal-lg {
+	width: 100%;
+}
+
+.modal .modal-dialog {
+	margin: 0;
+}
+
+.modal .modal-content .modal-body {
+	padding: 0 15px;
+}
+
+.modal.modalSubArea .modal-dialog {
+	width: 100%;
+}
+
+#header .title-default {
+	font-size: 30px;
+}
+
+#footer .row {
+	margin-left: -15px;
+	margin-right: -15px;
+}
+
+#footer .row [class^="col-"] {
+	padding-left: -15px;
+	padding-right: -15px;
+}
+
+#footer h3 {
+	font-size: 22px;
+}
+
+#footer .navbar-form {
+	margin-left: 0;
+	margin-right: 0;
+	border: none;
+	box-shadow: none;
+}
+
+.main section.sec_profile .cont_profile {
+	padding-top: 292px;
+}
+
+.main section.sec_profile .cont_profile:after,
+.main section.sec_profile .cont_profile:before {
+	height: 292px;
+}
+
+.main section.sec_profile .cont_profile .inner {
+	padding-left: 0;
+	padding-right: 0;
+}
+
+.main section.sec_profile .cont_profile .inner h1 {
+	font-size: 26px;
+}
+
+.main section.sec_profile .cont_profile .inner .btn {
+	position: relative;
+	margin-bottom: 15px;
+}
+
+.main section.sec_equipe .row .inner {
+	padding-top: 15px;
+}
+
+.main section.sec_equipe .row h1 {
+	font-size: 26px;
+}
+
+.main section.sec_equipe .row p {
+	font-size: 16px;
+}
+
+.main section.sec_equipe .row .btn {
+	padding-left: 0;
+	padding-right: 0;
+	text-align: center;
+}
+
+.atuacao section .row + .row {
+	margin-top: 4em;
+}
+
+.atuacao section + footer {
+	margin-top: 4em;
+}
+
+.news section {
+	margin-top: 4em;
+}
+
+.news section + footer {
+	margin-top: 4em;
+}
+
+.news section .title-type01 {
+	margin-bottom: .3em;
+}
+
+.equipe section.equipe-fundador .container {
+	background-position: -220px bottom;
+}
+
+.equipe section.equipe-fundador + section {
+	margin-top: 4em;
+}
+
+.equipe section.equipe-fundador .info div {
+	padding-left: 160px;
+	max-width: 100%;
+	margin-left: 0;
+}
+
+.equipe section.equipe-fundador .info div h2 {
+	font-size: 22px;
+}
+
+.equipe section.equipe-fundador .info div .btn {
+	min-width: 100%;
+	margin-bottom: 15px;
+	padding-left: 0;
+	padding-right: 0;
+	text-align: center;
+}
+
+.equipe section .row + .row {
+	margin-top: 0;
+}
+
+.equipe section .item-atuacao {
+	margin-top: 4em !important;
+}
+
+.equipe section + footer {
+	margin-top: 4em;
+}
+
+.escritorio section {
+	margin-top: 15px;
+}
+
+.escritorio section + footer {
+	margin-top: 10px;
+}
+
+.escritorio section.first .title-cat {
+	font-size: 24px;
+	max-width: 100%;
+	margin-bottom: 20px;
+}
+
+.escritorio section.sec_cite [class^="col-"] {
+	min-height: auto;
+}
+
+.escritorio section.sec_cite [class^="col-"]:before {
+	min-height: 270px;
+}
+
+.escritorio section.sec_cite [class^="col-"] .inner {
+	padding: 20px 15px 20px 5em;
+}
+
+.escritorio section.sec_cite [class^="col-"] .inner p {
+	font-size: 18px;
+}
+
+.escritorio section.sec_cite [class^="col-"] .inner p:before {
+	background-size: 40px auto;
+	background-position: center;
+}
+
+.escritorio section.sec_cite [class^="col-"] .inner h2 {
+	font-size: 16px;
+}
+
+.escritorio section.sec_razoes .mobile .row [class^="col-"]:first-child h2 {
+	font-size: 18px;
+	min-height: 70px;
+}
+
+.escritorio section.sec_razoes .mobile .row [class^="col-"]:first-child h3 {
+	min-height: 150px;
+}
+
+.escritorio section.sec_razoes .mobile .row [class^="col-"] p {
+	min-height: 150px;
+}
+
+.escritorio section.sec_historia {
+	margin-top: 0;
+}
+
+.escritorio section.sec_historia [class^="col-"] .sub-title {
+	font-size: 24px;
+}
+
+.escritorio section.sec_historia [class^="col-"] .title-cat {
+	font-size: 24px;
+}
+
+.escritorio section.sec_historia [class^="col-"].destaque {
+	padding-top: 230px;
+}
+
+.escritorio section.sec_historia [class^="col-"].destaque:before {
+	min-height: 270px;
+}
+
+.contato section h2 {
+	font-size: 24px;
+}
+
+.contato section h3 {
+	font-size: 20px;
+}
+
+.contato section .inner ul li {
+	font-size: 16px;
+}
+
+.contato section .endereco .inner {
+	padding-bottom: 0;
+	margin-bottom: 30px;
+}
+
+.contato section .endereco {
+	margin-bottom: 20px;
+}
+
+}
+
+@media (max-width: 500px) {
+
+.escritorio section.sec_cite [class^="col-"]:before {
+	background-size: contain;
+	min-height: 200px;
+}
+
+.escritorio section.sec_historia [class^="col-"].destaque {
+	padding-top: 160px;
+}
+
+.escritorio section.sec_historia [class^="col-"].destaque:before {
+	background-size: contain;
+	min-height: 200px;
 }
 
 }

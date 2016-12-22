@@ -71,7 +71,7 @@
                     <h3 class="title-type01">Sócios</h3>
 
                     <div class="row center-col">
-                        <div class="col-lg-4 col-md-4 col-sm-6 col-xs-8">
+                        <div class="col-lg-4 col-md-4 col-sm-6 col-xs-10">
                             <figure class="img-type01" data-toggle="modal" data-target=".modalSocios">
                                 <img src="img/tmp/img_atuacao_advogado01.jpg" class="img-responsive" alt="">
                                 <figcaption>
@@ -84,7 +84,7 @@
                                 </figcaption>
                             </figure><!-- /img-type01 -->
                         </div><!-- /col -->
-                        <div class="col-lg-4 col-md-4 col-sm-6 col-xs-8">
+                        <div class="col-lg-4 col-md-4 col-sm-6 col-xs-10">
                             <figure class="img-type01" data-toggle="modal" data-target=".modalSocios">
                                 <img src="img/tmp/img_atuacao_advogado02.jpg" class="img-responsive" alt="">
                                 <figcaption>
@@ -97,7 +97,7 @@
                                 </figcaption>
                             </figure><!-- /img-type01 -->
                         </div><!-- /col -->
-                        <div class="col-lg-4 col-md-4 col-sm-6 col-xs-8">
+                        <div class="col-lg-4 col-md-4 col-sm-6 col-xs-10">
                             <figure class="img-type01" data-toggle="modal" data-target=".modalSocios">
                                 <img src="img/tmp/img_atuacao_advogado03.jpg" class="img-responsive" alt="">
                                 <figcaption>
@@ -110,7 +110,7 @@
                                 </figcaption>
                             </figure><!-- /img-type01 -->
                         </div><!-- /col -->
-                        <div class="col-lg-4 col-md-4 col-sm-6 col-xs-8">
+                        <div class="col-lg-4 col-md-4 col-sm-6 col-xs-10">
                             <figure class="img-type01" data-toggle="modal" data-target=".modalSocios">
                                 <img src="img/tmp/img_atuacao_advogado04.jpg" class="img-responsive" alt="">
                                 <figcaption>
@@ -123,7 +123,7 @@
                                 </figcaption>
                             </figure><!-- /img-type01 -->
                         </div><!-- /col -->
-                        <div class="col-lg-4 col-md-4 col-sm-6 col-xs-8">
+                        <div class="col-lg-4 col-md-4 col-sm-6 col-xs-10">
                             <figure class="img-type01" data-toggle="modal" data-target=".modalSocios">
                                 <img src="img/tmp/img_atuacao_advogado05.jpg" class="img-responsive" alt="">
                                 <figcaption>

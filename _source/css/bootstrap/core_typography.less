@@ -23,6 +23,11 @@ p
     line-height: 1.5em;
     margin: 0 0 20px 0;
     .fw-light;
+
+    @media (max-width: 668px)
+    {
+        font-size: ceil((@font-size-base * 1.6));
+    }
 }
 
 li
@@ -153,6 +158,11 @@ h6
     padding-left: 70px;
 
     position: relative;
+
+    @media (max-width: 668px)
+    {
+        font-size: ceil((@font-size-base * 2.4));
+    }
     &:before
     {
         content: "";
@@ -165,6 +175,11 @@ h6
         position: absolute;
         left: 0;
         top: 6px;
+        @media (max-width: 668px)
+        {
+            top: 4px;
+            height: 20px;
+        }
     }
 }
 

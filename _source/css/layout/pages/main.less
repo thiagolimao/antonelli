@@ -37,6 +37,12 @@ Page: HOME
                         padding-bottom: 0;
                     }
 
+                    @media (max-width: 767px)
+                    {
+                        border-right: none;
+                        border-bottom: solid 10px @white;
+                    }
+
                     &:last-child
                     {
                         border: none;
@@ -64,6 +70,11 @@ Page: HOME
                     padding-top: 478px;
                 }
 
+                @media (max-width: 668px)
+                {
+                    padding-top: 292px;
+                }
+
                 &:after,
                 &:before
                 {
@@ -85,6 +96,11 @@ Page: HOME
                         display: block;
 
                         background-size: 100% auto;
+                    }
+
+                    @media (max-width: 668px)
+                    {
+                        height: 292px;
                     }
 
                 }
@@ -120,6 +136,12 @@ Page: HOME
                 {
                     padding: 3em;
 
+                    @media (max-width: 668px)
+                    {
+                        padding-left: 0;
+                        padding-right: 0;
+                    }
+
                     h1
                     {
                         font-size: ceil((@font-size-base * 5.0));
@@ -130,6 +152,11 @@ Page: HOME
                         {
                             font-size: ceil((@font-size-base * 4.2));
                         }
+
+                        @media (max-width: 668px)
+                        {
+                            font-size: ceil((@font-size-base * 2.6));
+                        }
                     }
 
                     p
@@ -139,7 +166,7 @@ Page: HOME
 
                         @media (max-width: 1199px)
                         {
-                            font-size: ceil((@font-size-base * 1.8));
+                            font-size: ceil((@font-size-base * 1.6));
                         }
                     }
 
@@ -148,6 +175,12 @@ Page: HOME
                         position: absolute;
                         bottom: 0;
                         right: 0;
+
+                        @media (max-width: 668px)
+                        {
+                            position: relative;
+                            margin-bottom: 15px;
+                        }
                     }
                 }
 
@@ -211,6 +244,11 @@ Page: HOME
                     {
                         padding-top: 60px;
                     }
+
+                    @media (max-width: 668px)
+                    {
+                        padding-top: 15px;
+                    }
                 }
                 h1
                 {
@@ -234,6 +272,11 @@ Page: HOME
                     {
                         font-size: ceil((@font-size-base * 3.4));
                     }
+
+                    @media (max-width: 668px)
+                    {
+                        font-size: ceil((@font-size-base * 2.6));
+                    }
                 }
 
                 p
@@ -246,11 +289,24 @@ Page: HOME
                     {
                         padding-right: 0;
                     }
+
+
+                    @media (max-width: 668px)
+                    {
+                        font-size: ceil((@font-size-base * 1.6));
+                    }
                 }
 
                 .btn
                 {
                     padding-right: 90px;
+
+                    @media (max-width: 668px)
+                    {
+                        padding-left: 0;
+                        padding-right: 0;
+                        text-align: center;
+                    }
                 }
             }
 

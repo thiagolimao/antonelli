@@ -61,6 +61,18 @@ HEADER
                     }
                 }
 
+
+                @media (max-width: 767px)
+                {
+                    width: 100%;
+                    margin-top: 15px;
+
+                    .inner
+                    {
+                        padding-bottom: 3em;
+                    }
+                }
+
                 &.col-md-offset-1
                 {
                     @media (max-width: 1100px)
@@ -77,6 +89,11 @@ HEADER
         font-size: ceil((@font-size-base * 5.0));
         margin-bottom: .5em;
         // margin-left: 70px;
+
+        @media (max-width: 668px)
+        {
+            font-size: ceil((@font-size-base * 3.0));
+        }
     }
 }
 
@@ -105,6 +122,13 @@ HEADER
 
         .item-notice
         {
+            h2
+            {
+                @media (max-width: 767px)
+                {
+                    font-size: ceil((@font-size-base * 1.6));
+                }
+            }
             h3
             {
                 @media (max-width: 1199px)
@@ -121,6 +145,11 @@ HEADER
                 {
                     height: auto;
                     overflow: inherit;
+                }
+
+                @media (max-width: 767px)
+                {
+                    font-size: ceil((@font-size-base * 1.8));
                 }
             }
             p

@@ -51,6 +51,12 @@ FOOTER
         margin-left: -35px;
         margin-right: -35px;
 
+        @media (max-width: 668px)
+        {
+            margin-left: -15px;
+            margin-right: -15px;
+        }
+
         [class^="col-"]
         {
             padding-left: 35px;
@@ -106,6 +112,12 @@ FOOTER
 
             }
 
+            @media (max-width: 668px)
+            {
+                padding-left: -15px;
+                padding-right: -15px;
+            }
+
             &:nth-child(3)
             {
                 div
@@ -129,6 +141,10 @@ FOOTER
         margin-bottom: 12px;
         text-transform: uppercase;
         .fw-light;
+        @media (max-width: 668px)
+        {
+            font-size: ceil((@font-size-base * 2.2));
+        }
     }
 
     .navbar-form
@@ -138,6 +154,14 @@ FOOTER
 
         margin-top: 0;
         margin-bottom: 15px;
+
+        @media (max-width: 668px)
+        {
+            margin-left: 0;
+            margin-right: 0;
+            border: none;
+            box-shadow: none;
+        }
 
 
         .form-group

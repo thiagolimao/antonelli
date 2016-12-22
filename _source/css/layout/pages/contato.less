@@ -20,6 +20,11 @@ Page: CONTATO
         {
             font-size: ceil((@font-size-base * 3.6));
             margin-bottom: 40px;
+
+            @media (max-width: 668px)
+            {
+                font-size: ceil((@font-size-base * 2.4));
+            }
         }
 
         h3
@@ -27,6 +32,11 @@ Page: CONTATO
             font-size: ceil((@font-size-base * 2.6));
             margin-bottom: 15px;
             position: relative;
+
+            @media (max-width: 668px)
+            {
+                font-size: ceil((@font-size-base * 2.0));
+            }
 
             &.sede
             {
@@ -89,6 +99,11 @@ Page: CONTATO
                     font-size: ceil((@font-size-base * 1.8));
                     .fw-light;
 
+                    @media (max-width: 668px)
+                    {
+                        font-size: ceil((@font-size-base * 1.6));
+                    }
+
                     &.tel
                     {
                         background-image: url(../img/ico_tel.png);
@@ -117,6 +132,16 @@ Page: CONTATO
                 {
                     border-bottom: none;
                 }
+
+                @media (max-width: 668px)
+                {
+                    padding-bottom: 0;
+                    margin-bottom: 30px;
+                }
+            }
+            @media (max-width: 668px)
+            {
+                margin-bottom: 20px;
             }
         }
 
