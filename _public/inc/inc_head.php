@@ -38,6 +38,10 @@
     =============================================== -->
     <link href="css/app.min.css" type="text/css" rel="stylesheet">
 
+    <!--[if IE]>
+        <link rel="stylesheet" type="text/css" href="all-ie-only.css" />
+    <![endif]-->
+
     <!-- ==============================================
     JS
     =============================================== -->

@@ -8361,6 +8361,11 @@ HEADER
 
 .main #header .navbar-wrapper + .container > .row {
 	margin-bottom: 5em;
+	min-width: 100%;
+}
+
+.main #header .item-notice h3 {
+	overflow: hidden;
 }
 
 .main #header .item-notice p {
@@ -10880,8 +10885,9 @@ td.visible-lg {
 }
 
 .main #header .item-notice h3 {
-	font-size: 24px;
-	height: 60px;
+	font-size: 20px;
+	height: 50px;
+	margin-bottom: 10px;
 }
 
 .main #header .item-notice p {
