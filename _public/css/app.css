@@ -7775,6 +7775,14 @@ ITEM
 	background-color: transparent;
 }
 
+.item.item-notice.noImg .inner {
+	padding-left: 2em;
+}
+
+.item.item-notice.noImg .inner img {
+	display: none;
+}
+
 .item.item-notice .inner {
 	background-color: #ffffff;
 	padding: 2em 4.7em 0 0;
@@ -8585,6 +8593,10 @@ MENU
 
 .navbar-wrapper #navbar ul.nav.nav_lang {
 	padding-top: 50px;
+}
+
+.navbar-wrapper #navbar ul.nav.nav_lang.mob {
+	display: none;
 }
 
 .navbar-wrapper #navbar ul.nav.nav_lang li {
@@ -11284,8 +11296,14 @@ td.visible-lg {
 	margin-right: 10px;
 }
 
-.nav_lang {
+.navbar-wrapper #navbar .nav_lang {
 	display: none;
+}
+
+.navbar-wrapper #navbar .nav_lang.mob {
+	display: flex !important;
+	justify-content: center;
+	padding-top: 0 !important;
 }
 
 .main section.sec_featutes {

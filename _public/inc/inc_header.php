@@ -18,6 +18,16 @@
                     </div><!-- /navbar-header -->
 
                     <div id="navbar" class="navbar-collapse collapse">
+
+                        <ul class="nav navbar-nav navbar-right nav_lang mob">
+                            <li class="active">
+                                <a href="#" title="BR"><img src="img/lang_br.png" alt=""></a>
+                            </li>
+                            <li>
+                                <a href="#" title="EN"><img src="img/lang_en.png" alt=""></a>
+                            </li>
+                        </ul>
+
                         <ul class="nav navbar-nav nav_top">
                             <li class="nav_escritorio">
                                 <a href="o-escritorio.php" title="O escritório">O escritório</a>

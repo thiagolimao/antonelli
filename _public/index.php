@@ -61,8 +61,8 @@
         <div class="container">
             <div class="row">
 
-                <div class="col-lg-5 col-md-5 col-sm-5 col-xs-12 item item-notice">
-                    <img class="img-md" src="data:image/gif;base64,R0lGODlhAQABAIAAAHd3dwAAACH5BAAAAAAALAAAAAABAAEAAAICRAEAOw==" alt="Generic placeholder image" width="100%" height="90">
+                <div class="col-lg-5 col-md-5 col-sm-5 col-xs-12 item item-notice noImg">
+                    <!-- <img class="img-md" src="data:image/gif;base64,R0lGODlhAQABAIAAAHd3dwAAACH5BAAAAAAALAAAAAABAAEAAAICRAEAOw==" alt="Generic placeholder image" width="100%" height="90"> -->
                     <div class="inner">
                         <img class="pull-left img-lg" src="data:image/gif;base64,R0lGODlhAQABAIAAAHd3dwAAACH5BAAAAAAALAAAAAABAAEAAAICRAEAOw==" alt="Generic placeholder image" width="176" height="192">
                         <h2>atuação</h2>
@@ -75,7 +75,7 @@
                 </div><!-- /.col-lg-5 -->
 
                 <div class="col-lg-offset-1 col-lg-5 col-md-offset-1 col-md-5 col-sm-5 col-xs-12 item item-notice">
-                    <img class="img-md" src="data:image/gif;base64,R0lGODlhAQABAIAAAHd3dwAAACH5BAAAAAAALAAAAAABAAEAAAICRAEAOw==" alt="Generic placeholder image" width="100%" height="90">
+                    <!-- <img class="img-md" src="data:image/gif;base64,R0lGODlhAQABAIAAAHd3dwAAACH5BAAAAAAALAAAAAABAAEAAAICRAEAOw==" alt="Generic placeholder image" width="100%" height="90"> -->
                     <div class="inner">
                         <img class="pull-left img-lg" src="data:image/gif;base64,R0lGODlhAQABAIAAAHd3dwAAACH5BAAAAAAALAAAAAABAAEAAAICRAEAOw==" alt="Generic placeholder image" width="176" height="192">
                     <h2>news</h2>

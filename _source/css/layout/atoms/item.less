@@ -62,6 +62,19 @@ ITEM
     &.item-notice
     {
         background-color: transparent;
+
+        &.noImg
+        {
+            .inner
+            {
+                padding-left: 2em;
+
+                img
+                {
+                    display: none;
+                }
+            }
+        }
         .inner
         {
             background-color: @white;

@@ -201,6 +201,11 @@ MENU
             {
                 padding-top: 50px;
 
+                &.mob
+                {
+                    display: none;
+                }
+
                 @media (max-width: 1199px)
                 {
                     padding-top: 32px;
@@ -382,11 +387,19 @@ MENU
 
             }
         }
-    }
 
-    .nav_lang
-    {
-        display: none;
+
+        .nav_lang
+        {
+            display: none;
+
+            &.mob
+            {
+                display: flex !important;
+                justify-content: center;
+                padding-top: 0 !important;
+            }
+        }
     }
 
 
