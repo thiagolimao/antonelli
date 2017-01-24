@@ -20,15 +20,17 @@
     <header id="header" style="background-image: url(img/header/header_clipping.jpg);">
         <?php include 'inc/inc_header.php';?>
 
-        <div class="container">
-            <div class="row">
+        <div class="wrap">
+            <div class="container">
+                <div class="row">
 
-                <div class="col-lg-12">
-                    <h2 class="title-default">clipping</h2>
-                </div><!-- /.col-lg-5 -->
+                    <div class="col-lg-12">
+                        <h2 class="title-default">Clipping</h2>
+                    </div><!-- /.col-lg-5 -->
 
-            </div><!-- /.row -->
-        </div><!-- /.container -->
+                </div><!-- /.row -->
+            </div><!-- /.container -->
+        </div><!-- /.wrap -->
     </header><!-- /header -->
 
     <!-- ==============================================
